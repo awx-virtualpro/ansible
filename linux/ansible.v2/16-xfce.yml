@@ -1,6 +1,6 @@
 ---
 - name: Setup GUI by role
-  hosts: centos8
+  hosts: all
   vars:
   - gui_type: GNOME
   roles:

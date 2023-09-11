@@ -13,7 +13,7 @@
       - bc
       state: present
       enablerepo: epel
-    when: ansible_distribution == "CentOS" and ansible_distribution_major_version == "7"
+    when: ansible_os_family == "RedHat" and ansible_distribution_major_version == "7"
   - name: instalace obecnych aplikaci CentOS 8
     dnf: 
       name: 
@@ -25,7 +25,7 @@
       - bc
       state: present
       enablerepo: epel
-    when: ansible_distribution == "CentOS" and ansible_distribution_major_version == "8"
+    when: ansible_os_family == "RedHat" and ansible_distribution_major_version >= "8"
   - name: instalace obecnych aplikaci Debian
     apt:
       name:
@@ -36,4 +36,4 @@
       - sysstat
       - bc
       state: present
-    when: ansible_distribution == "Debian" 
+    when: ansible_os_family == "Debian"

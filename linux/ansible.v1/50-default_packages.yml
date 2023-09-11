@@ -24,8 +24,8 @@
       - "@Xfce"
       - firefox
       state: present
-    when: ansible_distribution == "CentOS"
+    when: ansible_os_family == "RedHat"
   - name: nastavit graphical.target
     command:
       cmd: systemctl set-default graphical.target
-    when: ansible_distribution == "CentOS"
+    when: ansible_os_family == "RedHat"

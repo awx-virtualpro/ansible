@@ -1,6 +1,6 @@
 ---
 - name: Setup Xfce
-  hosts: centos8
+  hosts: all
   become: yes
   tasks:
   - name: Install EPEL
