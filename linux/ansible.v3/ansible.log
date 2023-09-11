@@ -1,0 +1,1247 @@
+2020-12-08 09:08:51,827 p=7966 u=radovan n=ansible | lx100-5 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2020-12-08 09:08:52,070 p=7966 u=radovan n=ansible | lx100-3 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2020-12-08 09:08:52,080 p=7966 u=radovan n=ansible | lx100-2 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2020-12-08 09:08:52,107 p=7966 u=radovan n=ansible | lx100-4 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2020-12-08 10:47:14,441 p=8091 u=radovan n=ansible | PLAY [Install packages] *******************************************************************************************************************
+2020-12-08 10:47:14,458 p=8091 u=radovan n=ansible | TASK [Gathering Facts] ********************************************************************************************************************
+2020-12-08 10:47:17,488 p=8091 u=radovan n=ansible | ok: [lx100-2]
+2020-12-08 10:47:17,510 p=8091 u=radovan n=ansible | TASK [Install default packages] ***********************************************************************************************************
+2020-12-08 10:47:31,445 p=8091 u=radovan n=ansible | changed: [lx100-2]
+2020-12-08 10:47:31,447 p=8091 u=radovan n=ansible | PLAY RECAP ********************************************************************************************************************************
+2020-12-08 10:47:31,447 p=8091 u=radovan n=ansible | lx100-2                    : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-12-08 10:51:39,569 p=8124 u=radovan n=ansible | PLAY [Install packages] *******************************************************************************************************************
+2020-12-08 10:51:39,587 p=8124 u=radovan n=ansible | TASK [Gathering Facts] ********************************************************************************************************************
+2020-12-08 10:51:42,146 p=8124 u=radovan n=ansible | ok: [lx100-3]
+2020-12-08 10:51:42,167 p=8124 u=radovan n=ansible | TASK [Install default packages] ***********************************************************************************************************
+2020-12-08 10:51:53,827 p=8124 u=radovan n=ansible | changed: [lx100-3]
+2020-12-08 10:51:53,830 p=8124 u=radovan n=ansible | PLAY RECAP ********************************************************************************************************************************
+2020-12-08 10:51:53,831 p=8124 u=radovan n=ansible | lx100-3                    : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-12-08 10:52:25,370 p=8153 u=radovan n=ansible | PLAY [Install packages] *******************************************************************************************************************
+2020-12-08 10:52:25,385 p=8153 u=radovan n=ansible | TASK [Gathering Facts] ********************************************************************************************************************
+2020-12-08 10:52:26,875 p=8153 u=radovan n=ansible | ok: [lx100-3]
+2020-12-08 10:52:26,897 p=8153 u=radovan n=ansible | TASK [Install default packages] ***********************************************************************************************************
+2020-12-08 10:52:37,802 p=8153 u=radovan n=ansible | changed: [lx100-3]
+2020-12-08 10:52:37,804 p=8153 u=radovan n=ansible | PLAY RECAP ********************************************************************************************************************************
+2020-12-08 10:52:37,804 p=8153 u=radovan n=ansible | lx100-3                    : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-12-08 10:52:52,634 p=8179 u=radovan n=ansible | PLAY [Install packages] *******************************************************************************************************************
+2020-12-08 10:52:52,649 p=8179 u=radovan n=ansible | TASK [Gathering Facts] ********************************************************************************************************************
+2020-12-08 10:52:54,399 p=8179 u=radovan n=ansible | ok: [lx100-3]
+2020-12-08 10:52:54,420 p=8179 u=radovan n=ansible | TASK [Install default packages] ***********************************************************************************************************
+2020-12-08 10:52:56,747 p=8179 u=radovan n=ansible | ok: [lx100-3]
+2020-12-08 10:52:56,751 p=8179 u=radovan n=ansible | PLAY RECAP ********************************************************************************************************************************
+2020-12-08 10:52:56,751 p=8179 u=radovan n=ansible | lx100-3                    : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-12-08 10:59:04,396 p=8381 u=radovan n=ansible | PLAY [Install packages] *******************************************************************************************************************
+2020-12-08 10:59:04,414 p=8381 u=radovan n=ansible | TASK [Gathering Facts] ********************************************************************************************************************
+2020-12-08 10:59:06,800 p=8381 u=radovan n=ansible | ok: [lx100-3]
+2020-12-08 10:59:06,822 p=8381 u=radovan n=ansible | TASK [Install default packages] ***********************************************************************************************************
+2020-12-08 10:59:09,217 p=8381 u=radovan n=ansible | ok: [lx100-3]
+2020-12-08 10:59:09,220 p=8381 u=radovan n=ansible | PLAY RECAP ********************************************************************************************************************************
+2020-12-08 10:59:09,221 p=8381 u=radovan n=ansible | lx100-3                    : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-12-08 11:01:26,208 p=8425 u=radovan n=ansible | PLAY [Install packages] *******************************************************************************************************************
+2020-12-08 11:01:26,226 p=8425 u=radovan n=ansible | TASK [Gathering Facts] ********************************************************************************************************************
+2020-12-08 11:01:29,500 p=8425 u=radovan n=ansible | ok: [lx100-3]
+2020-12-08 11:01:29,521 p=8425 u=radovan n=ansible | TASK [Install default packages] ***********************************************************************************************************
+2020-12-08 11:01:32,947 p=8425 u=radovan n=ansible | changed: [lx100-3]
+2020-12-08 11:01:32,952 p=8425 u=radovan n=ansible | PLAY RECAP ********************************************************************************************************************************
+2020-12-08 11:01:32,953 p=8425 u=radovan n=ansible | lx100-3                    : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-12-08 11:06:02,856 p=8455 u=radovan n=ansible | Using /home/radovan/ansible/ansible.cfg as config file
+2020-12-08 11:06:03,484 p=8455 u=radovan n=ansible | PLAY [Install packages] *******************************************************************************************************************
+2020-12-08 11:06:03,501 p=8455 u=radovan n=ansible | TASK [Gathering Facts] ********************************************************************************************************************
+2020-12-08 11:06:05,889 p=8455 u=radovan n=ansible | ok: [lx100-3]
+2020-12-08 11:06:05,911 p=8455 u=radovan n=ansible | TASK [Install default packages] ***********************************************************************************************************
+2020-12-08 11:06:09,266 p=8455 u=radovan n=ansible | changed: [lx100-3] => {"changed": true, "msg": "", "rc": 0, "results": ["Installed: ksh-20120801-254.el8.x86_64"]}
+2020-12-08 11:06:09,269 p=8455 u=radovan n=ansible | PLAY RECAP ********************************************************************************************************************************
+2020-12-08 11:06:09,269 p=8455 u=radovan n=ansible | lx100-3                    : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-12-08 11:07:14,369 p=8484 u=radovan n=ansible | ansible-playbook 2.9.15
+  config file = /home/radovan/ansible/ansible.cfg
+  configured module search path = ['/home/radovan/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python3.6/site-packages/ansible
+  executable location = /usr/bin/ansible-playbook
+  python version = 3.6.8 (default, Nov 21 2019, 19:31:34) [GCC 8.3.1 20190507 (Red Hat 8.3.1-4)]
+2020-12-08 11:07:14,369 p=8484 u=radovan n=ansible | Using /home/radovan/ansible/ansible.cfg as config file
+2020-12-08 11:07:15,005 p=8484 u=radovan n=ansible | PLAYBOOK: 10-packages.yml *****************************************************************************************************************
+2020-12-08 11:07:15,005 p=8484 u=radovan n=ansible | 1 plays in 10-packages.yml
+2020-12-08 11:07:15,009 p=8484 u=radovan n=ansible | PLAY [Install packages] *******************************************************************************************************************
+2020-12-08 11:07:15,026 p=8484 u=radovan n=ansible | TASK [Gathering Facts] ********************************************************************************************************************
+2020-12-08 11:07:17,417 p=8484 u=radovan n=ansible | ok: [lx100-3]
+2020-12-08 11:07:17,418 p=8484 u=radovan n=ansible | META: ran handlers
+2020-12-08 11:07:17,439 p=8484 u=radovan n=ansible | TASK [Install default packages] ***********************************************************************************************************
+2020-12-08 11:07:20,955 p=8484 u=radovan n=ansible | changed: [lx100-3] => {"changed": true, "msg": "", "rc": 0, "results": ["Installed: ksh-20120801-254.el8.x86_64"]}
+2020-12-08 11:07:20,956 p=8484 u=radovan n=ansible | META: ran handlers
+2020-12-08 11:07:20,957 p=8484 u=radovan n=ansible | META: ran handlers
+2020-12-08 11:07:20,958 p=8484 u=radovan n=ansible | PLAY RECAP ********************************************************************************************************************************
+2020-12-08 11:07:20,959 p=8484 u=radovan n=ansible | lx100-3                    : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-12-08 11:08:01,588 p=8514 u=radovan n=ansible | ansible-playbook 2.9.15
+  config file = /home/radovan/ansible/ansible.cfg
+  configured module search path = ['/home/radovan/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python3.6/site-packages/ansible
+  executable location = /usr/bin/ansible-playbook
+  python version = 3.6.8 (default, Nov 21 2019, 19:31:34) [GCC 8.3.1 20190507 (Red Hat 8.3.1-4)]
+2020-12-08 11:08:01,589 p=8514 u=radovan n=ansible | Using /home/radovan/ansible/ansible.cfg as config file
+2020-12-08 11:08:01,600 p=8514 u=radovan n=ansible | host_list declined parsing /home/radovan/ansible/hosts as it did not pass its verify_file() method
+2020-12-08 11:08:01,600 p=8514 u=radovan n=ansible | script declined parsing /home/radovan/ansible/hosts as it did not pass its verify_file() method
+2020-12-08 11:08:01,601 p=8514 u=radovan n=ansible | auto declined parsing /home/radovan/ansible/hosts as it did not pass its verify_file() method
+2020-12-08 11:08:01,606 p=8514 u=radovan n=ansible | Parsed /home/radovan/ansible/hosts inventory source with ini plugin
+2020-12-08 11:08:02,148 p=8514 u=radovan n=ansible | PLAYBOOK: 10-packages.yml *****************************************************************************************************************
+2020-12-08 11:08:02,148 p=8514 u=radovan n=ansible | 1 plays in 10-packages.yml
+2020-12-08 11:08:02,152 p=8514 u=radovan n=ansible | PLAY [Install packages] *******************************************************************************************************************
+2020-12-08 11:08:02,167 p=8514 u=radovan n=ansible | TASK [Gathering Facts] ********************************************************************************************************************
+2020-12-08 11:08:02,183 p=8521 u=radovan n=ansible | <lx100-3> ESTABLISH SSH CONNECTION FOR USER: ansible
+2020-12-08 11:08:02,185 p=8521 u=radovan n=ansible | <lx100-3> SSH: EXEC ssh -C -o ControlMaster=auto -o ControlPersist=60s -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o 'User="ansible"' -o ConnectTimeout=10 -o ControlPath=/home/radovan/.ansible/cp/02ebf528c4 lx100-3 '/bin/sh -c '"'"'echo ~ansible && sleep 0'"'"''
+2020-12-08 11:08:02,227 p=8521 u=radovan n=ansible | <lx100-3> (0, b'/home/ansible\n', b'')
+2020-12-08 11:08:02,227 p=8521 u=radovan n=ansible | <lx100-3> ESTABLISH SSH CONNECTION FOR USER: ansible
+2020-12-08 11:08:02,229 p=8521 u=radovan n=ansible | <lx100-3> SSH: EXEC ssh -C -o ControlMaster=auto -o ControlPersist=60s -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o 'User="ansible"' -o ConnectTimeout=10 -o ControlPath=/home/radovan/.ansible/cp/02ebf528c4 lx100-3 '/bin/sh -c '"'"'( umask 77 && mkdir -p "` echo /home/ansible/.ansible/tmp `"&& mkdir "` echo /home/ansible/.ansible/tmp/ansible-tmp-1607422082.2276113-8521-227881153224346 `" && echo ansible-tmp-1607422082.2276113-8521-227881153224346="` echo /home/ansible/.ansible/tmp/ansible-tmp-1607422082.2276113-8521-227881153224346 `" ) && sleep 0'"'"''
+2020-12-08 11:08:02,269 p=8521 u=radovan n=ansible | <lx100-3> (0, b'ansible-tmp-1607422082.2276113-8521-227881153224346=/home/ansible/.ansible/tmp/ansible-tmp-1607422082.2276113-8521-227881153224346\n', b'')
+2020-12-08 11:08:02,723 p=8521 u=radovan n=ansible | Using module file /usr/lib/python3.6/site-packages/ansible/modules/system/setup.py
+2020-12-08 11:08:02,724 p=8521 u=radovan n=ansible | <lx100-3> PUT /home/radovan/.ansible/tmp/ansible-local-8514m00048be/tmpumfqsyih TO /home/ansible/.ansible/tmp/ansible-tmp-1607422082.2276113-8521-227881153224346/AnsiballZ_setup.py
+2020-12-08 11:08:02,725 p=8521 u=radovan n=ansible | <lx100-3> SSH: EXEC sftp -b - -C -o ControlMaster=auto -o ControlPersist=60s -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o 'User="ansible"' -o ConnectTimeout=10 -o ControlPath=/home/radovan/.ansible/cp/02ebf528c4 '[lx100-3]'
+2020-12-08 11:08:02,793 p=8521 u=radovan n=ansible | <lx100-3> (0, b'sftp> put /home/radovan/.ansible/tmp/ansible-local-8514m00048be/tmpumfqsyih /home/ansible/.ansible/tmp/ansible-tmp-1607422082.2276113-8521-227881153224346/AnsiballZ_setup.py\n', b'')
+2020-12-08 11:08:02,794 p=8521 u=radovan n=ansible | <lx100-3> ESTABLISH SSH CONNECTION FOR USER: ansible
+2020-12-08 11:08:02,795 p=8521 u=radovan n=ansible | <lx100-3> SSH: EXEC ssh -C -o ControlMaster=auto -o ControlPersist=60s -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o 'User="ansible"' -o ConnectTimeout=10 -o ControlPath=/home/radovan/.ansible/cp/02ebf528c4 lx100-3 '/bin/sh -c '"'"'chmod u+x /home/ansible/.ansible/tmp/ansible-tmp-1607422082.2276113-8521-227881153224346/ /home/ansible/.ansible/tmp/ansible-tmp-1607422082.2276113-8521-227881153224346/AnsiballZ_setup.py && sleep 0'"'"''
+2020-12-08 11:08:02,835 p=8521 u=radovan n=ansible | <lx100-3> (0, b'', b'')
+2020-12-08 11:08:02,836 p=8521 u=radovan n=ansible | <lx100-3> ESTABLISH SSH CONNECTION FOR USER: ansible
+2020-12-08 11:08:02,837 p=8521 u=radovan n=ansible | <lx100-3> SSH: EXEC ssh -C -o ControlMaster=auto -o ControlPersist=60s -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o 'User="ansible"' -o ConnectTimeout=10 -o ControlPath=/home/radovan/.ansible/cp/02ebf528c4 -tt lx100-3 '/bin/sh -c '"'"'sudo -H -S -n  -u root /bin/sh -c '"'"'"'"'"'"'"'"'echo BECOME-SUCCESS-loefvrkizdvvramxtixtmpmhxwnctizc ; /usr/bin/python3 /home/ansible/.ansible/tmp/ansible-tmp-1607422082.2276113-8521-227881153224346/AnsiballZ_setup.py'"'"'"'"'"'"'"'"' && sleep 0'"'"''
+2020-12-08 11:08:02,912 p=8521 u=radovan n=ansible | Escalation succeeded
+2020-12-08 11:08:03,823 p=8521 u=radovan n=ansible | <lx100-3> (0, b'\r\n{"ansible_facts": {"ansible_ssh_host_key_rsa_public": "AAAAB3NzaC1yc2EAAAADAQABAAABAQDn8L0W/gMeBbYNk2L/3sPM4REuLtF37kdtqJCHj6NR+gtZXT9+qx6rsuV4NTxOkrpn2snfP9yl3TPgyjSQHRU+lHnMvm4tT/AKaxiRh6wrtr8yugN1D5zIHxUzWKixH1IgfjCwH3MVphvz88PqHuhPuK0jVLY63mHENHEdtRXsFBZOLXwlzWlHw868s+5t/zQajA7iCGzTSXci5f4/7K8r6s6YjWpIB0WhIKfOLTtqt5h2OVU2rngsKHfcHluXeQeYsyPiatgJThtneGaiiEfygqnlXWF2eBREYqpJM7Ou+Pu3LDLIaLaBmBilrKfA5lKP3TVuJAg6Nw+DLnIuCH+b", "ansible_ssh_host_key_ecdsa_public": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHB0V6agj/LqZCAF7XngjIzzwDAZ6KdSxNCsOjpZMXFrpCm8QHnVdOtlJBbIpBsnYbIR1ZKHwIrnCKj2d204j9g=", "ansible_ssh_host_key_ed25519_public": "AAAAC3NzaC1lZDI1NTE5AAAAICzvZEVHAcE9/YoSx6qZL2yxKvgThucoMkPFAY0ybgen", "ansible_cmdline": {"BOOT_IMAGE": "(hd0,gpt2)/vmlinuz-4.18.0-147.8.1.el8_1.x86_64", "root": "/dev/mapper/cs_lx-root", "ro": true, "crashkernel": "auto", "resume": "/dev/mapper/cs_lx-swap", "rd.lvm.lv": "cs_lx/swap", "rhgb": true, "quiet": true}, "ansible_proc_cmdline": {"BOOT_IMAGE": "(hd0,gpt2)/vmlinuz-4.18.0-147.8.1.el8_1.x86_64", "root": "/dev/mapper/cs_lx-root", "ro": true, "crashkernel": "auto", "resume": "/dev/mapper/cs_lx-swap", "rd.lvm.lv": ["cs_lx/root", "cs_lx/swap"], "rhgb": true, "quiet": true}, "ansible_system": "Linux", "ansible_kernel": "4.18.0-147.8.1.el8_1.x86_64", "ansible_kernel_version": "#1 SMP Thu Apr 9 13:49:54 UTC 2020", "ansible_machine": "x86_64", "ansible_python_version": "3.6.8", "ansible_fqdn": "lx.edu.net", "ansible_hostname": "lx", "ansible_nodename": "lx.edu.net", "ansible_domain": "edu.net", "ansible_userspace_bits": "64", "ansible_architecture": "x86_64", "ansible_userspace_architecture": "x86_64", "ansible_machine_id": "ab620275e2c0490c815db7897765fc18", "ansible_env": {"LS_COLORS": "rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.m4a=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.oga=01;36:*.opus=01;36:*.spx=01;36:*.xspf=01;36:", "LANG": "en_US.UTF-8", "SUDO_GID": "1000", "USERNAME": "root", "SUDO_COMMAND": "/bin/sh -c echo BECOME-SUCCESS-loefvrkizdvvramxtixtmpmhxwnctizc ; /usr/bin/python3 /home/ansible/.ansible/tmp/ansible-tmp-1607422082.2276113-8521-227881153224346/AnsiballZ_setup.py", "USER": "root", "PWD": "/home/ansible", "HOME": "/root", "SUDO_USER": "ansible", "SUDO_UID": "1000", "MAIL": "/var/mail/root", "SHELL": "/bin/bash", "TERM": "xterm", "SHLVL": "1", "LOGNAME": "root", "PATH": "/sbin:/bin:/usr/sbin:/usr/bin", "_": "/usr/bin/python3"}, "ansible_user_id": "root", "ansible_user_uid": 0, "ansible_user_gid": 0, "ansible_user_gecos": "root", "ansible_user_dir": "/root", "ansible_user_shell": "/bin/bash", "ansible_real_user_id": 0, "ansible_effective_user_id": 0, "ansible_real_group_id": 0, "ansible_effective_group_id": 0, "ansible_local": {}, "ansible_apparmor": {"status": "disabled"}, "ansible_system_capabilities_enforced": "True", "ansible_system_capabilities": ["cap_chown", "cap_dac_override", "cap_dac_read_search", "cap_fowner", "cap_fsetid", "cap_kill", "cap_setgid", "cap_setuid", "cap_setpcap", "cap_linux_immutable", "cap_net_bind_service", "cap_net_broadcast", "cap_net_admin", "cap_net_raw", "cap_ipc_lock", "cap_ipc_owner", "cap_sys_module", "cap_sys_rawio", "cap_sys_chroot", "cap_sys_ptrace", "cap_sys_pacct", "cap_sys_admin", "cap_sys_boot", "cap_sys_nice", "cap_sys_resource", "cap_sys_time", "cap_sys_tty_config", "cap_mknod", "cap_lease", "cap_audit_write", "cap_audit_control", "cap_setfcap", "cap_mac_override", "cap_mac_admin", "cap_syslog", "cap_wake_alarm", "cap_block_suspend", "cap_audit_read+ep"], "ansible_dns": {"search": ["edu.net"], "nameservers": ["192.168.90.1"]}, "ansible_fips": false, "ansible_distribution": "CentOS", "ansible_distribution_release": "Core", "ansible_distribution_version": "8.1", "ansible_distribution_major_version": "8", "ansible_distribution_file_path": "/etc/redhat-release", "ansible_distribution_file_variety": "RedHat", "ansible_distribution_file_parsed": true, "ansible_os_family": "RedHat", "ansible_virtualization_role": "guest", "ansible_virtualization_type": "VMware", "ansible_processor": ["0", "GenuineIntel", "Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz", "1", "GenuineIntel", "Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz"], "ansible_processor_count": 2, "ansible_processor_cores": 1, "ansible_processor_threads_per_core": 1, "ansible_processor_vcpus": 2, "ansible_memtotal_mb": 1828, "ansible_memfree_mb": 1107, "ansible_swaptotal_mb": 1639, "ansible_swapfree_mb": 1639, "ansible_memory_mb": {"real": {"total": 1828, "used": 721, "free": 1107}, "nocache": {"free": 1529, "used": 299}, "swap": {"total": 1639, "free": 1639, "used": 0, "cached": 0}}, "ansible_bios_date": "06/19/2019", "ansible_bios_version": "VMW71.00V.13989454.B64.1906190538", "ansible_form_factor": "Other", "ansible_product_name": "VMware7,1", "ansible_product_serial": "VMware-42 25 f6 ae 24 25 c4 03-33 30 1d 3a e6 b8 48 bb", "ansible_product_uuid": "aef62542-2524-03c4-3330-1d3ae6b848bb", "ansible_product_version": "None", "ansible_system_vendor": "VMware, Inc.", "ansible_devices": {"dm-1": {"virtual": 1, "links": {"ids": ["dm-name-cs_lx-swap", "dm-uuid-LVM-gBNdP44o4gg9Xp9s1PpgXJpmcezdtmcqw2zvAhbB0AgjyROxqaccvuGkfDrXJZxY"], "uuids": ["323aa962-0bc6-42e1-99d8-4259c4f512df"], "labels": [], "masters": []}, "vendor": null, "model": null, "sas_address": null, "sas_device_handle": null, "removable": "0", "support_discard": "0", "partitions": {}, "rotational": "1", "scheduler_mode": "", "sectors": "3358720", "sectorsize": "512", "size": "1.60 GB", "host": "", "holders": []}, "sr0": {"virtual": 1, "links": {"ids": ["ata-VMware_Virtual_SATA_CDRW_Drive_00000000000000000001"], "uuids": [], "labels": [], "masters": []}, "vendor": "NECVMWar", "model": "VMware SATA CD00", "sas_address": null, "sas_device_handle": null, "removable": "1", "support_discard": "0", "partitions": {}, "rotational": "1", "scheduler_mode": "mq-deadline", "sectors": "2097151", "sectorsize": "512", "size": "1024.00 MB", "host": "SATA controller: VMware SATA AHCI controller", "holders": []}, "dm-0": {"virtual": 1, "links": {"ids": ["dm-name-cs_lx-root", "dm-uuid-LVM-gBNdP44o4gg9Xp9s1PpgXJpmcezdtmcqeNhItsEDQlvwzpyPct1irrZcmMzl31ii"], "uuids": ["01b386bc-ab5e-4d75-807a-7e7023f25924"], "labels": [], "masters": []}, "vendor": null, "model": null, "sas_address": null, "sas_device_handle": null, "removable": "0", "support_discard": "0", "partitions": {}, "rotational": "1", "scheduler_mode": "", "sectors": "26861568", "sectorsize": "512", "size": "12.81 GB", "host": "", "holders": []}, "sda": {"virtual": 1, "links": {"ids": [], "uuids": [], "labels": [], "masters": []}, "vendor": "VMware", "model": "Virtual disk", "sas_address": null, "sas_device_handle": null, "removable": "0", "support_discard": "0", "partitions": {"sda2": {"links": {"ids": [], "uuids": ["0b665a68-a8bc-43b5-87fb-6007a0383858"], "labels": [], "masters": []}, "start": "1230848", "sectors": "2097152", "sectorsize": 512, "size": "1.00 GB", "uuid": "0b665a68-a8bc-43b5-87fb-6007a0383858", "holders": []}, "sda3": {"links": {"ids": ["lvm-pv-uuid-HAoUmJ-G7a4-REZd-MDRu-L0J0-vY2e-7wRAWs"], "uuids": [], "labels": [], "masters": ["dm-0", "dm-1"]}, "start": "3328000", "sectors": "30224384", "sectorsize": 512, "size": "14.41 GB", "uuid": null, "holders": ["cs_lx-swap", "cs_lx-root"]}, "sda1": {"links": {"ids": [], "uuids": ["F580-EFCE"], "labels": [], "masters": []}, "start": "2048", "sectors": "1228800", "sectorsize": 512, "size": "600.00 MB", "uuid": "F580-EFCE", "holders": []}}, "rotational": "1", "scheduler_mode": "mq-deadline", "sectors": "33554432", "sectorsize": "512", "size": "16.00 GB", "host": "Serial Attached SCSI controller: VMware PVSCSI SCSI Controller (rev 02)", "holders": []}}, "ansible_device_links": {"ids": {"dm-1": ["dm-name-cs_lx-swap", "dm-uuid-LVM-gBNdP44o4gg9Xp9s1PpgXJpmcezdtmcqw2zvAhbB0AgjyROxqaccvuGkfDrXJZxY"], "dm-0": ["dm-name-cs_lx-root", "dm-uuid-LVM-gBNdP44o4gg9Xp9s1PpgXJpmcezdtmcqeNhItsEDQlvwzpyPct1irrZcmMzl31ii"], "sr0": ["ata-VMware_Virtual_SATA_CDRW_Drive_00000000000000000001"], "sda3": ["lvm-pv-uuid-HAoUmJ-G7a4-REZd-MDRu-L0J0-vY2e-7wRAWs"]}, "uuids": {"dm-1": ["323aa962-0bc6-42e1-99d8-4259c4f512df"], "dm-0": ["01b386bc-ab5e-4d75-807a-7e7023f25924"], "sda2": ["0b665a68-a8bc-43b5-87fb-6007a0383858"], "sda1": ["F580-EFCE"]}, "labels": {}, "masters": {"sda3": ["dm-0", "dm-1"]}}, "ansible_uptime_seconds": 103944, "ansible_lvm": {"lvs": {"root": {"size_g": "12.81", "vg": "cs_lx"}, "swap": {"size_g": "1.60", "vg": "cs_lx"}}, "vgs": {"cs_lx": {"size_g": "14.41", "free_g": "0", "num_lvs": "2", "num_pvs": "1"}}, "pvs": {"/dev/sda3": {"size_g": "14.41", "free_g": "0", "vg": "cs_lx"}}}, "ansible_mounts": [{"mount": "/", "device": "/dev/mapper/cs_lx-root", "fstype": "xfs", "options": "rw,seclabel,relatime,attr2,inode64,noquota", "size_total": 13742637056, "size_available": 11999080448, "block_size": 4096, "block_total": 3355136, "block_available": 2929463, "block_used": 425673, "inode_total": 6715392, "inode_available": 6676610, "inode_used": 38782, "uuid": "01b386bc-ab5e-4d75-807a-7e7023f25924"}, {"mount": "/boot", "device": "/dev/sda2", "fstype": "ext4", "options": "rw,seclabel,relatime", "size_total": 1023303680, "size_available": 765947904, "block_size": 4096, "block_total": 249830, "block_available": 186999, "block_used": 62831, "inode_total": 65536, "inode_available": 65503, "inode_used": 33, "uuid": "0b665a68-a8bc-43b5-87fb-6007a0383858"}, {"mount": "/boot/efi", "device": "/dev/sda1", "fstype": "vfat", "options": "rw,relatime,fmask=0077,dmask=0077,codepage=437,iocharset=ascii,shortname=winnt,errors=remount-ro", "size_total": 627900416, "size_available": 620826624, "block_size": 4096, "block_total": 153296, "block_available": 151569, "block_used": 1727, "inode_total": 0, "inode_available": 0, "inode_used": 0, "uuid": "F580-EFCE"}], "ansible_date_time": {"year": "2020", "month": "12", "weekday": "Tuesday", "weekday_number": "2", "weeknumber": "49", "day": "08", "hour": "11", "minute": "08", "second": "03", "epoch": "1607422083", "date": "2020-12-08", "time": "11:08:03", "iso8601_micro": "2020-12-08T10:08:03.739177Z", "iso8601": "2020-12-08T10:08:03Z", "iso8601_basic": "20201208T110803739177", "iso8601_basic_short": "20201208T110803", "tz": "CET", "tz_offset": "+0100"}, "ansible_lsb": {}, "ansible_iscsi_iqn": "", "ansible_fibre_channel_wwn": [], "ansible_is_chroot": false, "ansible_selinux_python_present": true, "ansible_selinux": {"status": "enabled", "policyvers": 31, "config_mode": "enforcing", "mode": "enforcing", "type": "targeted"}, "ansible_python": {"version": {"major": 3, "minor": 6, "micro": 8, "releaselevel": "final", "serial": 0}, "version_info": [3, 6, 8, "final", 0], "executable": "/usr/bin/python3", "has_sslcontext": true, "type": "cpython"}, "ansible_hostnqn": "", "ansible_service_mgr": "systemd", "ansible_interfaces": ["ens192", "lo"], "ansible_ens192": {"device": "ens192", "macaddress": "00:50:56:a5:6c:61", "mtu": 1500, "active": true, "module": "vmxnet3", "type": "ether", "pciid": "0000:0b:00.0", "speed": 10000, "promisc": false, "ipv4": {"address": "192.168.90.164", "broadcast": "192.168.90.255", "netmask": "255.255.255.0", "network": "192.168.90.0"}, "ipv6": [{"address": "fe80::5eff:116a:ac8e:818a", "prefix": "64", "scope": "link"}, {"address": "fe80::1ef1:9e0a:a552:9165", "prefix": "64", "scope": "link"}, {"address": "fe80::be45:3ee6:efc1:240", "prefix": "64", "scope": "link"}], "features": {"rx_checksumming": "on", "tx_checksumming": "on", "tx_checksum_ipv4": "off [fixed]", "tx_checksum_ip_generic": "on", "tx_checksum_ipv6": "off [fixed]", "tx_checksum_fcoe_crc": "off [fixed]", "tx_checksum_sctp": "off [fixed]", "scatter_gather": "on", "tx_scatter_gather": "on", "tx_scatter_gather_fraglist": "off [fixed]", "tcp_segmentation_offload": "on", "tx_tcp_segmentation": "on", "tx_tcp_ecn_segmentation": "off [fixed]", "tx_tcp_mangleid_segmentation": "off", "tx_tcp6_segmentation": "on", "generic_segmentation_offload": "on", "generic_receive_offload": "on", "large_receive_offload": "on", "rx_vlan_offload": "on", "tx_vlan_offload": "on", "ntuple_filters": "off [fixed]", "receive_hashing": "on", "highdma": "on", "rx_vlan_filter": "on [fixed]", "vlan_challenged": "off [fixed]", "tx_lockless": "off [fixed]", "netns_local": "off [fixed]", "tx_gso_robust": "off [fixed]", "tx_fcoe_segmentation": "off [fixed]", "tx_gre_segmentation": "off [fixed]", "tx_gre_csum_segmentation": "off [fixed]", "tx_ipxip4_segmentation": "off [fixed]", "tx_ipxip6_segmentation": "off [fixed]", "tx_udp_tnl_segmentation": "off [fixed]", "tx_udp_tnl_csum_segmentation": "off [fixed]", "tx_gso_partial": "off [fixed]", "tx_sctp_segmentation": "off [fixed]", "tx_esp_segmentation": "off [fixed]", "tx_udp_segmentation": "off [fixed]", "tls_hw_rx_offload": "off [fixed]", "fcoe_mtu": "off [fixed]", "tx_nocache_copy": "off", "loopback": "off [fixed]", "rx_fcs": "off [fixed]", "rx_all": "off [fixed]", "tx_vlan_stag_hw_insert": "off [fixed]", "rx_vlan_stag_hw_parse": "off [fixed]", "rx_vlan_stag_filter": "off [fixed]", "l2_fwd_offload": "off [fixed]", "hw_tc_offload": "off [fixed]", "esp_hw_offload": "off [fixed]", "esp_tx_csum_hw_offload": "off [fixed]", "rx_udp_tunnel_port_offload": "off [fixed]", "tls_hw_tx_offload": "off [fixed]", "rx_gro_hw": "off [fixed]", "tls_hw_record": "off [fixed]"}, "timestamping": ["rx_software", "software"], "hw_timestamp_filters": []}, "ansible_lo": {"device": "lo", "mtu": 65536, "active": true, "type": "loopback", "promisc": false, "ipv4": {"address": "127.0.0.1", "broadcast": "", "netmask": "255.0.0.0", "network": "127.0.0.0"}, "ipv6": [{"address": "::1", "prefix": "128", "scope": "host"}], "features": {"rx_checksumming": "on [fixed]", "tx_checksumming": "on", "tx_checksum_ipv4": "off [fixed]", "tx_checksum_ip_generic": "on [fixed]", "tx_checksum_ipv6": "off [fixed]", "tx_checksum_fcoe_crc": "off [fixed]", "tx_checksum_sctp": "on [fixed]", "scatter_gather": "on", "tx_scatter_gather": "on [fixed]", "tx_scatter_gather_fraglist": "on [fixed]", "tcp_segmentation_offload": "on", "tx_tcp_segmentation": "on", "tx_tcp_ecn_segmentation": "on", "tx_tcp_mangleid_segmentation": "on", "tx_tcp6_segmentation": "on", "generic_segmentation_offload": "on", "generic_receive_offload": "on", "large_receive_offload": "off [fixed]", "rx_vlan_offload": "off [fixed]", "tx_vlan_offload": "off [fixed]", "ntuple_filters": "off [fixed]", "receive_hashing": "off [fixed]", "highdma": "on [fixed]", "rx_vlan_filter": "off [fixed]", "vlan_challenged": "on [fixed]", "tx_lockless": "on [fixed]", "netns_local": "on [fixed]", "tx_gso_robust": "off [fixed]", "tx_fcoe_segmentation": "off [fixed]", "tx_gre_segmentation": "off [fixed]", "tx_gre_csum_segmentation": "off [fixed]", "tx_ipxip4_segmentation": "off [fixed]", "tx_ipxip6_segmentation": "off [fixed]", "tx_udp_tnl_segmentation": "off [fixed]", "tx_udp_tnl_csum_segmentation": "off [fixed]", "tx_gso_partial": "off [fixed]", "tx_sctp_segmentation": "on", "tx_esp_segmentation": "off [fixed]", "tx_udp_segmentation": "off [fixed]", "tls_hw_rx_offload": "off [fixed]", "fcoe_mtu": "off [fixed]", "tx_nocache_copy": "off [fixed]", "loopback": "on [fixed]", "rx_fcs": "off [fixed]", "rx_all": "off [fixed]", "tx_vlan_stag_hw_insert": "off [fixed]", "rx_vlan_stag_hw_parse": "off [fixed]", "rx_vlan_stag_filter": "off [fixed]", "l2_fwd_offload": "off [fixed]", "hw_tc_offload": "off [fixed]", "esp_hw_offload": "off [fixed]", "esp_tx_csum_hw_offload": "off [fixed]", "rx_udp_tunnel_port_offload": "off [fixed]", "tls_hw_tx_offload": "off [fixed]", "rx_gro_hw": "off [fixed]", "tls_hw_record": "off [fixed]"}, "timestamping": ["tx_software", "rx_software", "software"], "hw_timestamp_filters": []}, "ansible_default_ipv4": {"gateway": "192.168.90.1", "interface": "ens192", "address": "192.168.90.164", "broadcast": "192.168.90.255", "netmask": "255.255.255.0", "network": "192.168.90.0", "macaddress": "00:50:56:a5:6c:61", "mtu": 1500, "type": "ether", "alias": "ens192"}, "ansible_default_ipv6": {}, "ansible_all_ipv4_addresses": ["192.168.90.164"], "ansible_all_ipv6_addresses": ["fe80::5eff:116a:ac8e:818a", "fe80::1ef1:9e0a:a552:9165", "fe80::be45:3ee6:efc1:240"], "ansible_pkg_mgr": "dnf", "gather_subset": ["all"], "module_setup": true}, "invocation": {"module_args": {"gather_subset": ["all"], "gather_timeout": 10, "filter": "*", "fact_path": "/etc/ansible/facts.d"}}}\r\n', b'Shared connection to lx100-3 closed.\r\n')
+2020-12-08 11:08:03,837 p=8521 u=radovan n=ansible | <lx100-3> ESTABLISH SSH CONNECTION FOR USER: ansible
+2020-12-08 11:08:03,838 p=8521 u=radovan n=ansible | <lx100-3> SSH: EXEC ssh -C -o ControlMaster=auto -o ControlPersist=60s -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o 'User="ansible"' -o ConnectTimeout=10 -o ControlPath=/home/radovan/.ansible/cp/02ebf528c4 lx100-3 '/bin/sh -c '"'"'rm -f -r /home/ansible/.ansible/tmp/ansible-tmp-1607422082.2276113-8521-227881153224346/ > /dev/null 2>&1 && sleep 0'"'"''
+2020-12-08 11:08:03,899 p=8521 u=radovan n=ansible | <lx100-3> (0, b'', b'')
+2020-12-08 11:08:03,937 p=8514 u=radovan n=ansible | ok: [lx100-3]
+2020-12-08 11:08:03,938 p=8514 u=radovan n=ansible | META: ran handlers
+2020-12-08 11:08:03,959 p=8514 u=radovan n=ansible | TASK [Install default packages] ***********************************************************************************************************
+2020-12-08 11:08:03,980 p=8530 u=radovan n=ansible | <lx100-3> ESTABLISH SSH CONNECTION FOR USER: ansible
+2020-12-08 11:08:03,982 p=8530 u=radovan n=ansible | <lx100-3> SSH: EXEC ssh -C -o ControlMaster=auto -o ControlPersist=60s -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o 'User="ansible"' -o ConnectTimeout=10 -o ControlPath=/home/radovan/.ansible/cp/02ebf528c4 lx100-3 '/bin/sh -c '"'"'echo ~ansible && sleep 0'"'"''
+2020-12-08 11:08:04,038 p=8530 u=radovan n=ansible | <lx100-3> (0, b'/home/ansible\n', b'')
+2020-12-08 11:08:04,039 p=8530 u=radovan n=ansible | <lx100-3> ESTABLISH SSH CONNECTION FOR USER: ansible
+2020-12-08 11:08:04,042 p=8530 u=radovan n=ansible | <lx100-3> SSH: EXEC ssh -C -o ControlMaster=auto -o ControlPersist=60s -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o 'User="ansible"' -o ConnectTimeout=10 -o ControlPath=/home/radovan/.ansible/cp/02ebf528c4 lx100-3 '/bin/sh -c '"'"'( umask 77 && mkdir -p "` echo /home/ansible/.ansible/tmp `"&& mkdir "` echo /home/ansible/.ansible/tmp/ansible-tmp-1607422084.0389724-8530-278427234717231 `" && echo ansible-tmp-1607422084.0389724-8530-278427234717231="` echo /home/ansible/.ansible/tmp/ansible-tmp-1607422084.0389724-8530-278427234717231 `" ) && sleep 0'"'"''
+2020-12-08 11:08:04,107 p=8530 u=radovan n=ansible | <lx100-3> (0, b'ansible-tmp-1607422084.0389724-8530-278427234717231=/home/ansible/.ansible/tmp/ansible-tmp-1607422084.0389724-8530-278427234717231\n', b'')
+2020-12-08 11:08:04,403 p=8530 u=radovan n=ansible | Using module file /usr/lib/python3.6/site-packages/ansible/modules/packaging/os/dnf.py
+2020-12-08 11:08:04,404 p=8530 u=radovan n=ansible | <lx100-3> PUT /home/radovan/.ansible/tmp/ansible-local-8514m00048be/tmpgvcv10ax TO /home/ansible/.ansible/tmp/ansible-tmp-1607422084.0389724-8530-278427234717231/AnsiballZ_dnf.py
+2020-12-08 11:08:04,405 p=8530 u=radovan n=ansible | <lx100-3> SSH: EXEC sftp -b - -C -o ControlMaster=auto -o ControlPersist=60s -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o 'User="ansible"' -o ConnectTimeout=10 -o ControlPath=/home/radovan/.ansible/cp/02ebf528c4 '[lx100-3]'
+2020-12-08 11:08:04,479 p=8530 u=radovan n=ansible | <lx100-3> (0, b'sftp> put /home/radovan/.ansible/tmp/ansible-local-8514m00048be/tmpgvcv10ax /home/ansible/.ansible/tmp/ansible-tmp-1607422084.0389724-8530-278427234717231/AnsiballZ_dnf.py\n', b'')
+2020-12-08 11:08:04,480 p=8530 u=radovan n=ansible | <lx100-3> ESTABLISH SSH CONNECTION FOR USER: ansible
+2020-12-08 11:08:04,481 p=8530 u=radovan n=ansible | <lx100-3> SSH: EXEC ssh -C -o ControlMaster=auto -o ControlPersist=60s -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o 'User="ansible"' -o ConnectTimeout=10 -o ControlPath=/home/radovan/.ansible/cp/02ebf528c4 lx100-3 '/bin/sh -c '"'"'chmod u+x /home/ansible/.ansible/tmp/ansible-tmp-1607422084.0389724-8530-278427234717231/ /home/ansible/.ansible/tmp/ansible-tmp-1607422084.0389724-8530-278427234717231/AnsiballZ_dnf.py && sleep 0'"'"''
+2020-12-08 11:08:04,537 p=8530 u=radovan n=ansible | <lx100-3> (0, b'', b'')
+2020-12-08 11:08:04,538 p=8530 u=radovan n=ansible | <lx100-3> ESTABLISH SSH CONNECTION FOR USER: ansible
+2020-12-08 11:08:04,540 p=8530 u=radovan n=ansible | <lx100-3> SSH: EXEC ssh -C -o ControlMaster=auto -o ControlPersist=60s -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o 'User="ansible"' -o ConnectTimeout=10 -o ControlPath=/home/radovan/.ansible/cp/02ebf528c4 -tt lx100-3 '/bin/sh -c '"'"'sudo -H -S -n  -u root /bin/sh -c '"'"'"'"'"'"'"'"'echo BECOME-SUCCESS-yvxxojuembnyxzllxllczmxskfdlcuqx ; /usr/bin/python3 /home/ansible/.ansible/tmp/ansible-tmp-1607422084.0389724-8530-278427234717231/AnsiballZ_dnf.py'"'"'"'"'"'"'"'"' && sleep 0'"'"''
+2020-12-08 11:08:04,630 p=8530 u=radovan n=ansible | Escalation succeeded
+2020-12-08 11:08:06,283 p=8530 u=radovan n=ansible | <lx100-3> (0, b'\r\n{"msg": "Nothing to do", "changed": false, "results": [], "rc": 0, "invocation": {"module_args": {"name": ["mc", "ksh", "epel-release"], "state": "latest", "allow_downgrade": false, "autoremove": false, "bugfix": false, "disable_gpg_check": false, "disable_plugin": [], "disablerepo": [], "download_only": false, "enable_plugin": [], "enablerepo": [], "exclude": [], "installroot": "/", "install_repoquery": true, "install_weak_deps": true, "security": false, "skip_broken": false, "update_cache": false, "update_only": false, "validate_certs": true, "lock_timeout": 30, "conf_file": null, "disable_excludes": null, "download_dir": null, "list": null, "releasever": null}}}\r\n', b'Shared connection to lx100-3 closed.\r\n')
+2020-12-08 11:08:06,285 p=8530 u=radovan n=ansible | <lx100-3> ESTABLISH SSH CONNECTION FOR USER: ansible
+2020-12-08 11:08:06,286 p=8530 u=radovan n=ansible | <lx100-3> SSH: EXEC ssh -C -o ControlMaster=auto -o ControlPersist=60s -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o 'User="ansible"' -o ConnectTimeout=10 -o ControlPath=/home/radovan/.ansible/cp/02ebf528c4 lx100-3 '/bin/sh -c '"'"'rm -f -r /home/ansible/.ansible/tmp/ansible-tmp-1607422084.0389724-8530-278427234717231/ > /dev/null 2>&1 && sleep 0'"'"''
+2020-12-08 11:08:06,329 p=8530 u=radovan n=ansible | <lx100-3> (0, b'', b'')
+2020-12-08 11:08:06,336 p=8514 u=radovan n=ansible | ok: [lx100-3] => {
+    "changed": false,
+    "invocation": {
+        "module_args": {
+            "allow_downgrade": false,
+            "autoremove": false,
+            "bugfix": false,
+            "conf_file": null,
+            "disable_excludes": null,
+            "disable_gpg_check": false,
+            "disable_plugin": [],
+            "disablerepo": [],
+            "download_dir": null,
+            "download_only": false,
+            "enable_plugin": [],
+            "enablerepo": [],
+            "exclude": [],
+            "install_repoquery": true,
+            "install_weak_deps": true,
+            "installroot": "/",
+            "list": null,
+            "lock_timeout": 30,
+            "name": [
+                "mc",
+                "ksh",
+                "epel-release"
+            ],
+            "releasever": null,
+            "security": false,
+            "skip_broken": false,
+            "state": "latest",
+            "update_cache": false,
+            "update_only": false,
+            "validate_certs": true
+        }
+    },
+    "msg": "Nothing to do",
+    "rc": 0,
+    "results": []
+}
+2020-12-08 11:08:06,337 p=8514 u=radovan n=ansible | META: ran handlers
+2020-12-08 11:08:06,337 p=8514 u=radovan n=ansible | META: ran handlers
+2020-12-08 11:08:06,339 p=8514 u=radovan n=ansible | PLAY RECAP ********************************************************************************************************************************
+2020-12-08 11:08:06,339 p=8514 u=radovan n=ansible | lx100-3                    : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-12-08 11:09:16,686 p=8540 u=radovan n=ansible | ansible-playbook 2.9.15
+  config file = /home/radovan/ansible/ansible.cfg
+  configured module search path = ['/home/radovan/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python3.6/site-packages/ansible
+  executable location = /usr/bin/ansible-playbook
+  python version = 3.6.8 (default, Nov 21 2019, 19:31:34) [GCC 8.3.1 20190507 (Red Hat 8.3.1-4)]
+2020-12-08 11:09:16,687 p=8540 u=radovan n=ansible | Using /home/radovan/ansible/ansible.cfg as config file
+2020-12-08 11:09:16,688 p=8540 u=radovan n=ansible | setting up inventory plugins
+2020-12-08 11:09:16,699 p=8540 u=radovan n=ansible | host_list declined parsing /home/radovan/ansible/hosts as it did not pass its verify_file() method
+2020-12-08 11:09:16,700 p=8540 u=radovan n=ansible | script declined parsing /home/radovan/ansible/hosts as it did not pass its verify_file() method
+2020-12-08 11:09:16,700 p=8540 u=radovan n=ansible | auto declined parsing /home/radovan/ansible/hosts as it did not pass its verify_file() method
+2020-12-08 11:09:16,706 p=8540 u=radovan n=ansible | Parsed /home/radovan/ansible/hosts inventory source with ini plugin
+2020-12-08 11:09:17,220 p=8540 u=radovan n=ansible | Loading callback plugin default of type stdout, v2.0 from /usr/lib/python3.6/site-packages/ansible/plugins/callback/default.py
+2020-12-08 11:09:17,300 p=8540 u=radovan n=ansible | PLAYBOOK: 10-packages.yml *****************************************************************************************************************
+2020-12-08 11:09:17,301 p=8540 u=radovan n=ansible | 1 plays in 10-packages.yml
+2020-12-08 11:09:17,305 p=8540 u=radovan n=ansible | PLAY [Install packages] *******************************************************************************************************************
+2020-12-08 11:09:17,321 p=8540 u=radovan n=ansible | TASK [Gathering Facts] ********************************************************************************************************************
+2020-12-08 11:09:17,344 p=8547 u=radovan n=ansible | <lx100-3> ESTABLISH SSH CONNECTION FOR USER: ansible
+2020-12-08 11:09:17,346 p=8547 u=radovan n=ansible | <lx100-3> SSH: EXEC ssh -vvv -C -o ControlMaster=auto -o ControlPersist=60s -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o 'User="ansible"' -o ConnectTimeout=10 -o ControlPath=/home/radovan/.ansible/cp/02ebf528c4 lx100-3 '/bin/sh -c '"'"'echo ~ansible && sleep 0'"'"''
+2020-12-08 11:09:18,860 p=8547 u=radovan n=ansible | <lx100-3> (0, b'/home/ansible\n', b'OpenSSH_8.0p1, OpenSSL 1.1.1c FIPS  28 May 2019\r\ndebug1: Reading configuration data /etc/ssh/ssh_config\r\ndebug3: /etc/ssh/ssh_config line 51: Including file /etc/ssh/ssh_config.d/05-redhat.conf depth 0\r\ndebug1: Reading configuration data /etc/ssh/ssh_config.d/05-redhat.conf\r\ndebug2: checking match for \'final all\' host lx100-3 originally lx100-3\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 3: not matched \'final\'\r\ndebug2: match not found\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 5: Including file /etc/crypto-policies/back-ends/openssh.config depth 1 (parse only)\r\ndebug1: Reading configuration data /etc/crypto-policies/back-ends/openssh.config\r\ndebug3: gss kex names ok: [gss-gex-sha1-,gss-group14-sha1-]\r\ndebug3: kex names ok: [curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1]\r\ndebug1: configuration requests final Match pass\r\ndebug1: re-parsing configuration\r\ndebug1: Reading configuration data /etc/ssh/ssh_config\r\ndebug3: /etc/ssh/ssh_config line 51: Including file /etc/ssh/ssh_config.d/05-redhat.conf depth 0\r\ndebug1: Reading configuration data /etc/ssh/ssh_config.d/05-redhat.conf\r\ndebug2: checking match for \'final all\' host lx100-3 originally lx100-3\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 3: matched \'final\'\r\ndebug2: match found\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 5: Including file /etc/crypto-policies/back-ends/openssh.config depth 1\r\ndebug1: Reading configuration data /etc/crypto-policies/back-ends/openssh.config\r\ndebug3: gss kex names ok: [gss-gex-sha1-,gss-group14-sha1-]\r\ndebug3: kex names ok: [curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1]\r\ndebug1: auto-mux: Trying existing master\r\ndebug1: Control socket "/home/radovan/.ansible/cp/02ebf528c4" does not exist\r\ndebug2: resolving "lx100-3" port 22\r\ndebug2: ssh_connect_direct\r\ndebug1: Connecting to lx100-3 [192.168.90.164] port 22.\r\ndebug2: fd 4 setting O_NONBLOCK\r\ndebug1: fd 4 clearing O_NONBLOCK\r\ndebug1: Connection established.\r\ndebug3: timeout: 9986 ms remain after connect\r\ndebug1: identity file /home/radovan/.ssh/id_rsa type 0\r\ndebug1: identity file /home/radovan/.ssh/id_rsa-cert type -1\r\ndebug1: identity file /home/radovan/.ssh/id_dsa type -1\r\ndebug1: identity file /home/radovan/.ssh/id_dsa-cert type -1\r\ndebug1: identity file /home/radovan/.ssh/id_ecdsa type -1\r\ndebug1: identity file /home/radovan/.ssh/id_ecdsa-cert type -1\r\ndebug1: identity file /home/radovan/.ssh/id_ed25519 type -1\r\ndebug1: identity file /home/radovan/.ssh/id_ed25519-cert type -1\r\ndebug1: identity file /home/radovan/.ssh/id_xmss type -1\r\ndebug1: identity file /home/radovan/.ssh/id_xmss-cert type -1\r\ndebug1: Local version string SSH-2.0-OpenSSH_8.0\r\ndebug1: Remote protocol version 2.0, remote software version OpenSSH_8.0\r\ndebug1: match: OpenSSH_8.0 pat OpenSSH* compat 0x04000000\r\ndebug2: fd 4 setting O_NONBLOCK\r\ndebug1: Authenticating to lx100-3:22 as \'ansible\'\r\ndebug3: hostkeys_foreach: reading file "/home/radovan/.ssh/known_hosts"\r\ndebug3: record_hostkey: found key type ECDSA in file /home/radovan/.ssh/known_hosts:2\r\ndebug3: load_hostkeys: loaded 1 keys from lx100-3\r\ndebug3: order_hostkeyalgs: prefer hostkeyalgs: ecdsa-sha2-nistp256-cert-v01@openssh.com,ecdsa-sha2-nistp384-cert-v01@openssh.com,ecdsa-sha2-nistp521-cert-v01@openssh.com,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521\r\ndebug3: send packet: type 20\r\ndebug1: SSH2_MSG_KEXINIT sent\r\ndebug3: receive packet: type 20\r\ndebug1: SSH2_MSG_KEXINIT received\r\ndebug2: local client KEXINIT proposal\r\ndebug2: KEX algorithms: curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,ext-info-c\r\ndebug2: host key algorithms: ecdsa-sha2-nistp256-cert-v01@openssh.com,ecdsa-sha2-nistp384-cert-v01@openssh.com,ecdsa-sha2-nistp521-cert-v01@openssh.com,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,ssh-ed25519-cert-v01@openssh.com,rsa-sha2-512-cert-v01@openssh.com,rsa-sha2-256-cert-v01@openssh.com,ssh-rsa-cert-v01@openssh.com,ssh-ed25519,rsa-sha2-512,rsa-sha2-256,ssh-rsa\r\ndebug2: ciphers ctos: aes256-gcm@openssh.com,chacha20-poly1305@openssh.com,aes256-ctr,aes256-cbc,aes128-gcm@openssh.com,aes128-ctr,aes128-cbc\r\ndebug2: ciphers stoc: aes256-gcm@openssh.com,chacha20-poly1305@openssh.com,aes256-ctr,aes256-cbc,aes128-gcm@openssh.com,aes128-ctr,aes128-cbc\r\ndebug2: MACs ctos: hmac-sha2-256-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha2-256,hmac-sha1,umac-128@openssh.com,hmac-sha2-512\r\ndebug2: MACs stoc: hmac-sha2-256-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha2-256,hmac-sha1,umac-128@openssh.com,hmac-sha2-512\r\ndebug2: compression ctos: zlib@openssh.com,zlib,none\r\ndebug2: compression stoc: zlib@openssh.com,zlib,none\r\ndebug2: languages ctos: \r\ndebug2: languages stoc: \r\ndebug2: first_kex_follows 0 \r\ndebug2: reserved 0 \r\ndebug2: peer server KEXINIT proposal\r\ndebug2: KEX algorithms: curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1\r\ndebug2: host key algorithms: rsa-sha2-512,rsa-sha2-256,ssh-rsa,ecdsa-sha2-nistp256,ssh-ed25519\r\ndebug2: ciphers ctos: aes256-gcm@openssh.com,chacha20-poly1305@openssh.com,aes256-ctr,aes256-cbc,aes128-gcm@openssh.com,aes128-ctr,aes128-cbc\r\ndebug2: ciphers stoc: aes256-gcm@openssh.com,chacha20-poly1305@openssh.com,aes256-ctr,aes256-cbc,aes128-gcm@openssh.com,aes128-ctr,aes128-cbc\r\ndebug2: MACs ctos: hmac-sha2-256-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha2-256,hmac-sha1,umac-128@openssh.com,hmac-sha2-512\r\ndebug2: MACs stoc: hmac-sha2-256-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha2-256,hmac-sha1,umac-128@openssh.com,hmac-sha2-512\r\ndebug2: compression ctos: none,zlib@openssh.com\r\ndebug2: compression stoc: none,zlib@openssh.com\r\ndebug2: languages ctos: \r\ndebug2: languages stoc: \r\ndebug2: first_kex_follows 0 \r\ndebug2: reserved 0 \r\ndebug1: kex: algorithm: curve25519-sha256\r\ndebug1: kex: host key algorithm: ecdsa-sha2-nistp256\r\ndebug1: kex: server->client cipher: aes256-gcm@openssh.com MAC: <implicit> compression: zlib@openssh.com\r\ndebug1: kex: client->server cipher: aes256-gcm@openssh.com MAC: <implicit> compression: zlib@openssh.com\r\ndebug1: kex: curve25519-sha256 need=32 dh_need=32\r\ndebug1: kex: curve25519-sha256 need=32 dh_need=32\r\ndebug3: send packet: type 30\r\ndebug1: expecting SSH2_MSG_KEX_ECDH_REPLY\r\ndebug3: receive packet: type 31\r\ndebug1: Server host key: ecdsa-sha2-nistp256 SHA256:q41Dac2wL3sqose3+8glh4vZjOb3IXqqX2QtsjuXhAk\r\ndebug3: hostkeys_foreach: reading file "/home/radovan/.ssh/known_hosts"\r\ndebug3: record_hostkey: found key type ECDSA in file /home/radovan/.ssh/known_hosts:2\r\ndebug3: load_hostkeys: loaded 1 keys from lx100-3\r\ndebug3: hostkeys_foreach: reading file "/home/radovan/.ssh/known_hosts"\r\ndebug3: record_hostkey: found key type ECDSA in file /home/radovan/.ssh/known_hosts:2\r\ndebug3: load_hostkeys: loaded 1 keys from 192.168.90.164\r\ndebug1: Host \'lx100-3\' is known and matches the ECDSA host key.\r\ndebug1: Found key in /home/radovan/.ssh/known_hosts:2\r\ndebug3: send packet: type 21\r\ndebug2: set_newkeys: mode 1\r\ndebug1: rekey out after 4294967296 blocks\r\ndebug1: SSH2_MSG_NEWKEYS sent\r\ndebug1: expecting SSH2_MSG_NEWKEYS\r\ndebug3: receive packet: type 21\r\ndebug1: SSH2_MSG_NEWKEYS received\r\ndebug2: set_newkeys: mode 0\r\ndebug1: rekey in after 4294967296 blocks\r\ndebug1: Will attempt key: /home/radovan/.ssh/id_rsa RSA SHA256:uIfG1M2j/1QbZB6e9oD4Yv54CafJfyJ2161z6HBpP8c agent\r\ndebug1: Will attempt key: /home/radovan/.ssh/id_dsa \r\ndebug1: Will attempt key: /home/radovan/.ssh/id_ecdsa \r\ndebug1: Will attempt key: /home/radovan/.ssh/id_ed25519 \r\ndebug1: Will attempt key: /home/radovan/.ssh/id_xmss \r\ndebug2: pubkey_prepare: done\r\ndebug3: send packet: type 5\r\ndebug3: receive packet: type 7\r\ndebug1: SSH2_MSG_EXT_INFO received\r\ndebug1: kex_input_ext_info: server-sig-algs=<ssh-ed25519,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521>\r\ndebug3: receive packet: type 6\r\ndebug2: service_accept: ssh-userauth\r\ndebug1: SSH2_MSG_SERVICE_ACCEPT received\r\ndebug3: send packet: type 50\r\ndebug3: receive packet: type 51\r\ndebug1: Authentications that can continue: publickey,gssapi-keyex,gssapi-with-mic,password\r\ndebug3: start over, passed a different list publickey,gssapi-keyex,gssapi-with-mic,password\r\ndebug3: preferred gssapi-with-mic,gssapi-keyex,hostbased,publickey\r\ndebug3: authmethod_lookup gssapi-with-mic\r\ndebug3: remaining preferred: gssapi-keyex,hostbased,publickey\r\ndebug3: authmethod_is_enabled gssapi-with-mic\r\ndebug1: Next authentication method: gssapi-with-mic\r\ndebug1: Unspecified GSS failure.  Minor code may provide more information\nNo Kerberos credentials available (default cache: KCM:)\n\n\r\ndebug1: Unspecified GSS failure.  Minor code may provide more information\nNo Kerberos credentials available (default cache: KCM:)\n\n\r\ndebug2: we did not send a packet, disable method\r\ndebug3: authmethod_lookup gssapi-keyex\r\ndebug3: remaining preferred: hostbased,publickey\r\ndebug3: authmethod_lookup publickey\r\ndebug3: remaining preferred: ,publickey\r\ndebug3: authmethod_is_enabled publickey\r\ndebug1: Next authentication method: publickey\r\ndebug1: Offering public key: /home/radovan/.ssh/id_rsa RSA SHA256:uIfG1M2j/1QbZB6e9oD4Yv54CafJfyJ2161z6HBpP8c agent\r\ndebug3: send packet: type 50\r\ndebug2: we sent a publickey packet, wait for reply\r\ndebug3: receive packet: type 60\r\ndebug1: Server accepts key: /home/radovan/.ssh/id_rsa RSA SHA256:uIfG1M2j/1QbZB6e9oD4Yv54CafJfyJ2161z6HBpP8c agent\r\ndebug3: sign_and_send_pubkey: RSA SHA256:uIfG1M2j/1QbZB6e9oD4Yv54CafJfyJ2161z6HBpP8c\r\ndebug3: sign_and_send_pubkey: signing using rsa-sha2-256\r\ndebug3: send packet: type 50\r\ndebug3: receive packet: type 52\r\ndebug1: Enabling compression at level 6.\r\ndebug1: Authentication succeeded (publickey).\r\nAuthenticated to lx100-3 ([192.168.90.164]:22).\r\ndebug1: setting up multiplex master socket\r\ndebug3: muxserver_listen: temporary control path /home/radovan/.ansible/cp/02ebf528c4.dioV5f2ffPSVIVWV\r\ndebug2: fd 5 setting O_NONBLOCK\r\ndebug3: fd 5 is O_NONBLOCK\r\ndebug3: fd 5 is O_NONBLOCK\r\ndebug1: channel 0: new [/home/radovan/.ansible/cp/02ebf528c4]\r\ndebug3: muxserver_listen: mux listener channel 0 fd 5\r\ndebug2: fd 4 setting TCP_NODELAY\r\ndebug3: ssh_packet_set_tos: set IP_TOS 0x20\r\ndebug1: control_persist_detach: backgrounding master process\r\ndebug2: control_persist_detach: background process is 8549\r\ndebug2: fd 5 setting O_NONBLOCK\r\ndebug1: forking to background\r\ndebug1: Entering interactive session.\r\ndebug1: pledge: id\r\ndebug2: set_control_persist_exit_time: schedule exit in 60 seconds\r\ndebug1: multiplexing control connection\r\ndebug2: fd 6 setting O_NONBLOCK\r\ndebug3: fd 6 is O_NONBLOCK\r\ndebug1: channel 1: new [mux-control]\r\ndebug3: channel_post_mux_listener: new mux channel 1 fd 6\r\ndebug3: mux_master_read_cb: channel 1: hello sent\r\ndebug2: set_control_persist_exit_time: cancel scheduled exit\r\ndebug3: mux_master_read_cb: channel 1 packet type 0x00000001 len 4\r\ndebug2: mux_master_process_hello: channel 1 slave version 4\r\ndebug2: mux_client_hello_exchange: master version 4\r\ndebug3: mux_client_forwards: request forwardings: 0 local, 0 remote\r\ndebug3: mux_client_request_session: entering\r\ndebug3: mux_client_request_alive: entering\r\ndebug3: mux_master_read_cb: channel 1 packet type 0x10000004 len 4\r\ndebug2: mux_master_process_alive_check: channel 1: alive check\r\ndebug3: mux_client_request_alive: done pid = 8551\r\ndebug3: mux_client_request_session: session request sent\r\ndebug3: mux_master_read_cb: channel 1 packet type 0x10000002 len 98\r\ndebug2: mux_master_process_new_session: channel 1: request tty 0, X 0, agent 0, subsys 0, term "xterm", cmd "/bin/sh -c \'echo ~ansible && sleep 0\'", env 1\r\ndebug3: mux_master_process_new_session: got fds stdin 7, stdout 8, stderr 9\r\ndebug2: fd 8 setting O_NONBLOCK\r\ndebug2: fd 9 setting O_NONBLOCK\r\ndebug1: channel 2: new [client-session]\r\ndebug2: mux_master_process_new_session: channel_new: 2 linked to control channel 1\r\ndebug2: channel 2: send open\r\ndebug3: send packet: type 90\r\ndebug3: receive packet: type 80\r\ndebug1: client_input_global_request: rtype hostkeys-00@openssh.com want_reply 0\r\ndebug3: receive packet: type 4\r\ndebug1: Remote: /home/ansible/.ssh/authorized_keys:1: key options: agent-forwarding port-forwarding pty user-rc x11-forwarding\r\ndebug3: receive packet: type 4\r\ndebug1: Remote: /home/ansible/.ssh/authorized_keys:1: key options: agent-forwarding port-forwarding pty user-rc x11-forwarding\r\ndebug3: receive packet: type 91\r\ndebug2: channel_input_open_confirmation: channel 2: callback start\r\ndebug2: client_session2_setup: id 2\r\ndebug1: Sending environment.\r\ndebug1: Sending env LANG = en_US.UTF-8\r\ndebug2: channel 2: request env confirm 0\r\ndebug3: send packet: type 98\r\ndebug1: Sending command: /bin/sh -c \'echo ~ansible && sleep 0\'\r\ndebug2: channel 2: request exec confirm 1\r\ndebug3: send packet: type 98\r\ndebug3: mux_session_confirm: sending success reply\r\ndebug2: channel_input_open_confirmation: channel 2: callback done\r\ndebug2: channel 2: open confirm rwindow 0 rmax 32768\r\ndebug2: channel 2: rcvd adjust 2097152\r\ndebug3: receive packet: type 99\r\ndebug2: channel_input_status_confirm: type 99 id 2\r\ndebug2: exec request accepted on channel 2\r\ndebug3: receive packet: type 96\r\ndebug2: channel 2: rcvd eof\r\ndebug2: channel 2: output open -> drain\r\ndebug2: channel 2: obuf empty\r\ndebug2: channel 2: chan_shutdown_write (i0 o1 sock -1 wfd 8 efd 9 [write])\r\ndebug2: channel 2: output drain -> closed\r\ndebug3: receive packet: type 98\r\ndebug1: client_input_channel_req: channel 2 rtype exit-status reply 0\r\ndebug3: mux_exit_message: channel 2: exit message, exitval 0\r\ndebug3: receive packet: type 98\r\ndebug1: client_input_channel_req: channel 2 rtype eow@openssh.com reply 0\r\ndebug2: channel 2: rcvd eow\r\ndebug2: channel 2: chan_shutdown_read (i0 o3 sock -1 wfd 7 efd 9 [write])\r\ndebug2: channel 2: input open -> closed\r\ndebug3: receive packet: type 97\r\ndebug2: channel 2: rcvd close\r\ndebug3: channel 2: will not send data after close\r\ndebug2: channel 2: send close\r\ndebug3: send packet: type 97\r\ndebug2: channel 2: is dead\r\ndebug2: channel 2: gc: notify user\r\ndebug3: mux_master_session_cleanup_cb: entering for channel 2\r\ndebug2: channel 1: rcvd close\r\ndebug2: channel 1: output open -> drain\r\ndebug2: channel 1: chan_shutdown_read (i0 o1 sock 6 wfd 6 efd -1 [closed])\r\ndebug2: channel 1: input open -> closed\r\ndebug2: channel 2: gc: user detached\r\ndebug2: channel 2: is dead\r\ndebug2: channel 2: garbage collecting\r\ndebug1: channel 2: free: client-session, nchannels 3\r\ndebug3: channel 2: status: The following connections are open:\r\n  #1 mux-control (t16 nr0 i3/0 o1/16 e[closed]/0 fd 6/6/-1 sock 6 cc -1)\r\n  #2 client-session (t4 r0 i3/0 o3/0 e[write]/0 fd -1/-1/9 sock -1 cc -1)\r\n\r\ndebug2: channel 1: obuf empty\r\ndebug2: channel 1: chan_shutdown_write (i3 o1 sock 6 wfd 6 efd -1 [closed])\r\ndebug2: channel 1: output drain -> closed\r\ndebug2: channel 1: is dead (local)\r\ndebug2: channel 1: gc: notify user\r\ndebug3: mux_master_control_cleanup_cb: entering for channel 1\r\ndebug2: channel 1: gc: user detached\r\ndebug2: channel 1: is dead (local)\r\ndebug2: channel 1: garbage collecting\r\ndebug1: channel 1: free: mux-control, nchannels 2\r\ndebug3: channel 1: status: The following connections are open:\r\n  #1 mux-control (t16 nr0 i3/0 o3/0 e[closed]/0 fd 6/6/-1 sock 6 cc -1)\r\n\r\ndebug2: set_control_persist_exit_time: schedule exit in 60 seconds\r\ndebug3: mux_client_read_packet: read header failed: Broken pipe\r\ndebug2: Received exit status from master 0\r\n')
+2020-12-08 11:09:18,862 p=8547 u=radovan n=ansible | <lx100-3> ESTABLISH SSH CONNECTION FOR USER: ansible
+2020-12-08 11:09:18,864 p=8547 u=radovan n=ansible | <lx100-3> SSH: EXEC ssh -vvv -C -o ControlMaster=auto -o ControlPersist=60s -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o 'User="ansible"' -o ConnectTimeout=10 -o ControlPath=/home/radovan/.ansible/cp/02ebf528c4 lx100-3 '/bin/sh -c '"'"'( umask 77 && mkdir -p "` echo /home/ansible/.ansible/tmp `"&& mkdir "` echo /home/ansible/.ansible/tmp/ansible-tmp-1607422158.8619173-8547-66294017505164 `" && echo ansible-tmp-1607422158.8619173-8547-66294017505164="` echo /home/ansible/.ansible/tmp/ansible-tmp-1607422158.8619173-8547-66294017505164 `" ) && sleep 0'"'"''
+2020-12-08 11:09:18,921 p=8547 u=radovan n=ansible | <lx100-3> (0, b'ansible-tmp-1607422158.8619173-8547-66294017505164=/home/ansible/.ansible/tmp/ansible-tmp-1607422158.8619173-8547-66294017505164\n', b"OpenSSH_8.0p1, OpenSSL 1.1.1c FIPS  28 May 2019\r\ndebug1: Reading configuration data /etc/ssh/ssh_config\r\ndebug3: /etc/ssh/ssh_config line 51: Including file /etc/ssh/ssh_config.d/05-redhat.conf depth 0\r\ndebug1: Reading configuration data /etc/ssh/ssh_config.d/05-redhat.conf\r\ndebug2: checking match for 'final all' host lx100-3 originally lx100-3\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 3: not matched 'final'\r\ndebug2: match not found\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 5: Including file /etc/crypto-policies/back-ends/openssh.config depth 1 (parse only)\r\ndebug1: Reading configuration data /etc/crypto-policies/back-ends/openssh.config\r\ndebug3: gss kex names ok: [gss-gex-sha1-,gss-group14-sha1-]\r\ndebug3: kex names ok: [curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1]\r\ndebug1: configuration requests final Match pass\r\ndebug1: re-parsing configuration\r\ndebug1: Reading configuration data /etc/ssh/ssh_config\r\ndebug3: /etc/ssh/ssh_config line 51: Including file /etc/ssh/ssh_config.d/05-redhat.conf depth 0\r\ndebug1: Reading configuration data /etc/ssh/ssh_config.d/05-redhat.conf\r\ndebug2: checking match for 'final all' host lx100-3 originally lx100-3\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 3: matched 'final'\r\ndebug2: match found\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 5: Including file /etc/crypto-policies/back-ends/openssh.config depth 1\r\ndebug1: Reading configuration data /etc/crypto-policies/back-ends/openssh.config\r\ndebug3: gss kex names ok: [gss-gex-sha1-,gss-group14-sha1-]\r\ndebug3: kex names ok: [curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1]\r\ndebug1: auto-mux: Trying existing master\r\ndebug2: fd 4 setting O_NONBLOCK\r\ndebug2: mux_client_hello_exchange: master version 4\r\ndebug3: mux_client_forwards: request forwardings: 0 local, 0 remote\r\ndebug3: mux_client_request_session: entering\r\ndebug3: mux_client_request_alive: entering\r\ndebug3: mux_client_request_alive: done pid = 8551\r\ndebug3: mux_client_request_session: session request sent\r\ndebug3: mux_client_read_packet: read header failed: Broken pipe\r\ndebug2: Received exit status from master 0\r\n")
+2020-12-08 11:09:19,415 p=8547 u=radovan n=ansible | Using module file /usr/lib/python3.6/site-packages/ansible/modules/system/setup.py
+2020-12-08 11:09:19,416 p=8547 u=radovan n=ansible | <lx100-3> PUT /home/radovan/.ansible/tmp/ansible-local-8540udtz0qeu/tmpv7p9rrxm TO /home/ansible/.ansible/tmp/ansible-tmp-1607422158.8619173-8547-66294017505164/AnsiballZ_setup.py
+2020-12-08 11:09:19,417 p=8547 u=radovan n=ansible | <lx100-3> SSH: EXEC sftp -b - -vvv -C -o ControlMaster=auto -o ControlPersist=60s -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o 'User="ansible"' -o ConnectTimeout=10 -o ControlPath=/home/radovan/.ansible/cp/02ebf528c4 '[lx100-3]'
+2020-12-08 11:09:19,502 p=8547 u=radovan n=ansible | <lx100-3> (0, b'sftp> put /home/radovan/.ansible/tmp/ansible-local-8540udtz0qeu/tmpv7p9rrxm /home/ansible/.ansible/tmp/ansible-tmp-1607422158.8619173-8547-66294017505164/AnsiballZ_setup.py\n', b'OpenSSH_8.0p1, OpenSSL 1.1.1c FIPS  28 May 2019\r\ndebug1: Reading configuration data /etc/ssh/ssh_config\r\ndebug3: /etc/ssh/ssh_config line 51: Including file /etc/ssh/ssh_config.d/05-redhat.conf depth 0\r\ndebug1: Reading configuration data /etc/ssh/ssh_config.d/05-redhat.conf\r\ndebug2: checking match for \'final all\' host lx100-3 originally lx100-3\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 3: not matched \'final\'\r\ndebug2: match not found\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 5: Including file /etc/crypto-policies/back-ends/openssh.config depth 1 (parse only)\r\ndebug1: Reading configuration data /etc/crypto-policies/back-ends/openssh.config\r\ndebug3: gss kex names ok: [gss-gex-sha1-,gss-group14-sha1-]\r\ndebug3: kex names ok: [curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1]\r\ndebug1: configuration requests final Match pass\r\ndebug1: re-parsing configuration\r\ndebug1: Reading configuration data /etc/ssh/ssh_config\r\ndebug3: /etc/ssh/ssh_config line 51: Including file /etc/ssh/ssh_config.d/05-redhat.conf depth 0\r\ndebug1: Reading configuration data /etc/ssh/ssh_config.d/05-redhat.conf\r\ndebug2: checking match for \'final all\' host lx100-3 originally lx100-3\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 3: matched \'final\'\r\ndebug2: match found\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 5: Including file /etc/crypto-policies/back-ends/openssh.config depth 1\r\ndebug1: Reading configuration data /etc/crypto-policies/back-ends/openssh.config\r\ndebug3: gss kex names ok: [gss-gex-sha1-,gss-group14-sha1-]\r\ndebug3: kex names ok: [curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1]\r\ndebug1: auto-mux: Trying existing master\r\ndebug2: fd 4 setting O_NONBLOCK\r\ndebug2: mux_client_hello_exchange: master version 4\r\ndebug3: mux_client_forwards: request forwardings: 0 local, 0 remote\r\ndebug3: mux_client_request_session: entering\r\ndebug3: mux_client_request_alive: entering\r\ndebug3: mux_client_request_alive: done pid = 8551\r\ndebug3: mux_client_request_session: session request sent\r\ndebug2: Remote version: 3\r\ndebug2: Server supports extension "posix-rename@openssh.com" revision 1\r\ndebug2: Server supports extension "statvfs@openssh.com" revision 2\r\ndebug2: Server supports extension "fstatvfs@openssh.com" revision 2\r\ndebug2: Server supports extension "hardlink@openssh.com" revision 1\r\ndebug2: Server supports extension "fsync@openssh.com" revision 1\r\ndebug2: Server supports extension "lsetstat@openssh.com" revision 1\r\ndebug3: Sent message fd 3 T:16 I:1\r\ndebug3: SSH_FXP_REALPATH . -> /home/ansible size 0\r\ndebug3: Looking up /home/radovan/.ansible/tmp/ansible-local-8540udtz0qeu/tmpv7p9rrxm\r\ndebug3: Sent message fd 3 T:17 I:2\r\ndebug3: Received stat reply T:101 I:2\r\ndebug1: Couldn\'t stat remote file: No such file or directory\r\ndebug3: Sent message SSH2_FXP_OPEN I:3 P:/home/ansible/.ansible/tmp/ansible-tmp-1607422158.8619173-8547-66294017505164/AnsiballZ_setup.py\r\ndebug3: Sent message SSH2_FXP_WRITE I:4 O:0 S:32768\r\ndebug3: SSH2_FXP_STATUS 0\r\ndebug3: In write loop, ack for 4 32768 bytes at 0\r\ndebug3: Sent message SSH2_FXP_WRITE I:5 O:32768 S:32768\r\ndebug3: Sent message SSH2_FXP_WRITE I:6 O:65536 S:32768\r\ndebug3: Sent message SSH2_FXP_WRITE I:7 O:98304 S:32768\r\ndebug3: Sent message SSH2_FXP_WRITE I:8 O:131072 S:32768\r\ndebug3: Sent message SSH2_FXP_WRITE I:9 O:163840 S:32768\r\ndebug3: Sent message SSH2_FXP_WRITE I:10 O:196608 S:32768\r\ndebug3: Sent message SSH2_FXP_WRITE I:11 O:229376 S:32768\r\ndebug3: Sent message SSH2_FXP_WRITE I:12 O:262144 S:3294\r\ndebug3: SSH2_FXP_STATUS 0\r\ndebug3: In write loop, ack for 5 32768 bytes at 32768\r\ndebug3: SSH2_FXP_STATUS 0\r\ndebug3: In write loop, ack for 6 32768 bytes at 65536\r\ndebug3: SSH2_FXP_STATUS 0\r\ndebug3: In write loop, ack for 7 32768 bytes at 98304\r\ndebug3: SSH2_FXP_STATUS 0\r\ndebug3: In write loop, ack for 8 32768 bytes at 131072\r\ndebug3: SSH2_FXP_STATUS 0\r\ndebug3: In write loop, ack for 9 32768 bytes at 163840\r\ndebug3: SSH2_FXP_STATUS 0\r\ndebug3: In write loop, ack for 10 32768 bytes at 196608\r\ndebug3: SSH2_FXP_STATUS 0\r\ndebug3: In write loop, ack for 11 32768 bytes at 229376\r\ndebug3: SSH2_FXP_STATUS 0\r\ndebug3: In write loop, ack for 12 3294 bytes at 262144\r\ndebug3: Sent message SSH2_FXP_CLOSE I:4\r\ndebug3: SSH2_FXP_STATUS 0\r\ndebug3: mux_client_read_packet: read header failed: Broken pipe\r\ndebug2: Received exit status from master 0\r\n')
+2020-12-08 11:09:19,503 p=8547 u=radovan n=ansible | <lx100-3> ESTABLISH SSH CONNECTION FOR USER: ansible
+2020-12-08 11:09:19,505 p=8547 u=radovan n=ansible | <lx100-3> SSH: EXEC ssh -vvv -C -o ControlMaster=auto -o ControlPersist=60s -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o 'User="ansible"' -o ConnectTimeout=10 -o ControlPath=/home/radovan/.ansible/cp/02ebf528c4 lx100-3 '/bin/sh -c '"'"'chmod u+x /home/ansible/.ansible/tmp/ansible-tmp-1607422158.8619173-8547-66294017505164/ /home/ansible/.ansible/tmp/ansible-tmp-1607422158.8619173-8547-66294017505164/AnsiballZ_setup.py && sleep 0'"'"''
+2020-12-08 11:09:19,555 p=8547 u=radovan n=ansible | <lx100-3> (0, b'', b"OpenSSH_8.0p1, OpenSSL 1.1.1c FIPS  28 May 2019\r\ndebug1: Reading configuration data /etc/ssh/ssh_config\r\ndebug3: /etc/ssh/ssh_config line 51: Including file /etc/ssh/ssh_config.d/05-redhat.conf depth 0\r\ndebug1: Reading configuration data /etc/ssh/ssh_config.d/05-redhat.conf\r\ndebug2: checking match for 'final all' host lx100-3 originally lx100-3\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 3: not matched 'final'\r\ndebug2: match not found\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 5: Including file /etc/crypto-policies/back-ends/openssh.config depth 1 (parse only)\r\ndebug1: Reading configuration data /etc/crypto-policies/back-ends/openssh.config\r\ndebug3: gss kex names ok: [gss-gex-sha1-,gss-group14-sha1-]\r\ndebug3: kex names ok: [curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1]\r\ndebug1: configuration requests final Match pass\r\ndebug1: re-parsing configuration\r\ndebug1: Reading configuration data /etc/ssh/ssh_config\r\ndebug3: /etc/ssh/ssh_config line 51: Including file /etc/ssh/ssh_config.d/05-redhat.conf depth 0\r\ndebug1: Reading configuration data /etc/ssh/ssh_config.d/05-redhat.conf\r\ndebug2: checking match for 'final all' host lx100-3 originally lx100-3\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 3: matched 'final'\r\ndebug2: match found\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 5: Including file /etc/crypto-policies/back-ends/openssh.config depth 1\r\ndebug1: Reading configuration data /etc/crypto-policies/back-ends/openssh.config\r\ndebug3: gss kex names ok: [gss-gex-sha1-,gss-group14-sha1-]\r\ndebug3: kex names ok: [curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1]\r\ndebug1: auto-mux: Trying existing master\r\ndebug2: fd 4 setting O_NONBLOCK\r\ndebug2: mux_client_hello_exchange: master version 4\r\ndebug3: mux_client_forwards: request forwardings: 0 local, 0 remote\r\ndebug3: mux_client_request_session: entering\r\ndebug3: mux_client_request_alive: entering\r\ndebug3: mux_client_request_alive: done pid = 8551\r\ndebug3: mux_client_request_session: session request sent\r\ndebug3: mux_client_read_packet: read header failed: Broken pipe\r\ndebug2: Received exit status from master 0\r\n")
+2020-12-08 11:09:19,556 p=8547 u=radovan n=ansible | <lx100-3> ESTABLISH SSH CONNECTION FOR USER: ansible
+2020-12-08 11:09:19,557 p=8547 u=radovan n=ansible | <lx100-3> SSH: EXEC ssh -vvv -C -o ControlMaster=auto -o ControlPersist=60s -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o 'User="ansible"' -o ConnectTimeout=10 -o ControlPath=/home/radovan/.ansible/cp/02ebf528c4 -tt lx100-3 '/bin/sh -c '"'"'sudo -H -S -n  -u root /bin/sh -c '"'"'"'"'"'"'"'"'echo BECOME-SUCCESS-yihqkyomzuqvgnrknhfsshbpcnyfngga ; /usr/bin/python3 /home/ansible/.ansible/tmp/ansible-tmp-1607422158.8619173-8547-66294017505164/AnsiballZ_setup.py'"'"'"'"'"'"'"'"' && sleep 0'"'"''
+2020-12-08 11:09:19,652 p=8547 u=radovan n=ansible | Escalation succeeded
+2020-12-08 11:09:20,468 p=8547 u=radovan n=ansible | <lx100-3> (0, b'\r\n{"ansible_facts": {"ansible_apparmor": {"status": "disabled"}, "ansible_system_capabilities_enforced": "True", "ansible_system_capabilities": ["cap_chown", "cap_dac_override", "cap_dac_read_search", "cap_fowner", "cap_fsetid", "cap_kill", "cap_setgid", "cap_setuid", "cap_setpcap", "cap_linux_immutable", "cap_net_bind_service", "cap_net_broadcast", "cap_net_admin", "cap_net_raw", "cap_ipc_lock", "cap_ipc_owner", "cap_sys_module", "cap_sys_rawio", "cap_sys_chroot", "cap_sys_ptrace", "cap_sys_pacct", "cap_sys_admin", "cap_sys_boot", "cap_sys_nice", "cap_sys_resource", "cap_sys_time", "cap_sys_tty_config", "cap_mknod", "cap_lease", "cap_audit_write", "cap_audit_control", "cap_setfcap", "cap_mac_override", "cap_mac_admin", "cap_syslog", "cap_wake_alarm", "cap_block_suspend", "cap_audit_read+ep"], "ansible_system": "Linux", "ansible_kernel": "4.18.0-147.8.1.el8_1.x86_64", "ansible_kernel_version": "#1 SMP Thu Apr 9 13:49:54 UTC 2020", "ansible_machine": "x86_64", "ansible_python_version": "3.6.8", "ansible_fqdn": "lx.edu.net", "ansible_hostname": "lx", "ansible_nodename": "lx.edu.net", "ansible_domain": "edu.net", "ansible_userspace_bits": "64", "ansible_architecture": "x86_64", "ansible_userspace_architecture": "x86_64", "ansible_machine_id": "ab620275e2c0490c815db7897765fc18", "ansible_virtualization_role": "guest", "ansible_virtualization_type": "VMware", "ansible_selinux_python_present": true, "ansible_selinux": {"status": "enabled", "policyvers": 31, "config_mode": "enforcing", "mode": "enforcing", "type": "targeted"}, "ansible_distribution": "CentOS", "ansible_distribution_release": "Core", "ansible_distribution_version": "8.1", "ansible_distribution_major_version": "8", "ansible_distribution_file_path": "/etc/redhat-release", "ansible_distribution_file_variety": "RedHat", "ansible_distribution_file_parsed": true, "ansible_os_family": "RedHat", "ansible_hostnqn": "", "ansible_local": {}, "ansible_is_chroot": false, "ansible_iscsi_iqn": "", "ansible_ssh_host_key_rsa_public": "AAAAB3NzaC1yc2EAAAADAQABAAABAQDn8L0W/gMeBbYNk2L/3sPM4REuLtF37kdtqJCHj6NR+gtZXT9+qx6rsuV4NTxOkrpn2snfP9yl3TPgyjSQHRU+lHnMvm4tT/AKaxiRh6wrtr8yugN1D5zIHxUzWKixH1IgfjCwH3MVphvz88PqHuhPuK0jVLY63mHENHEdtRXsFBZOLXwlzWlHw868s+5t/zQajA7iCGzTSXci5f4/7K8r6s6YjWpIB0WhIKfOLTtqt5h2OVU2rngsKHfcHluXeQeYsyPiatgJThtneGaiiEfygqnlXWF2eBREYqpJM7Ou+Pu3LDLIaLaBmBilrKfA5lKP3TVuJAg6Nw+DLnIuCH+b", "ansible_ssh_host_key_ecdsa_public": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHB0V6agj/LqZCAF7XngjIzzwDAZ6KdSxNCsOjpZMXFrpCm8QHnVdOtlJBbIpBsnYbIR1ZKHwIrnCKj2d204j9g=", "ansible_ssh_host_key_ed25519_public": "AAAAC3NzaC1lZDI1NTE5AAAAICzvZEVHAcE9/YoSx6qZL2yxKvgThucoMkPFAY0ybgen", "ansible_user_id": "root", "ansible_user_uid": 0, "ansible_user_gid": 0, "ansible_user_gecos": "root", "ansible_user_dir": "/root", "ansible_user_shell": "/bin/bash", "ansible_real_user_id": 0, "ansible_effective_user_id": 0, "ansible_real_group_id": 0, "ansible_effective_group_id": 0, "ansible_lsb": {}, "ansible_date_time": {"year": "2020", "month": "12", "weekday": "Tuesday", "weekday_number": "2", "weeknumber": "49", "day": "08", "hour": "11", "minute": "09", "second": "20", "epoch": "1607422160", "date": "2020-12-08", "time": "11:09:20", "iso8601_micro": "2020-12-08T10:09:20.052830Z", "iso8601": "2020-12-08T10:09:20Z", "iso8601_basic": "20201208T110920052830", "iso8601_basic_short": "20201208T110920", "tz": "CET", "tz_offset": "+0100"}, "ansible_fips": false, "ansible_python": {"version": {"major": 3, "minor": 6, "micro": 8, "releaselevel": "final", "serial": 0}, "version_info": [3, 6, 8, "final", 0], "executable": "/usr/bin/python3", "has_sslcontext": true, "type": "cpython"}, "ansible_cmdline": {"BOOT_IMAGE": "(hd0,gpt2)/vmlinuz-4.18.0-147.8.1.el8_1.x86_64", "root": "/dev/mapper/cs_lx-root", "ro": true, "crashkernel": "auto", "resume": "/dev/mapper/cs_lx-swap", "rd.lvm.lv": "cs_lx/swap", "rhgb": true, "quiet": true}, "ansible_proc_cmdline": {"BOOT_IMAGE": "(hd0,gpt2)/vmlinuz-4.18.0-147.8.1.el8_1.x86_64", "root": "/dev/mapper/cs_lx-root", "ro": true, "crashkernel": "auto", "resume": "/dev/mapper/cs_lx-swap", "rd.lvm.lv": ["cs_lx/root", "cs_lx/swap"], "rhgb": true, "quiet": true}, "ansible_env": {"LS_COLORS": "rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.m4a=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.oga=01;36:*.opus=01;36:*.spx=01;36:*.xspf=01;36:", "LANG": "en_US.UTF-8", "SUDO_GID": "1000", "USERNAME": "root", "SUDO_COMMAND": "/bin/sh -c echo BECOME-SUCCESS-yihqkyomzuqvgnrknhfsshbpcnyfngga ; /usr/bin/python3 /home/ansible/.ansible/tmp/ansible-tmp-1607422158.8619173-8547-66294017505164/AnsiballZ_setup.py", "USER": "root", "PWD": "/home/ansible", "HOME": "/root", "SUDO_USER": "ansible", "SUDO_UID": "1000", "MAIL": "/var/mail/root", "SHELL": "/bin/bash", "TERM": "xterm", "SHLVL": "1", "LOGNAME": "root", "PATH": "/sbin:/bin:/usr/sbin:/usr/bin", "_": "/usr/bin/python3"}, "ansible_fibre_channel_wwn": [], "ansible_pkg_mgr": "dnf", "ansible_dns": {"search": ["edu.net"], "nameservers": ["192.168.90.1"]}, "ansible_interfaces": ["ens192", "lo"], "ansible_ens192": {"device": "ens192", "macaddress": "00:50:56:a5:6c:61", "mtu": 1500, "active": true, "module": "vmxnet3", "type": "ether", "pciid": "0000:0b:00.0", "speed": 10000, "promisc": false, "ipv4": {"address": "192.168.90.164", "broadcast": "192.168.90.255", "netmask": "255.255.255.0", "network": "192.168.90.0"}, "ipv6": [{"address": "fe80::5eff:116a:ac8e:818a", "prefix": "64", "scope": "link"}, {"address": "fe80::1ef1:9e0a:a552:9165", "prefix": "64", "scope": "link"}, {"address": "fe80::be45:3ee6:efc1:240", "prefix": "64", "scope": "link"}], "features": {"rx_checksumming": "on", "tx_checksumming": "on", "tx_checksum_ipv4": "off [fixed]", "tx_checksum_ip_generic": "on", "tx_checksum_ipv6": "off [fixed]", "tx_checksum_fcoe_crc": "off [fixed]", "tx_checksum_sctp": "off [fixed]", "scatter_gather": "on", "tx_scatter_gather": "on", "tx_scatter_gather_fraglist": "off [fixed]", "tcp_segmentation_offload": "on", "tx_tcp_segmentation": "on", "tx_tcp_ecn_segmentation": "off [fixed]", "tx_tcp_mangleid_segmentation": "off", "tx_tcp6_segmentation": "on", "generic_segmentation_offload": "on", "generic_receive_offload": "on", "large_receive_offload": "on", "rx_vlan_offload": "on", "tx_vlan_offload": "on", "ntuple_filters": "off [fixed]", "receive_hashing": "on", "highdma": "on", "rx_vlan_filter": "on [fixed]", "vlan_challenged": "off [fixed]", "tx_lockless": "off [fixed]", "netns_local": "off [fixed]", "tx_gso_robust": "off [fixed]", "tx_fcoe_segmentation": "off [fixed]", "tx_gre_segmentation": "off [fixed]", "tx_gre_csum_segmentation": "off [fixed]", "tx_ipxip4_segmentation": "off [fixed]", "tx_ipxip6_segmentation": "off [fixed]", "tx_udp_tnl_segmentation": "off [fixed]", "tx_udp_tnl_csum_segmentation": "off [fixed]", "tx_gso_partial": "off [fixed]", "tx_sctp_segmentation": "off [fixed]", "tx_esp_segmentation": "off [fixed]", "tx_udp_segmentation": "off [fixed]", "tls_hw_rx_offload": "off [fixed]", "fcoe_mtu": "off [fixed]", "tx_nocache_copy": "off", "loopback": "off [fixed]", "rx_fcs": "off [fixed]", "rx_all": "off [fixed]", "tx_vlan_stag_hw_insert": "off [fixed]", "rx_vlan_stag_hw_parse": "off [fixed]", "rx_vlan_stag_filter": "off [fixed]", "l2_fwd_offload": "off [fixed]", "hw_tc_offload": "off [fixed]", "esp_hw_offload": "off [fixed]", "esp_tx_csum_hw_offload": "off [fixed]", "rx_udp_tunnel_port_offload": "off [fixed]", "tls_hw_tx_offload": "off [fixed]", "rx_gro_hw": "off [fixed]", "tls_hw_record": "off [fixed]"}, "timestamping": ["rx_software", "software"], "hw_timestamp_filters": []}, "ansible_lo": {"device": "lo", "mtu": 65536, "active": true, "type": "loopback", "promisc": false, "ipv4": {"address": "127.0.0.1", "broadcast": "", "netmask": "255.0.0.0", "network": "127.0.0.0"}, "ipv6": [{"address": "::1", "prefix": "128", "scope": "host"}], "features": {"rx_checksumming": "on [fixed]", "tx_checksumming": "on", "tx_checksum_ipv4": "off [fixed]", "tx_checksum_ip_generic": "on [fixed]", "tx_checksum_ipv6": "off [fixed]", "tx_checksum_fcoe_crc": "off [fixed]", "tx_checksum_sctp": "on [fixed]", "scatter_gather": "on", "tx_scatter_gather": "on [fixed]", "tx_scatter_gather_fraglist": "on [fixed]", "tcp_segmentation_offload": "on", "tx_tcp_segmentation": "on", "tx_tcp_ecn_segmentation": "on", "tx_tcp_mangleid_segmentation": "on", "tx_tcp6_segmentation": "on", "generic_segmentation_offload": "on", "generic_receive_offload": "on", "large_receive_offload": "off [fixed]", "rx_vlan_offload": "off [fixed]", "tx_vlan_offload": "off [fixed]", "ntuple_filters": "off [fixed]", "receive_hashing": "off [fixed]", "highdma": "on [fixed]", "rx_vlan_filter": "off [fixed]", "vlan_challenged": "on [fixed]", "tx_lockless": "on [fixed]", "netns_local": "on [fixed]", "tx_gso_robust": "off [fixed]", "tx_fcoe_segmentation": "off [fixed]", "tx_gre_segmentation": "off [fixed]", "tx_gre_csum_segmentation": "off [fixed]", "tx_ipxip4_segmentation": "off [fixed]", "tx_ipxip6_segmentation": "off [fixed]", "tx_udp_tnl_segmentation": "off [fixed]", "tx_udp_tnl_csum_segmentation": "off [fixed]", "tx_gso_partial": "off [fixed]", "tx_sctp_segmentation": "on", "tx_esp_segmentation": "off [fixed]", "tx_udp_segmentation": "off [fixed]", "tls_hw_rx_offload": "off [fixed]", "fcoe_mtu": "off [fixed]", "tx_nocache_copy": "off [fixed]", "loopback": "on [fixed]", "rx_fcs": "off [fixed]", "rx_all": "off [fixed]", "tx_vlan_stag_hw_insert": "off [fixed]", "rx_vlan_stag_hw_parse": "off [fixed]", "rx_vlan_stag_filter": "off [fixed]", "l2_fwd_offload": "off [fixed]", "hw_tc_offload": "off [fixed]", "esp_hw_offload": "off [fixed]", "esp_tx_csum_hw_offload": "off [fixed]", "rx_udp_tunnel_port_offload": "off [fixed]", "tls_hw_tx_offload": "off [fixed]", "rx_gro_hw": "off [fixed]", "tls_hw_record": "off [fixed]"}, "timestamping": ["tx_software", "rx_software", "software"], "hw_timestamp_filters": []}, "ansible_default_ipv4": {"gateway": "192.168.90.1", "interface": "ens192", "address": "192.168.90.164", "broadcast": "192.168.90.255", "netmask": "255.255.255.0", "network": "192.168.90.0", "macaddress": "00:50:56:a5:6c:61", "mtu": 1500, "type": "ether", "alias": "ens192"}, "ansible_default_ipv6": {}, "ansible_all_ipv4_addresses": ["192.168.90.164"], "ansible_all_ipv6_addresses": ["fe80::5eff:116a:ac8e:818a", "fe80::1ef1:9e0a:a552:9165", "fe80::be45:3ee6:efc1:240"], "ansible_processor": ["0", "GenuineIntel", "Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz", "1", "GenuineIntel", "Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz"], "ansible_processor_count": 2, "ansible_processor_cores": 1, "ansible_processor_threads_per_core": 1, "ansible_processor_vcpus": 2, "ansible_memtotal_mb": 1828, "ansible_memfree_mb": 1107, "ansible_swaptotal_mb": 1639, "ansible_swapfree_mb": 1639, "ansible_memory_mb": {"real": {"total": 1828, "used": 721, "free": 1107}, "nocache": {"free": 1529, "used": 299}, "swap": {"total": 1639, "free": 1639, "used": 0, "cached": 0}}, "ansible_bios_date": "06/19/2019", "ansible_bios_version": "VMW71.00V.13989454.B64.1906190538", "ansible_form_factor": "Other", "ansible_product_name": "VMware7,1", "ansible_product_serial": "VMware-42 25 f6 ae 24 25 c4 03-33 30 1d 3a e6 b8 48 bb", "ansible_product_uuid": "aef62542-2524-03c4-3330-1d3ae6b848bb", "ansible_product_version": "None", "ansible_system_vendor": "VMware, Inc.", "ansible_devices": {"dm-1": {"virtual": 1, "links": {"ids": ["dm-name-cs_lx-swap", "dm-uuid-LVM-gBNdP44o4gg9Xp9s1PpgXJpmcezdtmcqw2zvAhbB0AgjyROxqaccvuGkfDrXJZxY"], "uuids": ["323aa962-0bc6-42e1-99d8-4259c4f512df"], "labels": [], "masters": []}, "vendor": null, "model": null, "sas_address": null, "sas_device_handle": null, "removable": "0", "support_discard": "0", "partitions": {}, "rotational": "1", "scheduler_mode": "", "sectors": "3358720", "sectorsize": "512", "size": "1.60 GB", "host": "", "holders": []}, "sr0": {"virtual": 1, "links": {"ids": ["ata-VMware_Virtual_SATA_CDRW_Drive_00000000000000000001"], "uuids": [], "labels": [], "masters": []}, "vendor": "NECVMWar", "model": "VMware SATA CD00", "sas_address": null, "sas_device_handle": null, "removable": "1", "support_discard": "0", "partitions": {}, "rotational": "1", "scheduler_mode": "mq-deadline", "sectors": "2097151", "sectorsize": "512", "size": "1024.00 MB", "host": "SATA controller: VMware SATA AHCI controller", "holders": []}, "dm-0": {"virtual": 1, "links": {"ids": ["dm-name-cs_lx-root", "dm-uuid-LVM-gBNdP44o4gg9Xp9s1PpgXJpmcezdtmcqeNhItsEDQlvwzpyPct1irrZcmMzl31ii"], "uuids": ["01b386bc-ab5e-4d75-807a-7e7023f25924"], "labels": [], "masters": []}, "vendor": null, "model": null, "sas_address": null, "sas_device_handle": null, "removable": "0", "support_discard": "0", "partitions": {}, "rotational": "1", "scheduler_mode": "", "sectors": "26861568", "sectorsize": "512", "size": "12.81 GB", "host": "", "holders": []}, "sda": {"virtual": 1, "links": {"ids": [], "uuids": [], "labels": [], "masters": []}, "vendor": "VMware", "model": "Virtual disk", "sas_address": null, "sas_device_handle": null, "removable": "0", "support_discard": "0", "partitions": {"sda2": {"links": {"ids": [], "uuids": ["0b665a68-a8bc-43b5-87fb-6007a0383858"], "labels": [], "masters": []}, "start": "1230848", "sectors": "2097152", "sectorsize": 512, "size": "1.00 GB", "uuid": "0b665a68-a8bc-43b5-87fb-6007a0383858", "holders": []}, "sda3": {"links": {"ids": ["lvm-pv-uuid-HAoUmJ-G7a4-REZd-MDRu-L0J0-vY2e-7wRAWs"], "uuids": [], "labels": [], "masters": ["dm-0", "dm-1"]}, "start": "3328000", "sectors": "30224384", "sectorsize": 512, "size": "14.41 GB", "uuid": null, "holders": ["cs_lx-swap", "cs_lx-root"]}, "sda1": {"links": {"ids": [], "uuids": ["F580-EFCE"], "labels": [], "masters": []}, "start": "2048", "sectors": "1228800", "sectorsize": 512, "size": "600.00 MB", "uuid": "F580-EFCE", "holders": []}}, "rotational": "1", "scheduler_mode": "mq-deadline", "sectors": "33554432", "sectorsize": "512", "size": "16.00 GB", "host": "Serial Attached SCSI controller: VMware PVSCSI SCSI Controller (rev 02)", "holders": []}}, "ansible_device_links": {"ids": {"dm-1": ["dm-name-cs_lx-swap", "dm-uuid-LVM-gBNdP44o4gg9Xp9s1PpgXJpmcezdtmcqw2zvAhbB0AgjyROxqaccvuGkfDrXJZxY"], "dm-0": ["dm-name-cs_lx-root", "dm-uuid-LVM-gBNdP44o4gg9Xp9s1PpgXJpmcezdtmcqeNhItsEDQlvwzpyPct1irrZcmMzl31ii"], "sr0": ["ata-VMware_Virtual_SATA_CDRW_Drive_00000000000000000001"], "sda3": ["lvm-pv-uuid-HAoUmJ-G7a4-REZd-MDRu-L0J0-vY2e-7wRAWs"]}, "uuids": {"dm-1": ["323aa962-0bc6-42e1-99d8-4259c4f512df"], "dm-0": ["01b386bc-ab5e-4d75-807a-7e7023f25924"], "sda2": ["0b665a68-a8bc-43b5-87fb-6007a0383858"], "sda1": ["F580-EFCE"]}, "labels": {}, "masters": {"sda3": ["dm-0", "dm-1"]}}, "ansible_uptime_seconds": 104020, "ansible_lvm": {"lvs": {"root": {"size_g": "12.81", "vg": "cs_lx"}, "swap": {"size_g": "1.60", "vg": "cs_lx"}}, "vgs": {"cs_lx": {"size_g": "14.41", "free_g": "0", "num_lvs": "2", "num_pvs": "1"}}, "pvs": {"/dev/sda3": {"size_g": "14.41", "free_g": "0", "vg": "cs_lx"}}}, "ansible_mounts": [{"mount": "/", "device": "/dev/mapper/cs_lx-root", "fstype": "xfs", "options": "rw,seclabel,relatime,attr2,inode64,noquota", "size_total": 13742637056, "size_available": 11999031296, "block_size": 4096, "block_total": 3355136, "block_available": 2929451, "block_used": 425685, "inode_total": 6715392, "inode_available": 6676610, "inode_used": 38782, "uuid": "01b386bc-ab5e-4d75-807a-7e7023f25924"}, {"mount": "/boot", "device": "/dev/sda2", "fstype": "ext4", "options": "rw,seclabel,relatime", "size_total": 1023303680, "size_available": 765947904, "block_size": 4096, "block_total": 249830, "block_available": 186999, "block_used": 62831, "inode_total": 65536, "inode_available": 65503, "inode_used": 33, "uuid": "0b665a68-a8bc-43b5-87fb-6007a0383858"}, {"mount": "/boot/efi", "device": "/dev/sda1", "fstype": "vfat", "options": "rw,relatime,fmask=0077,dmask=0077,codepage=437,iocharset=ascii,shortname=winnt,errors=remount-ro", "size_total": 627900416, "size_available": 620826624, "block_size": 4096, "block_total": 153296, "block_available": 151569, "block_used": 1727, "inode_total": 0, "inode_available": 0, "inode_used": 0, "uuid": "F580-EFCE"}], "ansible_service_mgr": "systemd", "gather_subset": ["all"], "module_setup": true}, "invocation": {"module_args": {"gather_subset": ["all"], "gather_timeout": 10, "filter": "*", "fact_path": "/etc/ansible/facts.d"}}}\r\n', b"OpenSSH_8.0p1, OpenSSL 1.1.1c FIPS  28 May 2019\r\ndebug1: Reading configuration data /etc/ssh/ssh_config\r\ndebug3: /etc/ssh/ssh_config line 51: Including file /etc/ssh/ssh_config.d/05-redhat.conf depth 0\r\ndebug1: Reading configuration data /etc/ssh/ssh_config.d/05-redhat.conf\r\ndebug2: checking match for 'final all' host lx100-3 originally lx100-3\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 3: not matched 'final'\r\ndebug2: match not found\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 5: Including file /etc/crypto-policies/back-ends/openssh.config depth 1 (parse only)\r\ndebug1: Reading configuration data /etc/crypto-policies/back-ends/openssh.config\r\ndebug3: gss kex names ok: [gss-gex-sha1-,gss-group14-sha1-]\r\ndebug3: kex names ok: [curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1]\r\ndebug1: configuration requests final Match pass\r\ndebug1: re-parsing configuration\r\ndebug1: Reading configuration data /etc/ssh/ssh_config\r\ndebug3: /etc/ssh/ssh_config line 51: Including file /etc/ssh/ssh_config.d/05-redhat.conf depth 0\r\ndebug1: Reading configuration data /etc/ssh/ssh_config.d/05-redhat.conf\r\ndebug2: checking match for 'final all' host lx100-3 originally lx100-3\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 3: matched 'final'\r\ndebug2: match found\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 5: Including file /etc/crypto-policies/back-ends/openssh.config depth 1\r\ndebug1: Reading configuration data /etc/crypto-policies/back-ends/openssh.config\r\ndebug3: gss kex names ok: [gss-gex-sha1-,gss-group14-sha1-]\r\ndebug3: kex names ok: [curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1]\r\ndebug1: auto-mux: Trying existing master\r\ndebug2: fd 4 setting O_NONBLOCK\r\ndebug2: mux_client_hello_exchange: master version 4\r\ndebug3: mux_client_forwards: request forwardings: 0 local, 0 remote\r\ndebug3: mux_client_request_session: entering\r\ndebug3: mux_client_request_alive: entering\r\ndebug3: mux_client_request_alive: done pid = 8551\r\ndebug3: mux_client_request_session: session request sent\r\ndebug3: mux_client_read_packet: read header failed: Broken pipe\r\ndebug2: Received exit status from master 0\r\nShared connection to lx100-3 closed.\r\n")
+2020-12-08 11:09:20,480 p=8547 u=radovan n=ansible | <lx100-3> ESTABLISH SSH CONNECTION FOR USER: ansible
+2020-12-08 11:09:20,481 p=8547 u=radovan n=ansible | <lx100-3> SSH: EXEC ssh -vvv -C -o ControlMaster=auto -o ControlPersist=60s -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o 'User="ansible"' -o ConnectTimeout=10 -o ControlPath=/home/radovan/.ansible/cp/02ebf528c4 lx100-3 '/bin/sh -c '"'"'rm -f -r /home/ansible/.ansible/tmp/ansible-tmp-1607422158.8619173-8547-66294017505164/ > /dev/null 2>&1 && sleep 0'"'"''
+2020-12-08 11:09:20,538 p=8547 u=radovan n=ansible | <lx100-3> (0, b'', b"OpenSSH_8.0p1, OpenSSL 1.1.1c FIPS  28 May 2019\r\ndebug1: Reading configuration data /etc/ssh/ssh_config\r\ndebug3: /etc/ssh/ssh_config line 51: Including file /etc/ssh/ssh_config.d/05-redhat.conf depth 0\r\ndebug1: Reading configuration data /etc/ssh/ssh_config.d/05-redhat.conf\r\ndebug2: checking match for 'final all' host lx100-3 originally lx100-3\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 3: not matched 'final'\r\ndebug2: match not found\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 5: Including file /etc/crypto-policies/back-ends/openssh.config depth 1 (parse only)\r\ndebug1: Reading configuration data /etc/crypto-policies/back-ends/openssh.config\r\ndebug3: gss kex names ok: [gss-gex-sha1-,gss-group14-sha1-]\r\ndebug3: kex names ok: [curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1]\r\ndebug1: configuration requests final Match pass\r\ndebug1: re-parsing configuration\r\ndebug1: Reading configuration data /etc/ssh/ssh_config\r\ndebug3: /etc/ssh/ssh_config line 51: Including file /etc/ssh/ssh_config.d/05-redhat.conf depth 0\r\ndebug1: Reading configuration data /etc/ssh/ssh_config.d/05-redhat.conf\r\ndebug2: checking match for 'final all' host lx100-3 originally lx100-3\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 3: matched 'final'\r\ndebug2: match found\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 5: Including file /etc/crypto-policies/back-ends/openssh.config depth 1\r\ndebug1: Reading configuration data /etc/crypto-policies/back-ends/openssh.config\r\ndebug3: gss kex names ok: [gss-gex-sha1-,gss-group14-sha1-]\r\ndebug3: kex names ok: [curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1]\r\ndebug1: auto-mux: Trying existing master\r\ndebug2: fd 4 setting O_NONBLOCK\r\ndebug2: mux_client_hello_exchange: master version 4\r\ndebug3: mux_client_forwards: request forwardings: 0 local, 0 remote\r\ndebug3: mux_client_request_session: entering\r\ndebug3: mux_client_request_alive: entering\r\ndebug3: mux_client_request_alive: done pid = 8551\r\ndebug3: mux_client_request_session: session request sent\r\ndebug3: mux_client_read_packet: read header failed: Broken pipe\r\ndebug2: Received exit status from master 0\r\n")
+2020-12-08 11:09:20,576 p=8540 u=radovan n=ansible | ok: [lx100-3]
+2020-12-08 11:09:20,577 p=8540 u=radovan n=ansible | META: ran handlers
+2020-12-08 11:09:20,597 p=8540 u=radovan n=ansible | TASK [Install default packages] ***********************************************************************************************************
+2020-12-08 11:09:20,617 p=8559 u=radovan n=ansible | <lx100-3> ESTABLISH SSH CONNECTION FOR USER: ansible
+2020-12-08 11:09:20,619 p=8559 u=radovan n=ansible | <lx100-3> SSH: EXEC ssh -vvv -C -o ControlMaster=auto -o ControlPersist=60s -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o 'User="ansible"' -o ConnectTimeout=10 -o ControlPath=/home/radovan/.ansible/cp/02ebf528c4 lx100-3 '/bin/sh -c '"'"'echo ~ansible && sleep 0'"'"''
+2020-12-08 11:09:20,670 p=8559 u=radovan n=ansible | <lx100-3> (0, b'/home/ansible\n', b"OpenSSH_8.0p1, OpenSSL 1.1.1c FIPS  28 May 2019\r\ndebug1: Reading configuration data /etc/ssh/ssh_config\r\ndebug3: /etc/ssh/ssh_config line 51: Including file /etc/ssh/ssh_config.d/05-redhat.conf depth 0\r\ndebug1: Reading configuration data /etc/ssh/ssh_config.d/05-redhat.conf\r\ndebug2: checking match for 'final all' host lx100-3 originally lx100-3\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 3: not matched 'final'\r\ndebug2: match not found\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 5: Including file /etc/crypto-policies/back-ends/openssh.config depth 1 (parse only)\r\ndebug1: Reading configuration data /etc/crypto-policies/back-ends/openssh.config\r\ndebug3: gss kex names ok: [gss-gex-sha1-,gss-group14-sha1-]\r\ndebug3: kex names ok: [curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1]\r\ndebug1: configuration requests final Match pass\r\ndebug1: re-parsing configuration\r\ndebug1: Reading configuration data /etc/ssh/ssh_config\r\ndebug3: /etc/ssh/ssh_config line 51: Including file /etc/ssh/ssh_config.d/05-redhat.conf depth 0\r\ndebug1: Reading configuration data /etc/ssh/ssh_config.d/05-redhat.conf\r\ndebug2: checking match for 'final all' host lx100-3 originally lx100-3\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 3: matched 'final'\r\ndebug2: match found\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 5: Including file /etc/crypto-policies/back-ends/openssh.config depth 1\r\ndebug1: Reading configuration data /etc/crypto-policies/back-ends/openssh.config\r\ndebug3: gss kex names ok: [gss-gex-sha1-,gss-group14-sha1-]\r\ndebug3: kex names ok: [curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1]\r\ndebug1: auto-mux: Trying existing master\r\ndebug2: fd 4 setting O_NONBLOCK\r\ndebug2: mux_client_hello_exchange: master version 4\r\ndebug3: mux_client_forwards: request forwardings: 0 local, 0 remote\r\ndebug3: mux_client_request_session: entering\r\ndebug3: mux_client_request_alive: entering\r\ndebug3: mux_client_request_alive: done pid = 8551\r\ndebug3: mux_client_request_session: session request sent\r\ndebug3: mux_client_read_packet: read header failed: Broken pipe\r\ndebug2: Received exit status from master 0\r\n")
+2020-12-08 11:09:20,671 p=8559 u=radovan n=ansible | <lx100-3> ESTABLISH SSH CONNECTION FOR USER: ansible
+2020-12-08 11:09:20,672 p=8559 u=radovan n=ansible | <lx100-3> SSH: EXEC ssh -vvv -C -o ControlMaster=auto -o ControlPersist=60s -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o 'User="ansible"' -o ConnectTimeout=10 -o ControlPath=/home/radovan/.ansible/cp/02ebf528c4 lx100-3 '/bin/sh -c '"'"'( umask 77 && mkdir -p "` echo /home/ansible/.ansible/tmp `"&& mkdir "` echo /home/ansible/.ansible/tmp/ansible-tmp-1607422160.6711195-8559-125593946020006 `" && echo ansible-tmp-1607422160.6711195-8559-125593946020006="` echo /home/ansible/.ansible/tmp/ansible-tmp-1607422160.6711195-8559-125593946020006 `" ) && sleep 0'"'"''
+2020-12-08 11:09:20,720 p=8559 u=radovan n=ansible | <lx100-3> (0, b'ansible-tmp-1607422160.6711195-8559-125593946020006=/home/ansible/.ansible/tmp/ansible-tmp-1607422160.6711195-8559-125593946020006\n', b"OpenSSH_8.0p1, OpenSSL 1.1.1c FIPS  28 May 2019\r\ndebug1: Reading configuration data /etc/ssh/ssh_config\r\ndebug3: /etc/ssh/ssh_config line 51: Including file /etc/ssh/ssh_config.d/05-redhat.conf depth 0\r\ndebug1: Reading configuration data /etc/ssh/ssh_config.d/05-redhat.conf\r\ndebug2: checking match for 'final all' host lx100-3 originally lx100-3\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 3: not matched 'final'\r\ndebug2: match not found\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 5: Including file /etc/crypto-policies/back-ends/openssh.config depth 1 (parse only)\r\ndebug1: Reading configuration data /etc/crypto-policies/back-ends/openssh.config\r\ndebug3: gss kex names ok: [gss-gex-sha1-,gss-group14-sha1-]\r\ndebug3: kex names ok: [curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1]\r\ndebug1: configuration requests final Match pass\r\ndebug1: re-parsing configuration\r\ndebug1: Reading configuration data /etc/ssh/ssh_config\r\ndebug3: /etc/ssh/ssh_config line 51: Including file /etc/ssh/ssh_config.d/05-redhat.conf depth 0\r\ndebug1: Reading configuration data /etc/ssh/ssh_config.d/05-redhat.conf\r\ndebug2: checking match for 'final all' host lx100-3 originally lx100-3\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 3: matched 'final'\r\ndebug2: match found\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 5: Including file /etc/crypto-policies/back-ends/openssh.config depth 1\r\ndebug1: Reading configuration data /etc/crypto-policies/back-ends/openssh.config\r\ndebug3: gss kex names ok: [gss-gex-sha1-,gss-group14-sha1-]\r\ndebug3: kex names ok: [curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1]\r\ndebug1: auto-mux: Trying existing master\r\ndebug2: fd 4 setting O_NONBLOCK\r\ndebug2: mux_client_hello_exchange: master version 4\r\ndebug3: mux_client_forwards: request forwardings: 0 local, 0 remote\r\ndebug3: mux_client_request_session: entering\r\ndebug3: mux_client_request_alive: entering\r\ndebug3: mux_client_request_alive: done pid = 8551\r\ndebug3: mux_client_request_session: session request sent\r\ndebug3: mux_client_read_packet: read header failed: Broken pipe\r\ndebug2: Received exit status from master 0\r\n")
+2020-12-08 11:09:21,059 p=8559 u=radovan n=ansible | Using module file /usr/lib/python3.6/site-packages/ansible/modules/packaging/os/dnf.py
+2020-12-08 11:09:21,059 p=8559 u=radovan n=ansible | <lx100-3> PUT /home/radovan/.ansible/tmp/ansible-local-8540udtz0qeu/tmpe0z_tx_2 TO /home/ansible/.ansible/tmp/ansible-tmp-1607422160.6711195-8559-125593946020006/AnsiballZ_dnf.py
+2020-12-08 11:09:21,060 p=8559 u=radovan n=ansible | <lx100-3> SSH: EXEC sftp -b - -vvv -C -o ControlMaster=auto -o ControlPersist=60s -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o 'User="ansible"' -o ConnectTimeout=10 -o ControlPath=/home/radovan/.ansible/cp/02ebf528c4 '[lx100-3]'
+2020-12-08 11:09:21,126 p=8559 u=radovan n=ansible | <lx100-3> (0, b'sftp> put /home/radovan/.ansible/tmp/ansible-local-8540udtz0qeu/tmpe0z_tx_2 /home/ansible/.ansible/tmp/ansible-tmp-1607422160.6711195-8559-125593946020006/AnsiballZ_dnf.py\n', b'OpenSSH_8.0p1, OpenSSL 1.1.1c FIPS  28 May 2019\r\ndebug1: Reading configuration data /etc/ssh/ssh_config\r\ndebug3: /etc/ssh/ssh_config line 51: Including file /etc/ssh/ssh_config.d/05-redhat.conf depth 0\r\ndebug1: Reading configuration data /etc/ssh/ssh_config.d/05-redhat.conf\r\ndebug2: checking match for \'final all\' host lx100-3 originally lx100-3\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 3: not matched \'final\'\r\ndebug2: match not found\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 5: Including file /etc/crypto-policies/back-ends/openssh.config depth 1 (parse only)\r\ndebug1: Reading configuration data /etc/crypto-policies/back-ends/openssh.config\r\ndebug3: gss kex names ok: [gss-gex-sha1-,gss-group14-sha1-]\r\ndebug3: kex names ok: [curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1]\r\ndebug1: configuration requests final Match pass\r\ndebug1: re-parsing configuration\r\ndebug1: Reading configuration data /etc/ssh/ssh_config\r\ndebug3: /etc/ssh/ssh_config line 51: Including file /etc/ssh/ssh_config.d/05-redhat.conf depth 0\r\ndebug1: Reading configuration data /etc/ssh/ssh_config.d/05-redhat.conf\r\ndebug2: checking match for \'final all\' host lx100-3 originally lx100-3\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 3: matched \'final\'\r\ndebug2: match found\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 5: Including file /etc/crypto-policies/back-ends/openssh.config depth 1\r\ndebug1: Reading configuration data /etc/crypto-policies/back-ends/openssh.config\r\ndebug3: gss kex names ok: [gss-gex-sha1-,gss-group14-sha1-]\r\ndebug3: kex names ok: [curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1]\r\ndebug1: auto-mux: Trying existing master\r\ndebug2: fd 4 setting O_NONBLOCK\r\ndebug2: mux_client_hello_exchange: master version 4\r\ndebug3: mux_client_forwards: request forwardings: 0 local, 0 remote\r\ndebug3: mux_client_request_session: entering\r\ndebug3: mux_client_request_alive: entering\r\ndebug3: mux_client_request_alive: done pid = 8551\r\ndebug3: mux_client_request_session: session request sent\r\ndebug2: Remote version: 3\r\ndebug2: Server supports extension "posix-rename@openssh.com" revision 1\r\ndebug2: Server supports extension "statvfs@openssh.com" revision 2\r\ndebug2: Server supports extension "fstatvfs@openssh.com" revision 2\r\ndebug2: Server supports extension "hardlink@openssh.com" revision 1\r\ndebug2: Server supports extension "fsync@openssh.com" revision 1\r\ndebug2: Server supports extension "lsetstat@openssh.com" revision 1\r\ndebug3: Sent message fd 3 T:16 I:1\r\ndebug3: SSH_FXP_REALPATH . -> /home/ansible size 0\r\ndebug3: Looking up /home/radovan/.ansible/tmp/ansible-local-8540udtz0qeu/tmpe0z_tx_2\r\ndebug3: Sent message fd 3 T:17 I:2\r\ndebug3: Received stat reply T:101 I:2\r\ndebug1: Couldn\'t stat remote file: No such file or directory\r\ndebug3: Sent message SSH2_FXP_OPEN I:3 P:/home/ansible/.ansible/tmp/ansible-tmp-1607422160.6711195-8559-125593946020006/AnsiballZ_dnf.py\r\ndebug3: Sent message SSH2_FXP_WRITE I:4 O:0 S:32768\r\ndebug3: SSH2_FXP_STATUS 0\r\ndebug3: In write loop, ack for 4 32768 bytes at 0\r\ndebug3: Sent message SSH2_FXP_WRITE I:5 O:32768 S:32768\r\ndebug3: Sent message SSH2_FXP_WRITE I:6 O:65536 S:32768\r\ndebug3: Sent message SSH2_FXP_WRITE I:7 O:98304 S:32768\r\ndebug3: Sent message SSH2_FXP_WRITE I:8 O:131072 S:25615\r\ndebug3: SSH2_FXP_STATUS 0\r\ndebug3: In write loop, ack for 5 32768 bytes at 32768\r\ndebug3: SSH2_FXP_STATUS 0\r\ndebug3: In write loop, ack for 6 32768 bytes at 65536\r\ndebug3: SSH2_FXP_STATUS 0\r\ndebug3: In write loop, ack for 7 32768 bytes at 98304\r\ndebug3: SSH2_FXP_STATUS 0\r\ndebug3: In write loop, ack for 8 25615 bytes at 131072\r\ndebug3: Sent message SSH2_FXP_CLOSE I:4\r\ndebug3: SSH2_FXP_STATUS 0\r\ndebug3: mux_client_read_packet: read header failed: Broken pipe\r\ndebug2: Received exit status from master 0\r\n')
+2020-12-08 11:09:21,127 p=8559 u=radovan n=ansible | <lx100-3> ESTABLISH SSH CONNECTION FOR USER: ansible
+2020-12-08 11:09:21,129 p=8559 u=radovan n=ansible | <lx100-3> SSH: EXEC ssh -vvv -C -o ControlMaster=auto -o ControlPersist=60s -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o 'User="ansible"' -o ConnectTimeout=10 -o ControlPath=/home/radovan/.ansible/cp/02ebf528c4 lx100-3 '/bin/sh -c '"'"'chmod u+x /home/ansible/.ansible/tmp/ansible-tmp-1607422160.6711195-8559-125593946020006/ /home/ansible/.ansible/tmp/ansible-tmp-1607422160.6711195-8559-125593946020006/AnsiballZ_dnf.py && sleep 0'"'"''
+2020-12-08 11:09:21,173 p=8559 u=radovan n=ansible | <lx100-3> (0, b'', b"OpenSSH_8.0p1, OpenSSL 1.1.1c FIPS  28 May 2019\r\ndebug1: Reading configuration data /etc/ssh/ssh_config\r\ndebug3: /etc/ssh/ssh_config line 51: Including file /etc/ssh/ssh_config.d/05-redhat.conf depth 0\r\ndebug1: Reading configuration data /etc/ssh/ssh_config.d/05-redhat.conf\r\ndebug2: checking match for 'final all' host lx100-3 originally lx100-3\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 3: not matched 'final'\r\ndebug2: match not found\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 5: Including file /etc/crypto-policies/back-ends/openssh.config depth 1 (parse only)\r\ndebug1: Reading configuration data /etc/crypto-policies/back-ends/openssh.config\r\ndebug3: gss kex names ok: [gss-gex-sha1-,gss-group14-sha1-]\r\ndebug3: kex names ok: [curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1]\r\ndebug1: configuration requests final Match pass\r\ndebug1: re-parsing configuration\r\ndebug1: Reading configuration data /etc/ssh/ssh_config\r\ndebug3: /etc/ssh/ssh_config line 51: Including file /etc/ssh/ssh_config.d/05-redhat.conf depth 0\r\ndebug1: Reading configuration data /etc/ssh/ssh_config.d/05-redhat.conf\r\ndebug2: checking match for 'final all' host lx100-3 originally lx100-3\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 3: matched 'final'\r\ndebug2: match found\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 5: Including file /etc/crypto-policies/back-ends/openssh.config depth 1\r\ndebug1: Reading configuration data /etc/crypto-policies/back-ends/openssh.config\r\ndebug3: gss kex names ok: [gss-gex-sha1-,gss-group14-sha1-]\r\ndebug3: kex names ok: [curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1]\r\ndebug1: auto-mux: Trying existing master\r\ndebug2: fd 4 setting O_NONBLOCK\r\ndebug2: mux_client_hello_exchange: master version 4\r\ndebug3: mux_client_forwards: request forwardings: 0 local, 0 remote\r\ndebug3: mux_client_request_session: entering\r\ndebug3: mux_client_request_alive: entering\r\ndebug3: mux_client_request_alive: done pid = 8551\r\ndebug3: mux_client_request_session: session request sent\r\ndebug3: mux_client_read_packet: read header failed: Broken pipe\r\ndebug2: Received exit status from master 0\r\n")
+2020-12-08 11:09:21,174 p=8559 u=radovan n=ansible | <lx100-3> ESTABLISH SSH CONNECTION FOR USER: ansible
+2020-12-08 11:09:21,175 p=8559 u=radovan n=ansible | <lx100-3> SSH: EXEC ssh -vvv -C -o ControlMaster=auto -o ControlPersist=60s -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o 'User="ansible"' -o ConnectTimeout=10 -o ControlPath=/home/radovan/.ansible/cp/02ebf528c4 -tt lx100-3 '/bin/sh -c '"'"'sudo -H -S -n  -u root /bin/sh -c '"'"'"'"'"'"'"'"'echo BECOME-SUCCESS-jwhfdtlsykzffqaolgjyuzlbxjpzejew ; /usr/bin/python3 /home/ansible/.ansible/tmp/ansible-tmp-1607422160.6711195-8559-125593946020006/AnsiballZ_dnf.py'"'"'"'"'"'"'"'"' && sleep 0'"'"''
+2020-12-08 11:09:21,251 p=8559 u=radovan n=ansible | Escalation succeeded
+2020-12-08 11:09:22,908 p=8559 u=radovan n=ansible | <lx100-3> (0, b'\r\n{"msg": "Nothing to do", "changed": false, "results": [], "rc": 0, "invocation": {"module_args": {"name": ["mc", "ksh", "epel-release"], "state": "latest", "allow_downgrade": false, "autoremove": false, "bugfix": false, "disable_gpg_check": false, "disable_plugin": [], "disablerepo": [], "download_only": false, "enable_plugin": [], "enablerepo": [], "exclude": [], "installroot": "/", "install_repoquery": true, "install_weak_deps": true, "security": false, "skip_broken": false, "update_cache": false, "update_only": false, "validate_certs": true, "lock_timeout": 30, "conf_file": null, "disable_excludes": null, "download_dir": null, "list": null, "releasever": null}}}\r\n', b"OpenSSH_8.0p1, OpenSSL 1.1.1c FIPS  28 May 2019\r\ndebug1: Reading configuration data /etc/ssh/ssh_config\r\ndebug3: /etc/ssh/ssh_config line 51: Including file /etc/ssh/ssh_config.d/05-redhat.conf depth 0\r\ndebug1: Reading configuration data /etc/ssh/ssh_config.d/05-redhat.conf\r\ndebug2: checking match for 'final all' host lx100-3 originally lx100-3\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 3: not matched 'final'\r\ndebug2: match not found\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 5: Including file /etc/crypto-policies/back-ends/openssh.config depth 1 (parse only)\r\ndebug1: Reading configuration data /etc/crypto-policies/back-ends/openssh.config\r\ndebug3: gss kex names ok: [gss-gex-sha1-,gss-group14-sha1-]\r\ndebug3: kex names ok: [curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1]\r\ndebug1: configuration requests final Match pass\r\ndebug1: re-parsing configuration\r\ndebug1: Reading configuration data /etc/ssh/ssh_config\r\ndebug3: /etc/ssh/ssh_config line 51: Including file /etc/ssh/ssh_config.d/05-redhat.conf depth 0\r\ndebug1: Reading configuration data /etc/ssh/ssh_config.d/05-redhat.conf\r\ndebug2: checking match for 'final all' host lx100-3 originally lx100-3\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 3: matched 'final'\r\ndebug2: match found\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 5: Including file /etc/crypto-policies/back-ends/openssh.config depth 1\r\ndebug1: Reading configuration data /etc/crypto-policies/back-ends/openssh.config\r\ndebug3: gss kex names ok: [gss-gex-sha1-,gss-group14-sha1-]\r\ndebug3: kex names ok: [curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1]\r\ndebug1: auto-mux: Trying existing master\r\ndebug2: fd 4 setting O_NONBLOCK\r\ndebug2: mux_client_hello_exchange: master version 4\r\ndebug3: mux_client_forwards: request forwardings: 0 local, 0 remote\r\ndebug3: mux_client_request_session: entering\r\ndebug3: mux_client_request_alive: entering\r\ndebug3: mux_client_request_alive: done pid = 8551\r\ndebug3: mux_client_request_session: session request sent\r\ndebug3: mux_client_read_packet: read header failed: Broken pipe\r\ndebug2: Received exit status from master 0\r\nShared connection to lx100-3 closed.\r\n")
+2020-12-08 11:09:22,910 p=8559 u=radovan n=ansible | <lx100-3> ESTABLISH SSH CONNECTION FOR USER: ansible
+2020-12-08 11:09:22,911 p=8559 u=radovan n=ansible | <lx100-3> SSH: EXEC ssh -vvv -C -o ControlMaster=auto -o ControlPersist=60s -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o 'User="ansible"' -o ConnectTimeout=10 -o ControlPath=/home/radovan/.ansible/cp/02ebf528c4 lx100-3 '/bin/sh -c '"'"'rm -f -r /home/ansible/.ansible/tmp/ansible-tmp-1607422160.6711195-8559-125593946020006/ > /dev/null 2>&1 && sleep 0'"'"''
+2020-12-08 11:09:22,967 p=8559 u=radovan n=ansible | <lx100-3> (0, b'', b"OpenSSH_8.0p1, OpenSSL 1.1.1c FIPS  28 May 2019\r\ndebug1: Reading configuration data /etc/ssh/ssh_config\r\ndebug3: /etc/ssh/ssh_config line 51: Including file /etc/ssh/ssh_config.d/05-redhat.conf depth 0\r\ndebug1: Reading configuration data /etc/ssh/ssh_config.d/05-redhat.conf\r\ndebug2: checking match for 'final all' host lx100-3 originally lx100-3\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 3: not matched 'final'\r\ndebug2: match not found\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 5: Including file /etc/crypto-policies/back-ends/openssh.config depth 1 (parse only)\r\ndebug1: Reading configuration data /etc/crypto-policies/back-ends/openssh.config\r\ndebug3: gss kex names ok: [gss-gex-sha1-,gss-group14-sha1-]\r\ndebug3: kex names ok: [curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1]\r\ndebug1: configuration requests final Match pass\r\ndebug1: re-parsing configuration\r\ndebug1: Reading configuration data /etc/ssh/ssh_config\r\ndebug3: /etc/ssh/ssh_config line 51: Including file /etc/ssh/ssh_config.d/05-redhat.conf depth 0\r\ndebug1: Reading configuration data /etc/ssh/ssh_config.d/05-redhat.conf\r\ndebug2: checking match for 'final all' host lx100-3 originally lx100-3\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 3: matched 'final'\r\ndebug2: match found\r\ndebug3: /etc/ssh/ssh_config.d/05-redhat.conf line 5: Including file /etc/crypto-policies/back-ends/openssh.config depth 1\r\ndebug1: Reading configuration data /etc/crypto-policies/back-ends/openssh.config\r\ndebug3: gss kex names ok: [gss-gex-sha1-,gss-group14-sha1-]\r\ndebug3: kex names ok: [curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1]\r\ndebug1: auto-mux: Trying existing master\r\ndebug2: fd 4 setting O_NONBLOCK\r\ndebug2: mux_client_hello_exchange: master version 4\r\ndebug3: mux_client_forwards: request forwardings: 0 local, 0 remote\r\ndebug3: mux_client_request_session: entering\r\ndebug3: mux_client_request_alive: entering\r\ndebug3: mux_client_request_alive: done pid = 8551\r\ndebug3: mux_client_request_session: session request sent\r\ndebug3: mux_client_read_packet: read header failed: Broken pipe\r\ndebug2: Received exit status from master 0\r\n")
+2020-12-08 11:09:22,975 p=8540 u=radovan n=ansible | ok: [lx100-3] => {
+    "changed": false,
+    "invocation": {
+        "module_args": {
+            "allow_downgrade": false,
+            "autoremove": false,
+            "bugfix": false,
+            "conf_file": null,
+            "disable_excludes": null,
+            "disable_gpg_check": false,
+            "disable_plugin": [],
+            "disablerepo": [],
+            "download_dir": null,
+            "download_only": false,
+            "enable_plugin": [],
+            "enablerepo": [],
+            "exclude": [],
+            "install_repoquery": true,
+            "install_weak_deps": true,
+            "installroot": "/",
+            "list": null,
+            "lock_timeout": 30,
+            "name": [
+                "mc",
+                "ksh",
+                "epel-release"
+            ],
+            "releasever": null,
+            "security": false,
+            "skip_broken": false,
+            "state": "latest",
+            "update_cache": false,
+            "update_only": false,
+            "validate_certs": true
+        }
+    },
+    "msg": "Nothing to do",
+    "rc": 0,
+    "results": []
+}
+2020-12-08 11:09:22,976 p=8540 u=radovan n=ansible | META: ran handlers
+2020-12-08 11:09:22,976 p=8540 u=radovan n=ansible | META: ran handlers
+2020-12-08 11:09:22,981 p=8540 u=radovan n=ansible | PLAY RECAP ********************************************************************************************************************************
+2020-12-08 11:09:22,981 p=8540 u=radovan n=ansible | lx100-3                    : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-12-08 11:44:03,131 p=8643 u=radovan n=ansible | PLAY [Set hostname] *********************************************************************************************************************
+2020-12-08 11:44:03,148 p=8643 u=radovan n=ansible | TASK [Gathering Facts] ******************************************************************************************************************
+2020-12-08 11:44:05,274 p=8643 u=radovan n=ansible | ok: [lx100-3]
+2020-12-08 11:44:05,654 p=8643 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 11:44:06,225 p=8643 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 11:44:06,277 p=8643 u=radovan n=ansible | ok: [lx100-2]
+2020-12-08 11:44:06,300 p=8643 u=radovan n=ansible | TASK [Set hostname] *********************************************************************************************************************
+2020-12-08 11:44:08,078 p=8643 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 11:44:08,285 p=8643 u=radovan n=ansible | changed: [lx100-4]
+2020-12-08 11:44:08,355 p=8643 u=radovan n=ansible | changed: [lx100-2]
+2020-12-08 11:44:08,431 p=8643 u=radovan n=ansible | changed: [lx100-3]
+2020-12-08 11:44:08,435 p=8643 u=radovan n=ansible | PLAY RECAP ******************************************************************************************************************************
+2020-12-08 11:44:08,435 p=8643 u=radovan n=ansible | lx100-2                    : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-12-08 11:44:08,435 p=8643 u=radovan n=ansible | lx100-3                    : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-12-08 11:44:08,436 p=8643 u=radovan n=ansible | lx100-4                    : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-12-08 11:44:08,436 p=8643 u=radovan n=ansible | lx100-5                    : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-12-08 11:51:23,557 p=8745 u=radovan n=ansible | lx100-4 | CHANGED => {
+    "changed": true,
+    "elapsed": 116,
+    "rebooted": true
+}
+2020-12-08 11:51:36,903 p=8745 u=radovan n=ansible | lx100-2 | CHANGED => {
+    "changed": true,
+    "elapsed": 130,
+    "rebooted": true
+}
+2020-12-08 11:51:37,166 p=8745 u=radovan n=ansible | lx100-3 | CHANGED => {
+    "changed": true,
+    "elapsed": 130,
+    "rebooted": true
+}
+2020-12-08 11:53:21,999 p=8851 u=radovan n=ansible | lx100-2 | CHANGED | rc=0 >>
+ 11:53:21 up 3 min,  2 users,  load average: 0.47, 0.87, 0.42
+
+2020-12-08 11:53:22,000 p=8851 u=radovan n=ansible | lx100-3 | CHANGED | rc=0 >>
+ 11:53:21 up 3 min,  1 user,  load average: 0.39, 0.77, 0.37
+
+2020-12-08 11:53:22,986 p=8851 u=radovan n=ansible | lx100-4 | CHANGED | rc=0 >>
+ 11:53:21 up 3 min,  1 user,  load average: 0.31, 0.54, 0.25
+
+2020-12-08 11:53:57,236 p=8897 u=radovan n=ansible | lx100-4 | CHANGED | rc=0 >>
+ 11:53:57 up 4 min,  1 user,  load average: 0.17, 0.48, 0.24
+
+2020-12-08 11:53:57,241 p=8897 u=radovan n=ansible | lx100-2 | CHANGED | rc=0 >>
+ 11:53:57 up 4 min,  2 users,  load average: 0.26, 0.78, 0.40
+
+2020-12-08 11:53:57,254 p=8897 u=radovan n=ansible | lx100-3 | CHANGED | rc=0 >>
+ 11:53:57 up 4 min,  1 user,  load average: 0.22, 0.69, 0.36
+
+2020-12-08 11:54:06,363 p=8934 u=radovan n=ansible | lx100-2 | CHANGED | rc=0 >>
+Tue Dec  8 11:54:06 CET 2020
+
+2020-12-08 11:54:06,372 p=8934 u=radovan n=ansible | lx100-4 | CHANGED | rc=0 >>
+Tue Dec  8 11:54:06 CET 2020
+
+2020-12-08 11:54:06,405 p=8934 u=radovan n=ansible | lx100-3 | CHANGED | rc=0 >>
+Tue Dec  8 11:54:06 CET 2020
+
+2020-12-08 11:54:32,003 p=8971 u=radovan n=ansible | PLAY [Set hostname] *********************************************************************************************************************
+2020-12-08 11:54:32,020 p=8971 u=radovan n=ansible | TASK [Gathering Facts] ******************************************************************************************************************
+2020-12-08 11:54:33,948 p=8971 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 11:54:34,424 p=8971 u=radovan n=ansible | ok: [lx100-2]
+2020-12-08 11:54:34,518 p=8971 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 11:54:34,600 p=8971 u=radovan n=ansible | ok: [lx100-3]
+2020-12-08 11:54:34,619 p=8971 u=radovan n=ansible | TASK [Set hostname] *********************************************************************************************************************
+2020-12-08 11:54:36,109 p=8971 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 11:54:36,391 p=8971 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 11:54:36,420 p=8971 u=radovan n=ansible | ok: [lx100-2]
+2020-12-08 11:54:36,442 p=8971 u=radovan n=ansible | ok: [lx100-3]
+2020-12-08 11:54:36,448 p=8971 u=radovan n=ansible | PLAY RECAP ******************************************************************************************************************************
+2020-12-08 11:54:36,448 p=8971 u=radovan n=ansible | lx100-2                    : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-12-08 11:54:36,448 p=8971 u=radovan n=ansible | lx100-3                    : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-12-08 11:54:36,448 p=8971 u=radovan n=ansible | lx100-4                    : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-12-08 11:54:36,449 p=8971 u=radovan n=ansible | lx100-5                    : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-12-08 12:05:52,179 p=9072 u=radovan n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  could not find expected ':'
+
+The error appears to be in '/home/radovan/ansible/08-hostname.yml': line 13, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+(specified line no longer in file, maybe it changed?)
+2020-12-08 12:06:27,072 p=9079 u=radovan n=ansible | PLAY [Set hostname] *********************************************************************************************************************
+2020-12-08 12:06:27,089 p=9079 u=radovan n=ansible | TASK [Gathering Facts] ******************************************************************************************************************
+2020-12-08 12:06:29,191 p=9079 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 12:06:29,293 p=9079 u=radovan n=ansible | ok: [lx100-3]
+2020-12-08 12:06:29,311 p=9079 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 12:06:29,325 p=9079 u=radovan n=ansible | ok: [lx100-2]
+2020-12-08 12:06:29,344 p=9079 u=radovan n=ansible | TASK [Set hostname] *********************************************************************************************************************
+2020-12-08 12:06:30,951 p=9079 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 12:06:31,153 p=9079 u=radovan n=ansible | ok: [lx100-3]
+2020-12-08 12:06:31,202 p=9079 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 12:06:31,342 p=9079 u=radovan n=ansible | ok: [lx100-2]
+2020-12-08 12:06:31,346 p=9079 u=radovan n=ansible | PLAY RECAP ******************************************************************************************************************************
+2020-12-08 12:06:31,346 p=9079 u=radovan n=ansible | lx100-2                    : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-12-08 12:06:31,346 p=9079 u=radovan n=ansible | lx100-3                    : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-12-08 12:06:31,347 p=9079 u=radovan n=ansible | lx100-4                    : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-12-08 12:06:31,347 p=9079 u=radovan n=ansible | lx100-5                    : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-12-08 12:07:32,063 p=9174 u=radovan n=ansible | PLAY [Set hostname] *********************************************************************************************************************
+2020-12-08 12:07:32,078 p=9174 u=radovan n=ansible | TASK [Gathering Facts] ******************************************************************************************************************
+2020-12-08 12:07:34,135 p=9174 u=radovan n=ansible | ok: [lx100-2]
+2020-12-08 12:07:34,163 p=9174 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 12:07:34,223 p=9174 u=radovan n=ansible | ok: [lx100-3]
+2020-12-08 12:07:34,228 p=9174 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 12:07:34,247 p=9174 u=radovan n=ansible | TASK [Set hostname] *********************************************************************************************************************
+2020-12-08 12:07:35,994 p=9174 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 12:07:36,128 p=9174 u=radovan n=ansible | changed: [lx100-2]
+2020-12-08 12:07:36,355 p=9174 u=radovan n=ansible | ok: [lx100-3]
+2020-12-08 12:07:36,402 p=9174 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 12:07:36,403 p=9174 u=radovan n=ansible | RUNNING HANDLER [sys_reboot] ************************************************************************************************************
+2020-12-08 12:08:37,578 p=9174 u=radovan n=ansible | changed: [lx100-2]
+2020-12-08 12:08:37,581 p=9174 u=radovan n=ansible | PLAY RECAP ******************************************************************************************************************************
+2020-12-08 12:08:37,581 p=9174 u=radovan n=ansible | lx100-2                    : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-12-08 12:08:37,581 p=9174 u=radovan n=ansible | lx100-3                    : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-12-08 12:08:37,581 p=9174 u=radovan n=ansible | lx100-4                    : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-12-08 12:08:37,581 p=9174 u=radovan n=ansible | lx100-5                    : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-12-08 12:08:55,262 p=9292 u=radovan n=ansible | lx100-2 | CHANGED | rc=0 >>
+ 12:08:55 up 1 min,  1 user,  load average: 1.54, 0.44, 0.15
+
+2020-12-08 12:08:55,269 p=9292 u=radovan n=ansible | lx100-3 | CHANGED | rc=0 >>
+ 12:08:55 up 19 min,  2 users,  load average: 0.03, 0.05, 0.13
+
+2020-12-08 12:08:55,311 p=9292 u=radovan n=ansible | lx100-4 | CHANGED | rc=0 >>
+ 12:08:55 up 19 min,  1 user,  load average: 0.06, 0.09, 0.10
+
+2020-12-08 12:09:10,979 p=9335 u=radovan n=ansible | PLAY [Set hostname] *********************************************************************************************************************
+2020-12-08 12:09:10,997 p=9335 u=radovan n=ansible | TASK [Gathering Facts] ******************************************************************************************************************
+2020-12-08 12:09:12,728 p=9335 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 12:09:12,809 p=9335 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 12:09:12,830 p=9335 u=radovan n=ansible | ok: [lx100-3]
+2020-12-08 12:09:13,276 p=9335 u=radovan n=ansible | ok: [lx100-2]
+2020-12-08 12:09:13,297 p=9335 u=radovan n=ansible | TASK [Set hostname] *********************************************************************************************************************
+2020-12-08 12:09:14,818 p=9335 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 12:09:15,150 p=9335 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 12:09:15,155 p=9335 u=radovan n=ansible | ok: [lx100-2]
+2020-12-08 12:09:15,162 p=9335 u=radovan n=ansible | ok: [lx100-3]
+2020-12-08 12:09:15,166 p=9335 u=radovan n=ansible | PLAY RECAP ******************************************************************************************************************************
+2020-12-08 12:09:15,166 p=9335 u=radovan n=ansible | lx100-2                    : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-12-08 12:09:15,166 p=9335 u=radovan n=ansible | lx100-3                    : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-12-08 12:09:15,167 p=9335 u=radovan n=ansible | lx100-4                    : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-12-08 12:09:15,167 p=9335 u=radovan n=ansible | lx100-5                    : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-12-08 15:00:46,750 p=10284 u=radovan n=ansible | PLAY [Install and configure Apache] ************************************************************************************
+2020-12-08 15:00:46,768 p=10284 u=radovan n=ansible | TASK [Gathering Facts] *************************************************************************************************
+2020-12-08 15:00:49,293 p=10284 u=radovan n=ansible | ok: [lx100-3]
+2020-12-08 15:00:49,314 p=10284 u=radovan n=ansible | TASK [ensure apache is at the latest version] **************************************************************************
+2020-12-08 15:00:58,737 p=10284 u=radovan n=ansible | changed: [lx100-3]
+2020-12-08 15:00:58,759 p=10284 u=radovan n=ansible | TASK [write the apache config file] ************************************************************************************
+2020-12-08 15:01:00,510 p=10284 u=radovan n=ansible | changed: [lx100-3]
+2020-12-08 15:01:00,535 p=10284 u=radovan n=ansible | TASK [ensure apache is running] ****************************************************************************************
+2020-12-08 15:01:02,200 p=10284 u=radovan n=ansible | changed: [lx100-3]
+2020-12-08 15:01:02,203 p=10284 u=radovan n=ansible | RUNNING HANDLER [restart apache] ***************************************************************************************
+2020-12-08 15:01:04,254 p=10284 u=radovan n=ansible | changed: [lx100-3]
+2020-12-08 15:01:04,256 p=10284 u=radovan n=ansible | PLAY RECAP *************************************************************************************************************
+2020-12-08 15:01:04,257 p=10284 u=radovan n=ansible | lx100-3                    : ok=5    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-12-08 15:15:08,067 p=10399 u=radovan n=ansible | PLAY [Install and configure Apache] ************************************************************************************
+2020-12-08 15:15:08,081 p=10399 u=radovan n=ansible | TASK [Gathering Facts] *************************************************************************************************
+2020-12-08 15:15:10,376 p=10399 u=radovan n=ansible | ok: [lx100-3]
+2020-12-08 15:15:10,396 p=10399 u=radovan n=ansible | TASK [ensure apache is at the latest version] **************************************************************************
+2020-12-08 15:15:12,848 p=10399 u=radovan n=ansible | ok: [lx100-3]
+2020-12-08 15:15:12,878 p=10399 u=radovan n=ansible | TASK [write the apache config file] ************************************************************************************
+2020-12-08 15:15:14,719 p=10399 u=radovan n=ansible | changed: [lx100-3]
+2020-12-08 15:15:14,744 p=10399 u=radovan n=ansible | TASK [ensure apache is running] ****************************************************************************************
+2020-12-08 15:15:16,209 p=10399 u=radovan n=ansible | ok: [lx100-3]
+2020-12-08 15:15:16,211 p=10399 u=radovan n=ansible | RUNNING HANDLER [restart apache] ***************************************************************************************
+2020-12-08 15:15:18,206 p=10399 u=radovan n=ansible | changed: [lx100-3]
+2020-12-08 15:15:18,209 p=10399 u=radovan n=ansible | PLAY RECAP *************************************************************************************************************
+2020-12-08 15:15:18,210 p=10399 u=radovan n=ansible | lx100-3                    : ok=5    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-12-08 15:20:02,379 p=10467 u=radovan n=ansible | lx100-2 | SUCCESS => {
+    "ansible_facts": {
+        "ansible_all_ipv4_addresses": [
+            "192.168.90.163"
+        ],
+        "ansible_all_ipv6_addresses": [
+            "fe80::5eff:116a:ac8e:818a",
+            "fe80::1ef1:9e0a:a552:9165",
+            "fe80::be45:3ee6:efc1:240"
+        ],
+        "ansible_apparmor": {
+            "status": "disabled"
+        },
+        "ansible_architecture": "x86_64",
+        "ansible_bios_date": "06/19/2019",
+        "ansible_bios_version": "VMW71.00V.13989454.B64.1906190538",
+        "ansible_cmdline": {
+            "BOOT_IMAGE": "(hd0,gpt2)/vmlinuz-4.18.0-147.8.1.el8_1.x86_64",
+            "crashkernel": "auto",
+            "quiet": true,
+            "rd.lvm.lv": "cs_lx/swap",
+            "resume": "/dev/mapper/cs_lx-swap",
+            "rhgb": true,
+            "ro": true,
+            "root": "/dev/mapper/cs_lx-root"
+        },
+        "ansible_date_time": {
+            "date": "2020-12-08",
+            "day": "08",
+            "epoch": "1607437201",
+            "hour": "15",
+            "iso8601": "2020-12-08T14:20:01Z",
+            "iso8601_basic": "20201208T152001828751",
+            "iso8601_basic_short": "20201208T152001",
+            "iso8601_micro": "2020-12-08T14:20:01.828751Z",
+            "minute": "20",
+            "month": "12",
+            "second": "01",
+            "time": "15:20:01",
+            "tz": "CET",
+            "tz_offset": "+0100",
+            "weekday": "Tuesday",
+            "weekday_number": "2",
+            "weeknumber": "49",
+            "year": "2020"
+        },
+        "ansible_default_ipv4": {
+            "address": "192.168.90.163",
+            "alias": "ens192",
+            "broadcast": "192.168.90.255",
+            "gateway": "192.168.90.1",
+            "interface": "ens192",
+            "macaddress": "00:50:56:a5:f9:a2",
+            "mtu": 1500,
+            "netmask": "255.255.255.0",
+            "network": "192.168.90.0",
+            "type": "ether"
+        },
+        "ansible_default_ipv6": {},
+        "ansible_device_links": {
+            "ids": {
+                "dm-0": [
+                    "dm-name-cs_lx-root",
+                    "dm-uuid-LVM-gBNdP44o4gg9Xp9s1PpgXJpmcezdtmcqeNhItsEDQlvwzpyPct1irrZcmMzl31ii"
+                ],
+                "dm-1": [
+                    "dm-name-cs_lx-swap",
+                    "dm-uuid-LVM-gBNdP44o4gg9Xp9s1PpgXJpmcezdtmcqw2zvAhbB0AgjyROxqaccvuGkfDrXJZxY"
+                ],
+                "sda3": [
+                    "lvm-pv-uuid-HAoUmJ-G7a4-REZd-MDRu-L0J0-vY2e-7wRAWs"
+                ],
+                "sr0": [
+                    "ata-VMware_Virtual_SATA_CDRW_Drive_00000000000000000001"
+                ]
+            },
+            "labels": {},
+            "masters": {
+                "sda3": [
+                    "dm-0",
+                    "dm-1"
+                ]
+            },
+            "uuids": {
+                "dm-0": [
+                    "01b386bc-ab5e-4d75-807a-7e7023f25924"
+                ],
+                "dm-1": [
+                    "323aa962-0bc6-42e1-99d8-4259c4f512df"
+                ],
+                "sda1": [
+                    "F580-EFCE"
+                ],
+                "sda2": [
+                    "0b665a68-a8bc-43b5-87fb-6007a0383858"
+                ]
+            }
+        },
+        "ansible_devices": {
+            "dm-0": {
+                "holders": [],
+                "host": "",
+                "links": {
+                    "ids": [
+                        "dm-name-cs_lx-root",
+                        "dm-uuid-LVM-gBNdP44o4gg9Xp9s1PpgXJpmcezdtmcqeNhItsEDQlvwzpyPct1irrZcmMzl31ii"
+                    ],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": [
+                        "01b386bc-ab5e-4d75-807a-7e7023f25924"
+                    ]
+                },
+                "model": null,
+                "partitions": {},
+                "removable": "0",
+                "rotational": "1",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "",
+                "sectors": "26861568",
+                "sectorsize": "512",
+                "size": "12.81 GB",
+                "support_discard": "4096",
+                "vendor": null,
+                "virtual": 1
+            },
+            "dm-1": {
+                "holders": [],
+                "host": "",
+                "links": {
+                    "ids": [
+                        "dm-name-cs_lx-swap",
+                        "dm-uuid-LVM-gBNdP44o4gg9Xp9s1PpgXJpmcezdtmcqw2zvAhbB0AgjyROxqaccvuGkfDrXJZxY"
+                    ],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": [
+                        "323aa962-0bc6-42e1-99d8-4259c4f512df"
+                    ]
+                },
+                "model": null,
+                "partitions": {},
+                "removable": "0",
+                "rotational": "1",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "",
+                "sectors": "3358720",
+                "sectorsize": "512",
+                "size": "1.60 GB",
+                "support_discard": "4096",
+                "vendor": null,
+                "virtual": 1
+            },
+            "sda": {
+                "holders": [],
+                "host": "Serial Attached SCSI controller: VMware PVSCSI SCSI Controller (rev 02)",
+                "links": {
+                    "ids": [],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": "Virtual disk",
+                "partitions": {
+                    "sda1": {
+                        "holders": [],
+                        "links": {
+                            "ids": [],
+                            "labels": [],
+                            "masters": [],
+                            "uuids": [
+                                "F580-EFCE"
+                            ]
+                        },
+                        "sectors": "1228800",
+                        "sectorsize": 512,
+                        "size": "600.00 MB",
+                        "start": "2048",
+                        "uuid": "F580-EFCE"
+                    },
+                    "sda2": {
+                        "holders": [],
+                        "links": {
+                            "ids": [],
+                            "labels": [],
+                            "masters": [],
+                            "uuids": [
+                                "0b665a68-a8bc-43b5-87fb-6007a0383858"
+                            ]
+                        },
+                        "sectors": "2097152",
+                        "sectorsize": 512,
+                        "size": "1.00 GB",
+                        "start": "1230848",
+                        "uuid": "0b665a68-a8bc-43b5-87fb-6007a0383858"
+                    },
+                    "sda3": {
+                        "holders": [
+                            "cs_lx-swap",
+                            "cs_lx-root"
+                        ],
+                        "links": {
+                            "ids": [
+                                "lvm-pv-uuid-HAoUmJ-G7a4-REZd-MDRu-L0J0-vY2e-7wRAWs"
+                            ],
+                            "labels": [],
+                            "masters": [
+                                "dm-0",
+                                "dm-1"
+                            ],
+                            "uuids": []
+                        },
+                        "sectors": "30224384",
+                        "sectorsize": 512,
+                        "size": "14.41 GB",
+                        "start": "3328000",
+                        "uuid": null
+                    }
+                },
+                "removable": "0",
+                "rotational": "1",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "mq-deadline",
+                "sectors": "33554432",
+                "sectorsize": "512",
+                "size": "16.00 GB",
+                "support_discard": "4096",
+                "vendor": "VMware",
+                "virtual": 1
+            },
+            "sr0": {
+                "holders": [],
+                "host": "SATA controller: VMware SATA AHCI controller",
+                "links": {
+                    "ids": [
+                        "ata-VMware_Virtual_SATA_CDRW_Drive_00000000000000000001"
+                    ],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": "VMware SATA CD00",
+                "partitions": {},
+                "removable": "1",
+                "rotational": "1",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "mq-deadline",
+                "sectors": "2097151",
+                "sectorsize": "512",
+                "size": "1024.00 MB",
+                "support_discard": "0",
+                "vendor": "NECVMWar",
+                "virtual": 1
+            }
+        },
+        "ansible_distribution": "CentOS",
+        "ansible_distribution_file_parsed": true,
+        "ansible_distribution_file_path": "/etc/redhat-release",
+        "ansible_distribution_file_variety": "RedHat",
+        "ansible_distribution_major_version": "8",
+        "ansible_distribution_release": "Core",
+        "ansible_distribution_version": "8.1",
+        "ansible_dns": {
+            "nameservers": [
+                "192.168.90.1"
+            ],
+            "search": [
+                "edu.net"
+            ]
+        },
+        "ansible_domain": "edu.net",
+        "ansible_effective_group_id": 0,
+        "ansible_effective_user_id": 0,
+        "ansible_ens192": {
+            "active": true,
+            "device": "ens192",
+            "features": {
+                "esp_hw_offload": "off [fixed]",
+                "esp_tx_csum_hw_offload": "off [fixed]",
+                "fcoe_mtu": "off [fixed]",
+                "generic_receive_offload": "on",
+                "generic_segmentation_offload": "on",
+                "highdma": "on",
+                "hw_tc_offload": "off [fixed]",
+                "l2_fwd_offload": "off [fixed]",
+                "large_receive_offload": "on",
+                "loopback": "off [fixed]",
+                "netns_local": "off [fixed]",
+                "ntuple_filters": "off [fixed]",
+                "receive_hashing": "on",
+                "rx_all": "off [fixed]",
+                "rx_checksumming": "on",
+                "rx_fcs": "off [fixed]",
+                "rx_gro_hw": "off [fixed]",
+                "rx_udp_tunnel_port_offload": "off [fixed]",
+                "rx_vlan_filter": "on [fixed]",
+                "rx_vlan_offload": "on",
+                "rx_vlan_stag_filter": "off [fixed]",
+                "rx_vlan_stag_hw_parse": "off [fixed]",
+                "scatter_gather": "on",
+                "tcp_segmentation_offload": "on",
+                "tls_hw_record": "off [fixed]",
+                "tls_hw_rx_offload": "off [fixed]",
+                "tls_hw_tx_offload": "off [fixed]",
+                "tx_checksum_fcoe_crc": "off [fixed]",
+                "tx_checksum_ip_generic": "on",
+                "tx_checksum_ipv4": "off [fixed]",
+                "tx_checksum_ipv6": "off [fixed]",
+                "tx_checksum_sctp": "off [fixed]",
+                "tx_checksumming": "on",
+                "tx_esp_segmentation": "off [fixed]",
+                "tx_fcoe_segmentation": "off [fixed]",
+                "tx_gre_csum_segmentation": "off [fixed]",
+                "tx_gre_segmentation": "off [fixed]",
+                "tx_gso_partial": "off [fixed]",
+                "tx_gso_robust": "off [fixed]",
+                "tx_ipxip4_segmentation": "off [fixed]",
+                "tx_ipxip6_segmentation": "off [fixed]",
+                "tx_lockless": "off [fixed]",
+                "tx_nocache_copy": "off",
+                "tx_scatter_gather": "on",
+                "tx_scatter_gather_fraglist": "off [fixed]",
+                "tx_sctp_segmentation": "off [fixed]",
+                "tx_tcp6_segmentation": "on",
+                "tx_tcp_ecn_segmentation": "off [fixed]",
+                "tx_tcp_mangleid_segmentation": "off",
+                "tx_tcp_segmentation": "on",
+                "tx_udp_segmentation": "off [fixed]",
+                "tx_udp_tnl_csum_segmentation": "off [fixed]",
+                "tx_udp_tnl_segmentation": "off [fixed]",
+                "tx_vlan_offload": "on",
+                "tx_vlan_stag_hw_insert": "off [fixed]",
+                "vlan_challenged": "off [fixed]"
+            },
+            "hw_timestamp_filters": [],
+            "ipv4": {
+                "address": "192.168.90.163",
+                "broadcast": "192.168.90.255",
+                "netmask": "255.255.255.0",
+                "network": "192.168.90.0"
+            },
+            "ipv6": [
+                {
+                    "address": "fe80::5eff:116a:ac8e:818a",
+                    "prefix": "64",
+                    "scope": "link"
+                },
+                {
+                    "address": "fe80::1ef1:9e0a:a552:9165",
+                    "prefix": "64",
+                    "scope": "link"
+                },
+                {
+                    "address": "fe80::be45:3ee6:efc1:240",
+                    "prefix": "64",
+                    "scope": "link"
+                }
+            ],
+            "macaddress": "00:50:56:a5:f9:a2",
+            "module": "vmxnet3",
+            "mtu": 1500,
+            "pciid": "0000:0b:00.0",
+            "promisc": false,
+            "speed": 10000,
+            "timestamping": [
+                "rx_software",
+                "software"
+            ],
+            "type": "ether"
+        },
+        "ansible_env": {
+            "HOME": "/root",
+            "LANG": "C",
+            "LC_ALL": "C",
+            "LC_NUMERIC": "C",
+            "LOGNAME": "root",
+            "LS_COLORS": "rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.m4a=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.oga=01;36:*.opus=01;36:*.spx=01;36:*.xspf=01;36:",
+            "MAIL": "/var/mail/root",
+            "PATH": "/sbin:/bin:/usr/sbin:/usr/bin",
+            "PWD": "/home/ansible",
+            "SHELL": "/bin/bash",
+            "SHLVL": "1",
+            "SUDO_COMMAND": "/bin/sh -c echo BECOME-SUCCESS-hokjnkhqwxoxabjlusbdrjtvwcsrbrye ; /usr/bin/python3 /home/ansible/.ansible/tmp/ansible-tmp-1607437200.4647875-10474-51312521911506/AnsiballZ_setup.py",
+            "SUDO_GID": "1000",
+            "SUDO_UID": "1000",
+            "SUDO_USER": "ansible",
+            "TERM": "xterm",
+            "USER": "root",
+            "USERNAME": "root",
+            "_": "/usr/bin/python3"
+        },
+        "ansible_fibre_channel_wwn": [],
+        "ansible_fips": false,
+        "ansible_form_factor": "Other",
+        "ansible_fqdn": "lx100-2.edu.net",
+        "ansible_hostname": "lx100-2",
+        "ansible_hostnqn": "",
+        "ansible_interfaces": [
+            "lo",
+            "ens192"
+        ],
+        "ansible_is_chroot": false,
+        "ansible_iscsi_iqn": "",
+        "ansible_kernel": "4.18.0-147.8.1.el8_1.x86_64",
+        "ansible_kernel_version": "#1 SMP Thu Apr 9 13:49:54 UTC 2020",
+        "ansible_lo": {
+            "active": true,
+            "device": "lo",
+            "features": {
+                "esp_hw_offload": "off [fixed]",
+                "esp_tx_csum_hw_offload": "off [fixed]",
+                "fcoe_mtu": "off [fixed]",
+                "generic_receive_offload": "on",
+                "generic_segmentation_offload": "on",
+                "highdma": "on [fixed]",
+                "hw_tc_offload": "off [fixed]",
+                "l2_fwd_offload": "off [fixed]",
+                "large_receive_offload": "off [fixed]",
+                "loopback": "on [fixed]",
+                "netns_local": "on [fixed]",
+                "ntuple_filters": "off [fixed]",
+                "receive_hashing": "off [fixed]",
+                "rx_all": "off [fixed]",
+                "rx_checksumming": "on [fixed]",
+                "rx_fcs": "off [fixed]",
+                "rx_gro_hw": "off [fixed]",
+                "rx_udp_tunnel_port_offload": "off [fixed]",
+                "rx_vlan_filter": "off [fixed]",
+                "rx_vlan_offload": "off [fixed]",
+                "rx_vlan_stag_filter": "off [fixed]",
+                "rx_vlan_stag_hw_parse": "off [fixed]",
+                "scatter_gather": "on",
+                "tcp_segmentation_offload": "on",
+                "tls_hw_record": "off [fixed]",
+                "tls_hw_rx_offload": "off [fixed]",
+                "tls_hw_tx_offload": "off [fixed]",
+                "tx_checksum_fcoe_crc": "off [fixed]",
+                "tx_checksum_ip_generic": "on [fixed]",
+                "tx_checksum_ipv4": "off [fixed]",
+                "tx_checksum_ipv6": "off [fixed]",
+                "tx_checksum_sctp": "on [fixed]",
+                "tx_checksumming": "on",
+                "tx_esp_segmentation": "off [fixed]",
+                "tx_fcoe_segmentation": "off [fixed]",
+                "tx_gre_csum_segmentation": "off [fixed]",
+                "tx_gre_segmentation": "off [fixed]",
+                "tx_gso_partial": "off [fixed]",
+                "tx_gso_robust": "off [fixed]",
+                "tx_ipxip4_segmentation": "off [fixed]",
+                "tx_ipxip6_segmentation": "off [fixed]",
+                "tx_lockless": "on [fixed]",
+                "tx_nocache_copy": "off [fixed]",
+                "tx_scatter_gather": "on [fixed]",
+                "tx_scatter_gather_fraglist": "on [fixed]",
+                "tx_sctp_segmentation": "on",
+                "tx_tcp6_segmentation": "on",
+                "tx_tcp_ecn_segmentation": "on",
+                "tx_tcp_mangleid_segmentation": "on",
+                "tx_tcp_segmentation": "on",
+                "tx_udp_segmentation": "off [fixed]",
+                "tx_udp_tnl_csum_segmentation": "off [fixed]",
+                "tx_udp_tnl_segmentation": "off [fixed]",
+                "tx_vlan_offload": "off [fixed]",
+                "tx_vlan_stag_hw_insert": "off [fixed]",
+                "vlan_challenged": "on [fixed]"
+            },
+            "hw_timestamp_filters": [],
+            "ipv4": {
+                "address": "127.0.0.1",
+                "broadcast": "",
+                "netmask": "255.0.0.0",
+                "network": "127.0.0.0"
+            },
+            "ipv6": [
+                {
+                    "address": "::1",
+                    "prefix": "128",
+                    "scope": "host"
+                }
+            ],
+            "mtu": 65536,
+            "promisc": false,
+            "timestamping": [
+                "tx_software",
+                "rx_software",
+                "software"
+            ],
+            "type": "loopback"
+        },
+        "ansible_local": {},
+        "ansible_lsb": {},
+        "ansible_lvm": {
+            "lvs": {
+                "root": {
+                    "size_g": "12.81",
+                    "vg": "cs_lx"
+                },
+                "swap": {
+                    "size_g": "1.60",
+                    "vg": "cs_lx"
+                }
+            },
+            "pvs": {
+                "/dev/sda3": {
+                    "free_g": "0",
+                    "size_g": "14.41",
+                    "vg": "cs_lx"
+                }
+            },
+            "vgs": {
+                "cs_lx": {
+                    "free_g": "0",
+                    "num_lvs": "2",
+                    "num_pvs": "1",
+                    "size_g": "14.41"
+                }
+            }
+        },
+        "ansible_machine": "x86_64",
+        "ansible_machine_id": "ab620275e2c0490c815db7897765fc18",
+        "ansible_memfree_mb": 1326,
+        "ansible_memory_mb": {
+            "nocache": {
+                "free": 1572,
+                "used": 256
+            },
+            "real": {
+                "free": 1326,
+                "total": 1828,
+                "used": 502
+            },
+            "swap": {
+                "cached": 0,
+                "free": 1639,
+                "total": 1639,
+                "used": 0
+            }
+        },
+        "ansible_memtotal_mb": 1828,
+        "ansible_mounts": [
+            {
+                "block_available": 2933245,
+                "block_size": 4096,
+                "block_total": 3355136,
+                "block_used": 421891,
+                "device": "/dev/mapper/cs_lx-root",
+                "fstype": "xfs",
+                "inode_available": 6676606,
+                "inode_total": 6715392,
+                "inode_used": 38786,
+                "mount": "/",
+                "options": "rw,seclabel,relatime,attr2,inode64,noquota",
+                "size_available": 12014571520,
+                "size_total": 13742637056,
+                "uuid": "01b386bc-ab5e-4d75-807a-7e7023f25924"
+            },
+            {
+                "block_available": 186999,
+                "block_size": 4096,
+                "block_total": 249830,
+                "block_used": 62831,
+                "device": "/dev/sda2",
+                "fstype": "ext4",
+                "inode_available": 65503,
+                "inode_total": 65536,
+                "inode_used": 33,
+                "mount": "/boot",
+                "options": "rw,seclabel,relatime",
+                "size_available": 765947904,
+                "size_total": 1023303680,
+                "uuid": "0b665a68-a8bc-43b5-87fb-6007a0383858"
+            },
+            {
+                "block_available": 151569,
+                "block_size": 4096,
+                "block_total": 153296,
+                "block_used": 1727,
+                "device": "/dev/sda1",
+                "fstype": "vfat",
+                "inode_available": 0,
+                "inode_total": 0,
+                "inode_used": 0,
+                "mount": "/boot/efi",
+                "options": "rw,relatime,fmask=0077,dmask=0077,codepage=437,iocharset=ascii,shortname=winnt,errors=remount-ro",
+                "size_available": 620826624,
+                "size_total": 627900416,
+                "uuid": "F580-EFCE"
+            }
+        ],
+        "ansible_nodename": "lx100-2.edu.net",
+        "ansible_os_family": "RedHat",
+        "ansible_pkg_mgr": "dnf",
+        "ansible_proc_cmdline": {
+            "BOOT_IMAGE": "(hd0,gpt2)/vmlinuz-4.18.0-147.8.1.el8_1.x86_64",
+            "crashkernel": "auto",
+            "quiet": true,
+            "rd.lvm.lv": [
+                "cs_lx/root",
+                "cs_lx/swap"
+            ],
+            "resume": "/dev/mapper/cs_lx-swap",
+            "rhgb": true,
+            "ro": true,
+            "root": "/dev/mapper/cs_lx-root"
+        },
+        "ansible_processor": [
+            "0",
+            "GenuineIntel",
+            "Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz",
+            "1",
+            "GenuineIntel",
+            "Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz"
+        ],
+        "ansible_processor_cores": 1,
+        "ansible_processor_count": 2,
+        "ansible_processor_threads_per_core": 1,
+        "ansible_processor_vcpus": 2,
+        "ansible_product_name": "VMware7,1",
+        "ansible_product_serial": "VMware-42 25 0c 08 3c 12 15 5b-b8 c7 b9 e4 d6 89 5e b3",
+        "ansible_product_uuid": "080c2542-123c-5b15-b8c7-b9e4d6895eb3",
+        "ansible_product_version": "None",
+        "ansible_python": {
+            "executable": "/usr/bin/python3",
+            "has_sslcontext": true,
+            "type": "cpython",
+            "version": {
+                "major": 3,
+                "micro": 8,
+                "minor": 6,
+                "releaselevel": "final",
+                "serial": 0
+            },
+            "version_info": [
+                3,
+                6,
+                8,
+                "final",
+                0
+            ]
+        },
+        "ansible_python_version": "3.6.8",
+        "ansible_real_group_id": 0,
+        "ansible_real_user_id": 0,
+        "ansible_selinux": {
+            "config_mode": "enforcing",
+            "mode": "enforcing",
+            "policyvers": 31,
+            "status": "enabled",
+            "type": "targeted"
+        },
+        "ansible_selinux_python_present": true,
+        "ansible_service_mgr": "systemd",
+        "ansible_ssh_host_key_ecdsa_public": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHB0V6agj/LqZCAF7XngjIzzwDAZ6KdSxNCsOjpZMXFrpCm8QHnVdOtlJBbIpBsnYbIR1ZKHwIrnCKj2d204j9g=",
+        "ansible_ssh_host_key_ed25519_public": "AAAAC3NzaC1lZDI1NTE5AAAAICzvZEVHAcE9/YoSx6qZL2yxKvgThucoMkPFAY0ybgen",
+        "ansible_ssh_host_key_rsa_public": "AAAAB3NzaC1yc2EAAAADAQABAAABAQDn8L0W/gMeBbYNk2L/3sPM4REuLtF37kdtqJCHj6NR+gtZXT9+qx6rsuV4NTxOkrpn2snfP9yl3TPgyjSQHRU+lHnMvm4tT/AKaxiRh6wrtr8yugN1D5zIHxUzWKixH1IgfjCwH3MVphvz88PqHuhPuK0jVLY63mHENHEdtRXsFBZOLXwlzWlHw868s+5t/zQajA7iCGzTSXci5f4/7K8r6s6YjWpIB0WhIKfOLTtqt5h2OVU2rngsKHfcHluXeQeYsyPiatgJThtneGaiiEfygqnlXWF2eBREYqpJM7Ou+Pu3LDLIaLaBmBilrKfA5lKP3TVuJAg6Nw+DLnIuCH+b",
+        "ansible_swapfree_mb": 1639,
+        "ansible_swaptotal_mb": 1639,
+        "ansible_system": "Linux",
+        "ansible_system_capabilities": [
+            "cap_chown",
+            "cap_dac_override",
+            "cap_dac_read_search",
+            "cap_fowner",
+            "cap_fsetid",
+            "cap_kill",
+            "cap_setgid",
+            "cap_setuid",
+            "cap_setpcap",
+            "cap_linux_immutable",
+            "cap_net_bind_service",
+            "cap_net_broadcast",
+            "cap_net_admin",
+            "cap_net_raw",
+            "cap_ipc_lock",
+            "cap_ipc_owner",
+            "cap_sys_module",
+            "cap_sys_rawio",
+            "cap_sys_chroot",
+            "cap_sys_ptrace",
+            "cap_sys_pacct",
+            "cap_sys_admin",
+            "cap_sys_boot",
+            "cap_sys_nice",
+            "cap_sys_resource",
+            "cap_sys_time",
+            "cap_sys_tty_config",
+            "cap_mknod",
+            "cap_lease",
+            "cap_audit_write",
+            "cap_audit_control",
+            "cap_setfcap",
+            "cap_mac_override",
+            "cap_mac_admin",
+            "cap_syslog",
+            "cap_wake_alarm",
+            "cap_block_suspend",
+            "cap_audit_read+ep"
+        ],
+        "ansible_system_capabilities_enforced": "True",
+        "ansible_system_vendor": "VMware, Inc.",
+        "ansible_uptime_seconds": 11531,
+        "ansible_user_dir": "/root",
+        "ansible_user_gecos": "root",
+        "ansible_user_gid": 0,
+        "ansible_user_id": "root",
+        "ansible_user_shell": "/bin/bash",
+        "ansible_user_uid": 0,
+        "ansible_userspace_architecture": "x86_64",
+        "ansible_userspace_bits": "64",
+        "ansible_virtualization_role": "guest",
+        "ansible_virtualization_type": "VMware",
+        "gather_subset": [
+            "all"
+        ],
+        "module_setup": true
+    },
+    "changed": false
+}
+2020-12-08 16:30:15,298 p=10553 u=radovan n=ansible | - downloading role 'wordpress', owned by makarenalabs
+2020-12-08 16:30:16,711 p=10553 u=radovan n=ansible | - downloading role from https://github.com/MakarenaLabs/ansible-role-wordpress/archive/master.tar.gz
+2020-12-08 16:30:17,899 p=10553 u=radovan n=ansible | - extracting makarenalabs.wordpress to /home/radovan/ansible/roles/makarenalabs.wordpress
+2020-12-08 16:30:17,906 p=10553 u=radovan n=ansible | - makarenalabs.wordpress (master) was installed successfully
+2020-12-08 16:47:55,610 p=10644 u=radovan n=ansible | # /home/radovan/ansible/roles
+2020-12-08 16:47:56,102 p=10644 u=radovan n=ansible | - makarenalabs.wordpress, master
+2020-12-08 16:58:59,803 p=10676 u=radovan n=ansible | PLAY [Wordpress Deployment] *************************************************************************************************************
+2020-12-08 16:58:59,832 p=10676 u=radovan n=ansible | TASK [Gathering Facts] ******************************************************************************************************************
+2020-12-08 16:59:02,040 p=10676 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 16:59:02,062 p=10676 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Install php] *********************************************************************************
+2020-12-08 16:59:57,199 p=10676 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 16:59:57,217 p=10676 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Install nginx] *******************************************************************************
+2020-12-08 17:00:05,557 p=10676 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 17:00:05,576 p=10676 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Install apache] ******************************************************************************
+2020-12-08 17:00:05,627 p=10676 u=radovan n=ansible | skipping: [lx100-5]
+2020-12-08 17:00:05,646 p=10676 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Remove elements from /var/www/html/] *********************************************************
+2020-12-08 17:00:05,699 p=10676 u=radovan n=ansible | skipping: [lx100-5]
+2020-12-08 17:00:05,718 p=10676 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Create directory] ****************************************************************************
+2020-12-08 17:00:06,328 p=10676 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 17:00:06,375 p=10676 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Extract archive in /var/www/rs.edu.net] ******************************************************
+2020-12-08 17:00:19,527 p=10676 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 17:00:19,554 p=10676 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Move files from /var/www/rs.edu.net/wordpress to /var/www/rs.edu.net] ************************
+2020-12-08 17:00:20,335 p=10676 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 17:00:20,356 p=10676 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Remove wordpress dir] ************************************************************************
+2020-12-08 17:00:20,871 p=10676 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 17:00:20,896 p=10676 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Fetch random salts for wp-config.php] ********************************************************
+2020-12-08 17:00:22,140 p=10676 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 17:00:22,162 p=10676 u=radovan n=ansible | TASK [makarenalabs.wordpress : set wp_salt fact] ****************************************************************************************
+2020-12-08 17:00:22,188 p=10676 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 17:00:22,209 p=10676 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Copy wp-config.php file] *********************************************************************
+2020-12-08 17:00:23,185 p=10676 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 17:00:23,205 p=10676 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Change ownership of installation directory] **************************************************
+2020-12-08 17:00:23,808 p=10676 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 17:00:23,830 p=10676 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Nginx | Figure out PHP FPM socket location] **************************************************
+2020-12-08 17:00:24,276 p=10676 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 17:00:24,304 p=10676 u=radovan n=ansible | TASK [makarenalabs.wordpress : Start service php7.3] ************************************************************************************
+2020-12-08 17:00:25,373 p=10676 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 17:00:25,393 p=10676 u=radovan n=ansible | TASK [makarenalabs.wordpress : Start service nginx] *************************************************************************************
+2020-12-08 17:00:25,944 p=10676 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 17:00:25,963 p=10676 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Nginx | Copy virtual host configuration file] ************************************************
+2020-12-08 17:00:26,678 p=10676 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 17:00:26,700 p=10676 u=radovan n=ansible | TASK [makarenalabs.wordpress : WordPress | Nginx | Symlink virtual host configuration file from sites-available to sites-enabled] *******
+2020-12-08 17:00:27,114 p=10676 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 17:00:27,135 p=10676 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Apache | Copy virtual host configuration file] ***********************************************
+2020-12-08 17:00:27,158 p=10676 u=radovan n=ansible | skipping: [lx100-5]
+2020-12-08 17:00:27,182 p=10676 u=radovan n=ansible | TASK [makarenalabs.wordpress : WordPress | Apache | Enable site] ************************************************************************
+2020-12-08 17:00:27,206 p=10676 u=radovan n=ansible | skipping: [lx100-5]
+2020-12-08 17:00:27,226 p=10676 u=radovan n=ansible | TASK [makarenalabs.wordpress : Installing mysql-server] *********************************************************************************
+2020-12-08 17:00:27,249 p=10676 u=radovan n=ansible | skipping: [lx100-5]
+2020-12-08 17:00:27,271 p=10676 u=radovan n=ansible | TASK [makarenalabs.wordpress : Installing mariadb-server] *******************************************************************************
+2020-12-08 17:00:50,212 p=10676 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 17:00:50,232 p=10676 u=radovan n=ansible | TASK [makarenalabs.wordpress : Start MariaDB] *******************************************************************************************
+2020-12-08 17:00:50,805 p=10676 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 17:00:50,826 p=10676 u=radovan n=ansible | TASK [makarenalabs.wordpress : Installing dependencies] *********************************************************************************
+2020-12-08 17:00:54,730 p=10676 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 17:00:54,751 p=10676 u=radovan n=ansible | TASK [makarenalabs.wordpress : Create mysql database] ***********************************************************************************
+2020-12-08 17:00:55,510 p=10676 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 17:00:55,531 p=10676 u=radovan n=ansible | TASK [makarenalabs.wordpress : Create mysql user] ***************************************************************************************
+2020-12-08 17:00:56,269 p=10676 u=radovan n=ansible | [WARNING]: Module did not set no_log for update_password
+
+2020-12-08 17:00:56,270 p=10676 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 17:00:56,271 p=10676 u=radovan n=ansible | RUNNING HANDLER [makarenalabs.wordpress : restart nginx] ********************************************************************************
+2020-12-08 17:00:57,305 p=10676 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 17:00:57,308 p=10676 u=radovan n=ansible | PLAY RECAP ******************************************************************************************************************************
+2020-12-08 17:00:57,308 p=10676 u=radovan n=ansible | lx100-5                    : ok=22   changed=16   unreachable=0    failed=0    skipped=5    rescued=0    ignored=0   

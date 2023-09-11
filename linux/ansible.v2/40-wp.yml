@@ -1,0 +1,14 @@
+---
+- name: Install WP site
+  hosts: debian10 
+  vars:
+    - wp_version: 5.6
+    - wp_mysql_db: 'site1_db'
+    - wp_mysql_user: 'wpuser'
+    - wp_mysql_password: 'wppassword'
+    - wp_webserver: nginx
+    - wp_sitename: wp.edu.net
+    - wp_admin_email: 'wp@edu.net'
+    - wp_install_dir: "/var/www/{{ wp_sitename }}"
+  roles:
+    - MakarenaLabs.wordpress

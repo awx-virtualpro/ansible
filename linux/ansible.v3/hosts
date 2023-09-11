@@ -1,0 +1,12 @@
+[centos]
+lx100-2 
+lx100-3
+lx100-4
+
+[debian]
+lx100-5
+
+[all:vars]
+ansible_user=ansible
+ansible_become=yes
+ansible_python_interpreter=/usr/bin/python3

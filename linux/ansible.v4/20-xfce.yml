@@ -1,0 +1,28 @@
+---
+- name: Setup Xfce
+  hosts: all
+  tasks:
+  - name: install EPEL
+    dnf:
+      name: epel-release
+      state: latest
+
+  - name: install XFce
+    dnf:
+      name:
+        - '@base-x'
+        - '@Xfce'
+      state: latest
+
+  - name: install firefox
+    dnf:
+      name: firefox
+      state: latest
+
+- name: Enable X
+  hosts: all
+  tasks:
+  - name: start and enable X
+    shell: 
+      - systemctl isolate graphical.target
+      - systemctl set-default graphical.target

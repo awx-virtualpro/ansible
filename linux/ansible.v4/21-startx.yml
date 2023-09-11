@@ -1,0 +1,9 @@
+---
+- name: Enable X
+  hosts: all
+  tasks:
+  - name: start X
+    shell: systemctl isolate graphical.target
+  - name: enable X
+    shell: systemctl set-default graphical.target
+

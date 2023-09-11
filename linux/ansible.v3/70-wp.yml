@@ -1,0 +1,14 @@
+---
+- name: Wordpress Deployment
+  hosts: debian
+  vars:
+    wp_version: 5.5.3
+    wp_mysql_db: 'wp_rs_db'
+    wp_mysql_user: 'rs_admin'
+    wp_mysql_password: 'passw0rd'
+    wp_webserver: nginx
+    wp_sitename: rs.edu.net
+    wp_admin_email: 'radovan@slechticky.cz'
+    wp_install_dir: "/var/www/{{ wp_sitename }}"
+  roles:
+    - makarenalabs.wordpress

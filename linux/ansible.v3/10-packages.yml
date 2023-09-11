@@ -1,0 +1,13 @@
+---
+- name: Install packages
+  hosts: all
+  become: yes
+  tasks: 
+  - name: Install default packages
+    dnf:
+      name:
+        - mc
+        - ksh
+        - epel-release
+      state: latest
+

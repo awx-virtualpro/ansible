@@ -1,0 +1,32 @@
+---
+- name: Install default packages
+  hosts: all
+  become: yes
+  tasks:
+  - name: Install packages to CentOS 7
+    yum:
+      name:
+        - mc
+        - ksh
+        - bash-completion
+        - httpd
+      state: latest
+    when: ansible_distribution == "CentOS" and ansible_distribution_major_version == "7"
+  - name: Install packages to CentOS 8
+    dnf:
+      name:
+        - mc
+        - ksh
+        - bash-completion
+        - httpd
+      state: latest
+    when: ansible_distribution == "CentOS" and ansible_distribution_major_version == "8"
+  - name: Install packages to Debian 
+    apt:
+      name:
+        - mc
+        - ksh
+        - bash-completion
+        - apache2
+      state: latest
+    when: ansible_distribution == "Debian" 

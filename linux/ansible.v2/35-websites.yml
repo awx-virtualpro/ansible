@@ -1,0 +1,27 @@
+---
+- name: Deploy websites
+  hosts: centos8
+  become: yes
+  tasks:
+  - name: Create dirs
+    file:
+      path: "{{ item.path }}"
+      state: directory
+      mode: "{{ item.mode }}"
+      owner: "{{ item.owner }}"
+      group: "{{ item.group }}"
+    with_items:
+    - { path: '/var/www/site1', mode: '0755', owner: 'apache', group: 'apache'  }
+    - { path: '/var/www/site2', mode: '0755', owner: 'apache', group: 'apache'  }
+    - { path: '/var/www/site1/upload', mode: '1777', owner: 'apache', group: 'apache'  }
+    - { path: '/var/www/site2/upload', mode: '1777', owner: 'apache', group: 'apache'  }
+  - name: Load web content
+    template:
+      src: "{{ item.src }}"
+      dest: "{{ item.dest }}"
+      mode: "0644"
+      owner: "apache"
+      group: "apache"
+    with_items:
+    - { src: 'templates/site1.html.j2', dest: '/var/www/site1/index.html' }
+    - { src: 'templates/site2.html.j2', dest: '/var/www/site2/index.html' }

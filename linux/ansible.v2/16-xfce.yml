@@ -1,0 +1,7 @@
+---
+- name: Setup GUI by role
+  hosts: centos8
+  vars:
+  - gui_type: GNOME
+  roles:
+  - radovan.gui

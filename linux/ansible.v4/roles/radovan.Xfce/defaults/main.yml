@@ -1,0 +1,4 @@
+---
+# defaults file for radovan.Xfce
+
+gui_type: Xfce # { KDE | GNOME }

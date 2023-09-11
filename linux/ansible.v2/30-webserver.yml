@@ -1,0 +1,27 @@
+---
+- name: httpd setup
+  hosts: centos8
+  become: yes
+  vars: 
+    SERVERNAME: "{{ inventory_hostname }}.edu.net"
+  tasks:
+  - name: Ensure httpd installed
+    dnf:
+      name: httpd
+      state: latest
+  - name: Write httpd config file
+    template:
+      src: templates/httpd.conf.j2
+      dest: /etc/httpd/conf/httpd.conf
+    notify:
+    - restart_httpd
+  - name: Ensure httpd is running and enabled
+    service:
+      name: httpd
+      state: started
+      enabled: yes
+  handlers:
+  - name: restart_httpd
+    service:
+      name: httpd
+      state: restarted

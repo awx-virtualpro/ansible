@@ -1,0 +1,28 @@
+---
+- name: Install and configure Apache
+  hosts: all
+  vars:
+    ServerName: "{{ ansible_nodename }}"
+  tasks:
+  - name: ensure apache is at the latest version
+    dnf:
+      name: httpd
+      state: latest
+  - name: write the apache config file
+    template:
+      src: templates/httpd.conf.j2
+      dest: /etc/httpd/conf/httpd.conf
+    notify:
+    - restart apache
+  - name: ensure apache is running
+    service:
+      name: httpd
+      state: started
+      enabled: yes
+    register: rc_httpd
+  handlers:
+    - name: restart apache
+      service:
+        name: httpd
+        state: restarted
+

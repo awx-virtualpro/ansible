@@ -1,0 +1,28 @@
+---
+# tasks file for radovan.Xfce
+- name: install EPEL
+  dnf: 
+    name: epel-release
+    state: latest
+
+- name: install base-x
+  dnf:
+    name: '@base-x'
+    state: latest
+
+- name: install GUI
+  dnf:
+    name: '@{{gui_type}}'
+    state: latest
+
+- name: install Firefox
+  dnf:
+    name: firefox
+    state: latest
+
+- name: start X
+  shell: systemctl isolate graphical.target
+
+- name: enable X
+  shell: systemctl set-default graphical.target
+

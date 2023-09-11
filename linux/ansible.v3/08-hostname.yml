@@ -1,0 +1,12 @@
+---
+- name: Set hostname
+  hosts: all
+  tasks:
+  - name: Set hostname
+    hostname:
+      name: "{{ inventory_hostname }}.edu.net"
+    notify:
+      - sys_reboot
+  handlers:
+  - name: sys_reboot
+    reboot:  

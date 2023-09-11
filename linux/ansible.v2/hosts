@@ -1,0 +1,14 @@
+[centos8]
+lx107-2 ansible_host=lx107-2.edu.net
+lx107-3 ansible_host=lx107-3.edu.net
+[debian10]
+lx107-4 ansible_host=lx107-4.edu.net ansible_user=ansible
+
+[centos8:vars]
+ansible_user=ansible
+
+[debian10:vars]
+ansible_python_interpreter=/usr/bin/python3
+
+[all:vars]
+ansible_become=yes

@@ -1,0 +1,8 @@
+---
+- name: Setup GUI by role
+  hosts: all
+  vars:
+    # gui_type: "KDE Plasma Workspaces"
+    gui_type: "GNOME"
+  roles:
+    - radovan.Xfce

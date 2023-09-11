@@ -1,0 +1,33 @@
+---
+- name: Create default users
+  hosts: all
+  vars:
+  - password: '$5$rounds=535000$Nh89DvxTD5MS/FAo$J0z4.0G3wzwuwtxy2ulQffgfi.dq.aaLrkrmgbm.o0B'
+  - username: karel
+  - id: 1101
+  tasks:
+  - name: "Create {{ username }} group"
+    group:
+      name: "{{ username }}"
+      gid: "{{ id }}"
+      state: present
+  - name: "Create {{ username }} user"
+    user:
+      name: "{{ username }}"
+      uid: "{{ id }}"
+      group: "{{ username }}"
+      groups: "{{ username }}, wheel"
+      password: "{{ password | password_hash('sha256') }}"
+      update_password: on_create
+    register: created
+  - name: Force change password
+    shell: "chage -d 0 {{ username }}"
+    when: created.changed
+  - name: Set authorized keys
+    authorized_key:
+      user: "{{ username }}"
+      state: present
+      # exclusive: true
+      key: "{{ item }}"
+    with_file:
+      - /home/radovan/.ssh/id_rsa.pub

@@ -1,0 +1,19 @@
+---
+- name: Network setup
+  hosts: all
+  tasks:
+  - name: copy /etc/hosts from ansible server
+    copy: 
+      src: /etc/hosts
+      dest: /etc/hosts
+      owner: root
+      group: root
+      mode: 0644
+  - name: set hostname
+    hostname: 
+      name: "{{inventory_hostname}}.edu.net"
+    notify: system_reboot
+
+  handlers:
+  - name: system_reboot
+    reboot:

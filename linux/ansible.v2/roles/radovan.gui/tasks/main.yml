@@ -1,0 +1,23 @@
+---
+- name: Install EPEL
+  dnf:
+    name: epel-release
+    state: latest
+
+- name: Install Xfce
+  dnf:
+    name:
+    - '@base-x'
+    - '@{{ gui_type }}'
+    state: latest
+
+- name: Install Firefox
+  dnf:
+    name: firefox
+    state: latest
+
+- name: Start GUI
+  shell: systemctl isolate graphical.target
+
+- name: Enable GUI
+  shell: systemctl set-default graphical.target

@@ -1,0 +1,3117 @@
+2020-12-07 15:47:23,913 p=2696 u=radovan n=ansible | ERROR! No action selected, at least one of --host, --graph or --list needs to be specified.
+2020-12-07 15:47:46,314 p=2703 u=radovan n=ansible | {
+    "_meta": {
+        "hostvars": {}
+    },
+    "all": {
+        "children": [
+            "centos",
+            "debian",
+            "ungrouped"
+        ]
+    },
+    "centos": {
+        "hosts": [
+            "lx100-2",
+            "lx100-3",
+            "lx100-4"
+        ]
+    },
+    "debian": {
+        "hosts": [
+            "lx100-5"
+        ]
+    }
+}
+2020-12-07 15:48:43,233 p=2706 u=radovan n=ansible | @all:
+  |--@centos:
+  |  |--lx100-2
+  |  |--lx100-3
+  |  |--lx100-4
+  |--@debian:
+  |  |--lx100-5
+  |--@ungrouped:
+2020-12-07 15:49:09,101 p=2709 u=radovan n=ansible | all:
+  children:
+    centos:
+      hosts:
+        lx100-2: {}
+        lx100-3: {}
+        lx100-4: {}
+    debian:
+      hosts:
+        lx100-5: {}
+    ungrouped: {}
+
+2020-12-07 15:49:34,949 p=2715 u=radovan n=ansible | {
+    "_meta": {
+        "hostvars": {}
+    },
+    "all": {
+        "children": [
+            "centos",
+            "debian",
+            "ungrouped"
+        ]
+    },
+    "centos": {
+        "hosts": [
+            "lx100-2",
+            "lx100-3",
+            "lx100-4"
+        ]
+    },
+    "debian": {
+        "hosts": [
+            "lx100-5"
+        ]
+    }
+}
+2020-12-07 15:55:28,514 p=2719 u=radovan n=ansible | lx100-2 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: Warning: Permanently added 'lx100-2,192.168.90.163' (ECDSA) to the list of known hosts.\r\nradovan@lx100-2: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).",
+    "unreachable": true
+}
+2020-12-07 15:55:52,375 p=2733 u=radovan n=ansible | lx100-2 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: radovan@lx100-2: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).",
+    "unreachable": true
+}
+2020-12-07 15:57:48,182 p=2747 u=radovan n=ansible | lx100-2 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Invalid/incorrect password: Permission denied, please try again.",
+    "unreachable": true
+}
+2020-12-07 15:58:10,858 p=2760 u=radovan n=ansible | lx100-2 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Invalid/incorrect password: Permission denied, please try again.",
+    "unreachable": true
+}
+2020-12-07 16:01:10,647 p=2784 u=radovan n=ansible | lx100-2 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/libexec/platform-python"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2020-12-07 16:01:27,798 p=2826 u=radovan n=ansible | lx100-3 | FAILED! => {
+    "msg": "Using a SSH password instead of a key is not possible because Host Key checking is enabled and sshpass does not support this.  Please add this host's fingerprint to your known_hosts file to manage this host."
+}
+2020-12-07 16:03:38,778 p=2840 u=radovan n=ansible | lx100-2 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/libexec/platform-python"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2020-12-07 16:03:54,657 p=2871 u=radovan n=ansible | lx100-3 | FAILED! => {
+    "msg": "Using a SSH password instead of a key is not possible because Host Key checking is enabled and sshpass does not support this.  Please add this host's fingerprint to your known_hosts file to manage this host."
+}
+2020-12-07 16:04:43,296 p=2886 u=radovan n=ansible | lx100-3 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/libexec/platform-python"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2020-12-07 16:05:25,703 p=2919 u=radovan n=ansible | lx100-4 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/libexec/platform-python"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2020-12-07 16:05:37,847 p=2950 u=radovan n=ansible | lx100-5 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Invalid/incorrect password: Permission denied, please try again.",
+    "unreachable": true
+}
+2020-12-07 16:07:17,794 p=2964 u=radovan n=ansible | lx100-3 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/libexec/platform-python"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2020-12-07 16:07:17,795 p=2964 u=radovan n=ansible | lx100-2 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/libexec/platform-python"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2020-12-07 16:07:17,819 p=2964 u=radovan n=ansible | lx100-4 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/libexec/platform-python"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2020-12-07 16:07:49,876 p=3043 u=radovan n=ansible | lx100-2 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/libexec/platform-python"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2020-12-07 16:07:49,892 p=3043 u=radovan n=ansible | [WARNING]: Platform linux on host lx100-5 is using the discovered Python interpreter at /usr/bin/python, but future installation of
+another Python interpreter could change this. See https://docs.ansible.com/ansible/2.9/reference_appendices/interpreter_discovery.html for
+more information.
+
+2020-12-07 16:07:49,893 p=3043 u=radovan n=ansible | lx100-5 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2020-12-07 16:07:49,904 p=3043 u=radovan n=ansible | lx100-4 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/libexec/platform-python"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2020-12-07 16:07:49,936 p=3043 u=radovan n=ansible | lx100-3 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/libexec/platform-python"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2020-12-07 16:16:37,538 p=3148 u=radovan n=ansible | lx100-2 | FAILED! => {
+    "changed": false,
+    "module_stderr": "Shared connection to lx100-2 closed.\r\n",
+    "module_stdout": "/bin/sh: /usr/bin/python3: No such file or directory\r\n",
+    "msg": "The module failed to execute correctly, you probably need to set the interpreter.\nSee stdout/stderr for the exact error",
+    "rc": 127
+}
+2020-12-07 16:16:37,544 p=3148 u=radovan n=ansible | lx100-3 | FAILED! => {
+    "changed": false,
+    "module_stderr": "Shared connection to lx100-3 closed.\r\n",
+    "module_stdout": "/bin/sh: /usr/bin/python3: No such file or directory\r\n",
+    "msg": "The module failed to execute correctly, you probably need to set the interpreter.\nSee stdout/stderr for the exact error",
+    "rc": 127
+}
+2020-12-07 16:16:37,560 p=3148 u=radovan n=ansible | lx100-4 | FAILED! => {
+    "changed": false,
+    "module_stderr": "Shared connection to lx100-4 closed.\r\n",
+    "module_stdout": "/bin/sh: /usr/bin/python3: No such file or directory\r\n",
+    "msg": "The module failed to execute correctly, you probably need to set the interpreter.\nSee stdout/stderr for the exact error",
+    "rc": 127
+}
+2020-12-07 16:16:37,566 p=3148 u=radovan n=ansible | lx100-5 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2020-12-07 16:17:49,582 p=3239 u=radovan n=ansible | [WARNING]: Platform linux on host lx100-5 is using the discovered Python interpreter at /usr/bin/python, but future installation of
+another Python interpreter could change this. See https://docs.ansible.com/ansible/2.9/reference_appendices/interpreter_discovery.html for
+more information.
+
+2020-12-07 16:17:49,583 p=3239 u=radovan n=ansible | lx100-5 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2020-12-07 16:17:49,932 p=3239 u=radovan n=ansible | lx100-3 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/libexec/platform-python"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2020-12-07 16:17:49,960 p=3239 u=radovan n=ansible | lx100-2 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/libexec/platform-python"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2020-12-07 16:17:49,963 p=3239 u=radovan n=ansible | lx100-4 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/libexec/platform-python"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2020-12-07 16:19:40,059 p=3342 u=radovan n=ansible | lx100-2 | FAILED! => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/libexec/platform-python"
+    },
+    "changed": false,
+    "msg": "This command has to be run under the root user.",
+    "results": []
+}
+2020-12-07 16:19:40,071 p=3342 u=radovan n=ansible | lx100-3 | FAILED! => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/libexec/platform-python"
+    },
+    "changed": false,
+    "msg": "This command has to be run under the root user.",
+    "results": []
+}
+2020-12-07 16:19:40,097 p=3342 u=radovan n=ansible | lx100-4 | FAILED! => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/libexec/platform-python"
+    },
+    "changed": false,
+    "msg": "This command has to be run under the root user.",
+    "results": []
+}
+2020-12-07 16:21:49,492 p=3423 u=radovan n=ansible | lx100-2 | FAILED! => {
+    "msg": "Missing sudo password"
+}
+2020-12-07 16:21:49,493 p=3423 u=radovan n=ansible | lx100-4 | FAILED! => {
+    "msg": "Missing sudo password"
+}
+2020-12-07 16:21:49,493 p=3423 u=radovan n=ansible | lx100-3 | FAILED! => {
+    "msg": "Missing sudo password"
+}
+2020-12-07 16:23:14,108 p=3502 u=radovan n=ansible | lx100-2 | CHANGED => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/libexec/platform-python"
+    },
+    "changed": true,
+    "msg": "",
+    "rc": 0,
+    "results": [
+        "Installed: python3-setuptools-39.2.0-6.el8.noarch",
+        "Installed: python36-3.6.8-2.module_el8.3.0+562+e162826a.x86_64",
+        "Installed: python3-pip-9.0.3-18.el8.noarch",
+        "Installed: platform-python-pip-9.0.3-18.el8.noarch",
+        "Installed: platform-python-setuptools-39.2.0-6.el8.noarch",
+        "Removed: platform-python-pip-9.0.3-15.el8.noarch",
+        "Removed: platform-python-setuptools-39.2.0-5.el8.noarch"
+    ]
+}
+2020-12-07 16:23:14,219 p=3502 u=radovan n=ansible | lx100-4 | CHANGED => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/libexec/platform-python"
+    },
+    "changed": true,
+    "msg": "",
+    "rc": 0,
+    "results": [
+        "Installed: python3-setuptools-39.2.0-6.el8.noarch",
+        "Installed: python36-3.6.8-2.module_el8.3.0+562+e162826a.x86_64",
+        "Installed: python3-pip-9.0.3-18.el8.noarch",
+        "Installed: platform-python-pip-9.0.3-18.el8.noarch",
+        "Installed: platform-python-setuptools-39.2.0-6.el8.noarch",
+        "Removed: platform-python-pip-9.0.3-15.el8.noarch",
+        "Removed: platform-python-setuptools-39.2.0-5.el8.noarch"
+    ]
+}
+2020-12-07 16:23:15,519 p=3502 u=radovan n=ansible | lx100-3 | CHANGED => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/libexec/platform-python"
+    },
+    "changed": true,
+    "msg": "",
+    "rc": 0,
+    "results": [
+        "Installed: python3-setuptools-39.2.0-6.el8.noarch",
+        "Installed: python36-3.6.8-2.module_el8.3.0+562+e162826a.x86_64",
+        "Installed: python3-pip-9.0.3-18.el8.noarch",
+        "Installed: platform-python-pip-9.0.3-18.el8.noarch",
+        "Installed: platform-python-setuptools-39.2.0-6.el8.noarch",
+        "Removed: platform-python-pip-9.0.3-15.el8.noarch",
+        "Removed: platform-python-setuptools-39.2.0-5.el8.noarch"
+    ]
+}
+2020-12-07 16:24:35,655 p=3581 u=radovan n=ansible | lx100-3 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/libexec/platform-python"
+    },
+    "changed": false,
+    "msg": "Nothing to do",
+    "rc": 0,
+    "results": []
+}
+2020-12-07 16:24:35,731 p=3581 u=radovan n=ansible | lx100-2 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/libexec/platform-python"
+    },
+    "changed": false,
+    "msg": "Nothing to do",
+    "rc": 0,
+    "results": []
+}
+2020-12-07 16:24:35,768 p=3581 u=radovan n=ansible | lx100-4 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/libexec/platform-python"
+    },
+    "changed": false,
+    "msg": "Nothing to do",
+    "rc": 0,
+    "results": []
+}
+2020-12-07 16:27:40,267 p=3662 u=radovan n=ansible | lx100-2 | SUCCESS => {
+    "changed": false,
+    "msg": "Nothing to do",
+    "rc": 0,
+    "results": []
+}
+2020-12-07 16:27:40,310 p=3662 u=radovan n=ansible | lx100-3 | SUCCESS => {
+    "changed": false,
+    "msg": "Nothing to do",
+    "rc": 0,
+    "results": []
+}
+2020-12-07 16:27:40,340 p=3662 u=radovan n=ansible | lx100-4 | SUCCESS => {
+    "changed": false,
+    "msg": "Nothing to do",
+    "rc": 0,
+    "results": []
+}
+2020-12-07 16:28:20,295 p=3729 u=radovan n=ansible | lx100-5 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2020-12-07 16:28:20,472 p=3729 u=radovan n=ansible | lx100-2 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2020-12-07 16:28:20,478 p=3729 u=radovan n=ansible | lx100-3 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2020-12-07 16:28:20,512 p=3729 u=radovan n=ansible | lx100-4 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2020-12-07 16:43:52,553 p=4009 u=radovan n=ansible | lx100-5 | FAILED! => {
+    "msg": "Missing sudo password"
+}
+2020-12-07 16:43:52,683 p=4009 u=radovan n=ansible | lx100-2 | FAILED! => {
+    "msg": "Missing sudo password"
+}
+2020-12-07 16:43:52,694 p=4009 u=radovan n=ansible | lx100-4 | FAILED! => {
+    "msg": "Missing sudo password"
+}
+2020-12-07 16:43:52,705 p=4009 u=radovan n=ansible | lx100-3 | FAILED! => {
+    "msg": "Missing sudo password"
+}
+2020-12-07 16:45:05,096 p=4068 u=radovan n=ansible | lx100-5 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2020-12-07 16:45:05,302 p=4068 u=radovan n=ansible | lx100-2 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2020-12-07 16:45:05,312 p=4068 u=radovan n=ansible | lx100-3 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2020-12-07 16:45:05,330 p=4068 u=radovan n=ansible | lx100-4 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2020-12-07 16:55:27,567 p=4131 u=radovan n=ansible | lx100-3 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2020-12-07 16:57:37,350 p=4155 u=radovan n=ansible | lx100-5 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2020-12-07 16:57:37,520 p=4155 u=radovan n=ansible | lx100-2 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2020-12-07 16:57:37,532 p=4155 u=radovan n=ansible | lx100-3 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2020-12-07 16:57:37,542 p=4155 u=radovan n=ansible | lx100-4 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2020-12-07 17:02:09,583 p=4289 u=radovan n=ansible | lx100-5 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2020-12-07 17:02:09,766 p=4289 u=radovan n=ansible | lx100-4 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2020-12-07 17:02:09,788 p=4289 u=radovan n=ansible | lx100-2 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2020-12-07 17:02:09,878 p=4289 u=radovan n=ansible | lx100-3 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2020-12-08 00:09:43,406 p=4599 u=radovan n=ansible | - Role sudoers was created successfully
+2020-12-08 00:12:58,388 p=4676 u=radovan n=ansible | - sudoers is not installed, skipping.
+2020-12-08 00:13:20,270 p=4681 u=radovan n=ansible | [WARNING]: - the configured path /home/radovan/ansible/roles does not exist.
+
+2020-12-08 00:13:20,272 p=4681 u=radovan n=ansible | ERROR! - None of the provided paths was usable. Please specify a valid path with --roles-path
+2020-12-08 00:14:01,562 p=4688 u=radovan n=ansible | - Role sudoers was created successfully
+2020-12-08 00:14:14,453 p=4692 u=radovan n=ansible | - sudoers is not installed, skipping.
+2020-12-08 00:14:28,225 p=4697 u=radovan n=ansible | # /home/radovan/ansible/roles
+2020-12-08 00:15:26,079 p=4710 u=radovan n=ansible | # /home/radovan/ansible/roles
+2020-12-08 00:15:26,542 p=4710 u=radovan n=ansible | - sudoers, (unknown version)
+2020-12-08 00:43:37,013 p=4773 u=radovan n=ansible | # /home/radovan/ansible/roles
+2020-12-08 00:43:37,474 p=4773 u=radovan n=ansible | - sudoers, (unknown version)
+2020-12-08 00:44:30,676 p=4785 u=radovan n=ansible | # /home/radovan/ansible/roles
+2020-12-08 00:46:21,180 p=4819 u=radovan n=ansible | - downloading role 'wordpress', owned by makarenalabs
+2020-12-08 00:46:22,220 p=4819 u=radovan n=ansible | - downloading role from https://github.com/MakarenaLabs/ansible-role-wordpress/archive/master.tar.gz
+2020-12-08 00:46:22,954 p=4819 u=radovan n=ansible | - extracting makarenalabs.wordpress to /home/radovan/ansible/roles/makarenalabs.wordpress
+2020-12-08 00:46:22,961 p=4819 u=radovan n=ansible | - makarenalabs.wordpress (master) was installed successfully
+2020-12-08 00:59:02,955 p=4961 u=radovan n=ansible | PLAY [debian] ***********************************************************************************************************************************************
+2020-12-08 00:59:02,978 p=4961 u=radovan n=ansible | TASK [Gathering Facts] **************************************************************************************************************************************
+2020-12-08 00:59:04,771 p=4961 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 00:59:04,789 p=4961 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Install php] *****************************************************************************************************
+2020-12-08 00:59:55,680 p=4961 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 00:59:55,698 p=4961 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Install nginx] ***************************************************************************************************
+2020-12-08 01:00:03,437 p=4961 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 01:00:03,456 p=4961 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Install apache] **************************************************************************************************
+2020-12-08 01:00:03,498 p=4961 u=radovan n=ansible | skipping: [lx100-5]
+2020-12-08 01:00:03,516 p=4961 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Remove elements from /var/www/html/] *****************************************************************************
+2020-12-08 01:00:03,563 p=4961 u=radovan n=ansible | skipping: [lx100-5]
+2020-12-08 01:00:03,580 p=4961 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Create directory] ************************************************************************************************
+2020-12-08 01:00:04,153 p=4961 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 01:00:04,197 p=4961 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Extract archive in /var/www/rs.edu.net] **************************************************************************
+2020-12-08 01:00:20,579 p=4961 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 01:00:20,602 p=4961 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Move files from /var/www/rs.edu.net/wordpress to /var/www/rs.edu.net] ********************************************
+2020-12-08 01:00:21,296 p=4961 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 01:00:21,314 p=4961 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Remove wordpress dir] ********************************************************************************************
+2020-12-08 01:00:21,777 p=4961 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 01:00:21,801 p=4961 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Fetch random salts for wp-config.php] ****************************************************************************
+2020-12-08 01:00:22,222 p=4961 u=radovan n=ansible | fatal: [lx100-5]: FAILED! => {"changed": false, "module_stderr": "sudo: a password is required\n", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}
+2020-12-08 01:00:22,225 p=4961 u=radovan n=ansible | PLAY RECAP **************************************************************************************************************************************************
+2020-12-08 01:00:22,225 p=4961 u=radovan n=ansible | lx100-5                    : ok=7    changed=6    unreachable=0    failed=1    skipped=2    rescued=0    ignored=0   
+2020-12-08 01:01:14,926 p=5072 u=radovan n=ansible | PLAY [debian] ***********************************************************************************************************************************************
+2020-12-08 01:01:14,950 p=5072 u=radovan n=ansible | TASK [Gathering Facts] **************************************************************************************************************************************
+2020-12-08 01:01:16,408 p=5072 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 01:01:16,426 p=5072 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Install php] *****************************************************************************************************
+2020-12-08 01:01:17,587 p=5072 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 01:01:17,605 p=5072 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Install nginx] ***************************************************************************************************
+2020-12-08 01:01:18,530 p=5072 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 01:01:18,549 p=5072 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Install apache] **************************************************************************************************
+2020-12-08 01:01:18,592 p=5072 u=radovan n=ansible | skipping: [lx100-5]
+2020-12-08 01:01:18,610 p=5072 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Remove elements from /var/www/html/] *****************************************************************************
+2020-12-08 01:01:18,653 p=5072 u=radovan n=ansible | skipping: [lx100-5]
+2020-12-08 01:01:18,671 p=5072 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Create directory] ************************************************************************************************
+2020-12-08 01:01:19,251 p=5072 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 01:01:19,296 p=5072 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Extract archive in /var/www/rs.edu.net] **************************************************************************
+2020-12-08 01:01:46,844 p=5072 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 01:01:46,867 p=5072 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Move files from /var/www/rs.edu.net/wordpress to /var/www/rs.edu.net] ********************************************
+2020-12-08 01:01:48,947 p=5072 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 01:01:48,965 p=5072 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Remove wordpress dir] ********************************************************************************************
+2020-12-08 01:01:49,417 p=5072 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 01:01:49,440 p=5072 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Fetch random salts for wp-config.php] ****************************************************************************
+2020-12-08 01:01:49,800 p=5072 u=radovan n=ansible | fatal: [lx100-5]: FAILED! => {"changed": false, "module_stderr": "sudo: a password is required\n", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}
+2020-12-08 01:01:49,802 p=5072 u=radovan n=ansible | PLAY RECAP **************************************************************************************************************************************************
+2020-12-08 01:01:49,802 p=5072 u=radovan n=ansible | lx100-5                    : ok=7    changed=3    unreachable=0    failed=1    skipped=2    rescued=0    ignored=0   
+2020-12-08 01:05:24,190 p=5243 u=radovan n=ansible | PLAY [debian] ***********************************************************************************************************************************************
+2020-12-08 01:05:24,214 p=5243 u=radovan n=ansible | TASK [Gathering Facts] **************************************************************************************************************************************
+2020-12-08 01:05:25,876 p=5243 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 01:05:25,894 p=5243 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Install php] *****************************************************************************************************
+2020-12-08 01:05:27,088 p=5243 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 01:05:27,106 p=5243 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Install nginx] ***************************************************************************************************
+2020-12-08 01:05:28,042 p=5243 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 01:05:28,061 p=5243 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Install apache] **************************************************************************************************
+2020-12-08 01:05:28,106 p=5243 u=radovan n=ansible | skipping: [lx100-5]
+2020-12-08 01:05:28,125 p=5243 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Remove elements from /var/www/html/] *****************************************************************************
+2020-12-08 01:05:28,168 p=5243 u=radovan n=ansible | skipping: [lx100-5]
+2020-12-08 01:05:28,186 p=5243 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Create directory] ************************************************************************************************
+2020-12-08 01:05:28,776 p=5243 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 01:05:28,823 p=5243 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Extract archive in /var/www/rs.edu.net] **************************************************************************
+2020-12-08 01:05:34,937 p=5243 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 01:05:34,960 p=5243 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Move files from /var/www/rs.edu.net/wordpress to /var/www/rs.edu.net] ********************************************
+2020-12-08 01:05:36,794 p=5243 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 01:05:36,812 p=5243 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Remove wordpress dir] ********************************************************************************************
+2020-12-08 01:05:37,269 p=5243 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 01:05:37,292 p=5243 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Fetch random salts for wp-config.php] ****************************************************************************
+2020-12-08 01:05:38,478 p=5243 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 01:05:38,498 p=5243 u=radovan n=ansible | TASK [makarenalabs.wordpress : set wp_salt fact] ************************************************************************************************************
+2020-12-08 01:05:38,520 p=5243 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 01:05:38,539 p=5243 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Copy wp-config.php file] *****************************************************************************************
+2020-12-08 01:05:39,380 p=5243 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 01:05:39,398 p=5243 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Change ownership of installation directory] **********************************************************************
+2020-12-08 01:05:39,942 p=5243 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 01:05:39,961 p=5243 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Nginx | Figure out PHP FPM socket location] **********************************************************************
+2020-12-08 01:05:40,333 p=5243 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 01:05:40,356 p=5243 u=radovan n=ansible | TASK [makarenalabs.wordpress : Start service php7.3] ********************************************************************************************************
+2020-12-08 01:05:41,283 p=5243 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 01:05:41,301 p=5243 u=radovan n=ansible | TASK [makarenalabs.wordpress : Start service nginx] *********************************************************************************************************
+2020-12-08 01:05:41,771 p=5243 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 01:05:41,789 p=5243 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Nginx | Copy virtual host configuration file] ********************************************************************
+2020-12-08 01:05:42,382 p=5243 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 01:05:42,400 p=5243 u=radovan n=ansible | TASK [makarenalabs.wordpress : WordPress | Nginx | Symlink virtual host configuration file from sites-available to sites-enabled] ***************************
+2020-12-08 01:05:42,719 p=5243 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 01:05:42,737 p=5243 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Apache | Copy virtual host configuration file] *******************************************************************
+2020-12-08 01:05:42,756 p=5243 u=radovan n=ansible | skipping: [lx100-5]
+2020-12-08 01:05:42,774 p=5243 u=radovan n=ansible | TASK [makarenalabs.wordpress : WordPress | Apache | Enable site] ********************************************************************************************
+2020-12-08 01:05:42,792 p=5243 u=radovan n=ansible | skipping: [lx100-5]
+2020-12-08 01:05:42,811 p=5243 u=radovan n=ansible | TASK [makarenalabs.wordpress : Installing mysql-server] *****************************************************************************************************
+2020-12-08 01:05:42,829 p=5243 u=radovan n=ansible | skipping: [lx100-5]
+2020-12-08 01:05:42,847 p=5243 u=radovan n=ansible | TASK [makarenalabs.wordpress : Installing mariadb-server] ***************************************************************************************************
+2020-12-08 01:06:03,653 p=5243 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 01:06:03,671 p=5243 u=radovan n=ansible | TASK [makarenalabs.wordpress : Start MariaDB] ***************************************************************************************************************
+2020-12-08 01:06:04,152 p=5243 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 01:06:04,169 p=5243 u=radovan n=ansible | TASK [makarenalabs.wordpress : Installing dependencies] *****************************************************************************************************
+2020-12-08 01:06:07,754 p=5243 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 01:06:07,772 p=5243 u=radovan n=ansible | TASK [makarenalabs.wordpress : Create mysql database] *******************************************************************************************************
+2020-12-08 01:06:08,465 p=5243 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 01:06:08,483 p=5243 u=radovan n=ansible | TASK [makarenalabs.wordpress : Create mysql user] ***********************************************************************************************************
+2020-12-08 01:06:09,133 p=5243 u=radovan n=ansible | [WARNING]: Module did not set no_log for update_password
+
+2020-12-08 01:06:09,134 p=5243 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 01:06:09,135 p=5243 u=radovan n=ansible | RUNNING HANDLER [makarenalabs.wordpress : restart nginx] ****************************************************************************************************
+2020-12-08 01:06:09,777 p=5243 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 01:06:09,779 p=5243 u=radovan n=ansible | PLAY RECAP **************************************************************************************************************************************************
+2020-12-08 01:06:09,779 p=5243 u=radovan n=ansible | lx100-5                    : ok=22   changed=13   unreachable=0    failed=0    skipped=5    rescued=0    ignored=0   
+2020-12-08 01:06:21,397 p=5485 u=radovan n=ansible | PLAY [debian] ***********************************************************************************************************************************************
+2020-12-08 01:06:21,422 p=5485 u=radovan n=ansible | TASK [Gathering Facts] **************************************************************************************************************************************
+2020-12-08 01:06:24,092 p=5485 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 01:06:24,113 p=5485 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Install php] *****************************************************************************************************
+2020-12-08 01:06:25,485 p=5485 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 01:06:25,505 p=5485 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Install nginx] ***************************************************************************************************
+2020-12-08 01:06:26,614 p=5485 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 01:06:26,634 p=5485 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Install apache] **************************************************************************************************
+2020-12-08 01:06:26,686 p=5485 u=radovan n=ansible | skipping: [lx100-5]
+2020-12-08 01:06:26,705 p=5485 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Remove elements from /var/www/html/] *****************************************************************************
+2020-12-08 01:06:26,756 p=5485 u=radovan n=ansible | skipping: [lx100-5]
+2020-12-08 01:06:26,780 p=5485 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Create directory] ************************************************************************************************
+2020-12-08 01:06:27,470 p=5485 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 01:06:27,525 p=5485 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Extract archive in /var/www/rs.edu.net] **************************************************************************
+2020-12-08 01:06:34,940 p=5485 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 01:06:34,966 p=5485 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Move files from /var/www/rs.edu.net/wordpress to /var/www/rs.edu.net] ********************************************
+2020-12-08 01:06:36,645 p=5485 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 01:06:36,666 p=5485 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Remove wordpress dir] ********************************************************************************************
+2020-12-08 01:06:37,177 p=5485 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 01:06:37,202 p=5485 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Fetch random salts for wp-config.php] ****************************************************************************
+2020-12-08 01:06:38,431 p=5485 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 01:06:38,452 p=5485 u=radovan n=ansible | TASK [makarenalabs.wordpress : set wp_salt fact] ************************************************************************************************************
+2020-12-08 01:06:38,479 p=5485 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 01:06:38,499 p=5485 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Copy wp-config.php file] *****************************************************************************************
+2020-12-08 01:06:39,505 p=5485 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 01:06:39,526 p=5485 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Change ownership of installation directory] **********************************************************************
+2020-12-08 01:06:40,067 p=5485 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 01:06:40,088 p=5485 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Nginx | Figure out PHP FPM socket location] **********************************************************************
+2020-12-08 01:06:40,526 p=5485 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 01:06:40,551 p=5485 u=radovan n=ansible | TASK [makarenalabs.wordpress : Start service php7.3] ********************************************************************************************************
+2020-12-08 01:06:41,607 p=5485 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 01:06:41,628 p=5485 u=radovan n=ansible | TASK [makarenalabs.wordpress : Start service nginx] *********************************************************************************************************
+2020-12-08 01:06:42,198 p=5485 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 01:06:42,218 p=5485 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Nginx | Copy virtual host configuration file] ********************************************************************
+2020-12-08 01:06:42,904 p=5485 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 01:06:42,925 p=5485 u=radovan n=ansible | TASK [makarenalabs.wordpress : WordPress | Nginx | Symlink virtual host configuration file from sites-available to sites-enabled] ***************************
+2020-12-08 01:06:43,295 p=5485 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 01:06:43,316 p=5485 u=radovan n=ansible | TASK [makarenalabs.wordpress : Wordpress | Apache | Copy virtual host configuration file] *******************************************************************
+2020-12-08 01:06:43,338 p=5485 u=radovan n=ansible | skipping: [lx100-5]
+2020-12-08 01:06:43,358 p=5485 u=radovan n=ansible | TASK [makarenalabs.wordpress : WordPress | Apache | Enable site] ********************************************************************************************
+2020-12-08 01:06:43,383 p=5485 u=radovan n=ansible | skipping: [lx100-5]
+2020-12-08 01:06:43,403 p=5485 u=radovan n=ansible | TASK [makarenalabs.wordpress : Installing mysql-server] *****************************************************************************************************
+2020-12-08 01:06:43,427 p=5485 u=radovan n=ansible | skipping: [lx100-5]
+2020-12-08 01:06:43,446 p=5485 u=radovan n=ansible | TASK [makarenalabs.wordpress : Installing mariadb-server] ***************************************************************************************************
+2020-12-08 01:06:44,511 p=5485 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 01:06:44,531 p=5485 u=radovan n=ansible | TASK [makarenalabs.wordpress : Start MariaDB] ***************************************************************************************************************
+2020-12-08 01:06:45,077 p=5485 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 01:06:45,098 p=5485 u=radovan n=ansible | TASK [makarenalabs.wordpress : Installing dependencies] *****************************************************************************************************
+2020-12-08 01:06:46,136 p=5485 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 01:06:46,161 p=5485 u=radovan n=ansible | TASK [makarenalabs.wordpress : Create mysql database] *******************************************************************************************************
+2020-12-08 01:06:46,877 p=5485 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 01:06:46,900 p=5485 u=radovan n=ansible | TASK [makarenalabs.wordpress : Create mysql user] ***********************************************************************************************************
+2020-12-08 01:06:47,634 p=5485 u=radovan n=ansible | [WARNING]: Module did not set no_log for update_password
+
+2020-12-08 01:06:47,635 p=5485 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 01:06:47,637 p=5485 u=radovan n=ansible | PLAY RECAP **************************************************************************************************************************************************
+2020-12-08 01:06:47,638 p=5485 u=radovan n=ansible | lx100-5                    : ok=21   changed=5    unreachable=0    failed=0    skipped=5    rescued=0    ignored=0   
+2020-12-08 01:18:57,591 p=5714 u=radovan n=ansible | lx100-4 | CHANGED => {
+    "changed": true,
+    "msg": "",
+    "rc": 0,
+    "results": [
+        "Installed: gpgme-1.13.1-3.el8.x86_64",
+        "Installed: sssd-kcm-2.3.0-9.el8.x86_64",
+        "Installed: grub2-common-1:2.02-90.el8.noarch",
+        "Installed: sssd-nfs-idmap-2.3.0-9.el8.x86_64",
+        "Installed: audit-3.0-0.17.20191104git1c2f876.el8.x86_64",
+        "Installed: grub2-efi-x64-1:2.02-90.el8.x86_64",
+        "Installed: rsyslog-8.1911.0-6.el8.x86_64",
+        "Installed: audit-libs-3.0-0.17.20191104git1c2f876.el8.x86_64",
+        "Installed: grub2-pc-1:2.02-90.el8.x86_64",
+        "Installed: grub2-pc-modules-1:2.02-90.el8.noarch",
+        "Installed: grub2-tools-1:2.02-90.el8.x86_64",
+        "Installed: grub2-tools-efi-1:2.02-90.el8.x86_64",
+        "Installed: authselect-1.2.1-2.el8.x86_64",
+        "Installed: grub2-tools-extra-1:2.02-90.el8.x86_64",
+        "Installed: authselect-libs-1.2.1-2.el8.x86_64",
+        "Installed: grub2-tools-minimal-1:2.02-90.el8.x86_64",
+        "Installed: grubby-8.40-41.el8.x86_64",
+        "Installed: libzstd-1.4.4-1.el8.x86_64",
+        "Installed: libxml2-2.9.7-8.el8.x86_64",
+        "Installed: libxslt-1.1.32-5.el8.x86_64",
+        "Installed: linux-firmware-20200619-99.git3890db36.el8.noarch",
+        "Installed: hwdata-0.314-8.6.el8.noarch",
+        "Installed: systemd-239-41.el8_3.x86_64",
+        "Installed: open-vm-tools-11.1.0-2.el8.x86_64",
+        "Installed: bash-4.4.19-12.el8.x86_64",
+        "Installed: systemd-libs-239-41.el8_3.x86_64",
+        "Installed: systemd-pam-239-41.el8_3.x86_64",
+        "Installed: systemd-udev-239-41.el8_3.x86_64",
+        "Installed: info-6.5-6.el8.x86_64",
+        "Installed: initscripts-10.00.9-1.el8.x86_64",
+        "Installed: bind-export-libs-32:9.11.20-5.el8.x86_64",
+        "Installed: tar-2:1.30-5.el8.x86_64",
+        "Installed: logrotate-3.14.0-4.el8.x86_64",
+        "Installed: ipcalc-0.2.4-4.el8.x86_64",
+        "Installed: iproute-5.3.0-5.el8.x86_64",
+        "Installed: lshw-B.02.19.2-2.el8.x86_64",
+        "Installed: iprutils-2.4.19-1.el8.x86_64",
+        "Installed: teamd-1.31-2.el8.x86_64",
+        "Installed: lvm2-8:2.03.09-5.el8.x86_64",
+        "Installed: iptables-1.8.4-15.el8.x86_64",
+        "Installed: lvm2-libs-8:2.03.09-5.el8.x86_64",
+        "Installed: brotli-1.0.6-2.el8.x86_64",
+        "Installed: iptables-ebtables-1.8.4-15.el8.x86_64",
+        "Installed: iptables-libs-1.8.4-15.el8.x86_64",
+        "Installed: lz4-libs-1.8.3-2.el8.x86_64",
+        "Installed: ca-certificates-2020.2.41-80.0.el8_2.noarch",
+        "Installed: centos-gpg-keys-1:8-2.el8.noarch",
+        "Installed: centos-linux-release-8.3-1.2011.el8.noarch",
+        "Installed: centos-linux-repos-8-2.el8.noarch",
+        "Installed: tuned-2.14.0-3.el8.noarch",
+        "Installed: iwl100-firmware-39.31.5.1-99.el8.1.noarch",
+        "Installed: chkconfig-1.13-2.el8.x86_64",
+        "Installed: iwl1000-firmware-1:39.31.5.1-99.el8.1.noarch",
+        "Installed: iwl105-firmware-18.168.6.1-99.el8.1.noarch",
+        "Installed: iwl135-firmware-18.168.6.1-99.el8.1.noarch",
+        "Installed: iwl2000-firmware-18.168.6.1-99.el8.1.noarch",
+        "Installed: iwl2030-firmware-18.168.6.1-99.el8.1.noarch",
+        "Installed: iwl3160-firmware-1:25.30.13.0-99.el8.1.noarch",
+        "Installed: iwl3945-firmware-15.32.2.9-99.el8.1.noarch",
+        "Installed: iwl4965-firmware-228.61.2.24-99.el8.1.noarch",
+        "Installed: iwl5000-firmware-8.83.5.1_1-99.el8.1.noarch",
+        "Installed: coreutils-8.30-8.el8.x86_64",
+        "Installed: coreutils-common-8.30-8.el8.x86_64",
+        "Installed: iwl5150-firmware-8.24.2.2-99.el8.1.noarch",
+        "Installed: iwl6000-firmware-9.221.4.1-99.el8.1.noarch",
+        "Installed: iwl6000g2a-firmware-18.168.6.1-99.el8.1.noarch",
+        "Installed: iwl6050-firmware-41.28.5.1-99.el8.1.noarch",
+        "Installed: iwl7260-firmware-1:25.30.13.0-99.el8.1.noarch",
+        "Installed: mokutil-1:0.3.0-10.el8.x86_64",
+        "Installed: mozjs52-52.9.0-2.el8.x86_64",
+        "Installed: mozjs60-60.9.0-4.el8.x86_64",
+        "Installed: vim-minimal-2:8.0.1763-15.el8.x86_64",
+        "Installed: crypto-policies-20200713-1.git51d1222.el8.noarch",
+        "Installed: which-2.21-12.el8.x86_64",
+        "Installed: cryptsetup-libs-2.3.3-2.el8.x86_64",
+        "Installed: kbd-2.0.4-10.el8.x86_64",
+        "Installed: kbd-legacy-2.0.4-10.el8.noarch",
+        "Installed: kernel-4.18.0-240.1.1.el8_3.x86_64",
+        "Installed: kbd-misc-2.0.4-10.el8.noarch",
+        "Installed: kernel-core-4.18.0-240.1.1.el8_3.x86_64",
+        "Installed: curl-7.61.1-14.el8.x86_64",
+        "Installed: xfsprogs-5.0.0-4.el8.x86_64",
+        "Installed: libxkbcommon-0.9.1-1.el8.x86_64",
+        "Installed: microcode_ctl-4:20200609-2.el8.x86_64",
+        "Installed: tzdata-2020d-1.el8.noarch",
+        "Installed: nettle-3.4.1-2.el8.x86_64",
+        "Installed: kernel-modules-4.18.0-240.1.1.el8_3.x86_64",
+        "Installed: kernel-tools-4.18.0-240.1.1.el8_3.x86_64",
+        "Installed: cyrus-sasl-lib-2.1.27-5.el8.x86_64",
+        "Installed: kernel-tools-libs-4.18.0-240.1.1.el8_3.x86_64",
+        "Installed: kexec-tools-2.0.20-34.el8.x86_64",
+        "Installed: newt-0.52.20-11.el8.x86_64",
+        "Installed: nftables-1:0.9.3-16.el8.x86_64",
+        "Installed: yum-4.2.23-4.el8.noarch",
+        "Installed: zlib-1.2.11-16.el8_2.x86_64",
+        "Installed: kmod-25-16.el8.x86_64",
+        "Installed: kmod-libs-25-16.el8.x86_64",
+        "Installed: kpartx-0.8.4-5.el8.x86_64",
+        "Installed: dbus-1:1.12.8-11.el8.x86_64",
+        "Installed: dbus-common-1:1.12.8-11.el8.noarch",
+        "Installed: dbus-daemon-1:1.12.8-11.el8.x86_64",
+        "Installed: krb5-libs-1.18.2-5.el8.x86_64",
+        "Installed: numactl-libs-2.0.12-11.el8.x86_64",
+        "Installed: dbus-libs-1:1.12.8-11.el8.x86_64",
+        "Installed: dbus-tools-1:1.12.8-11.el8.x86_64",
+        "Installed: device-mapper-8:1.02.171-5.el8.x86_64",
+        "Installed: device-mapper-event-8:1.02.171-5.el8.x86_64",
+        "Installed: device-mapper-event-libs-8:1.02.171-5.el8.x86_64",
+        "Installed: device-mapper-libs-8:1.02.171-5.el8.x86_64",
+        "Installed: device-mapper-persistent-data-0.8.5-4.el8.x86_64",
+        "Installed: dhcp-client-12:4.3.6-41.el8.x86_64",
+        "Installed: dhcp-common-12:4.3.6-41.el8.noarch",
+        "Installed: openldap-2.4.46-15.el8.x86_64",
+        "Installed: libmaxminddb-1.2.0-10.el8.x86_64",
+        "Installed: dhcp-libs-12:4.3.6-41.el8.x86_64",
+        "Installed: libarchive-3.3.2-9.el8.x86_64",
+        "Installed: diffutils-3.6-6.el8.x86_64",
+        "Installed: util-linux-2.32.1-24.el8.x86_64",
+        "Installed: dmidecode-1:3.2-6.el8.x86_64",
+        "Installed: dnf-4.2.23-4.el8.noarch",
+        "Installed: openssh-8.0p1-5.el8.x86_64",
+        "Installed: dnf-data-4.2.23-4.el8.noarch",
+        "Installed: openssh-clients-8.0p1-5.el8.x86_64",
+        "Installed: dnf-plugins-core-4.0.17-5.el8.noarch",
+        "Installed: openssh-server-8.0p1-5.el8.x86_64",
+        "Installed: dracut-049-95.git20200804.el8.x86_64",
+        "Installed: python3-newt-0.52.20-11.el8.x86_64",
+        "Installed: openssl-1:1.1.1g-11.el8.x86_64",
+        "Installed: dracut-config-rescue-049-95.git20200804.el8.x86_64",
+        "Installed: dracut-network-049-95.git20200804.el8.x86_64",
+        "Installed: dracut-squash-049-95.git20200804.el8.x86_64",
+        "Installed: libmspack-0.7-0.3.alpha.el8.4.x86_64",
+        "Installed: libblkid-2.32.1-24.el8.x86_64",
+        "Installed: e2fsprogs-1.45.6-1.el8.x86_64",
+        "Installed: openssl-libs-1:1.1.1g-11.el8.x86_64",
+        "Installed: libcap-2.26-4.el8.x86_64",
+        "Installed: openssl-pkcs11-0.4.10-2.el8.x86_64",
+        "Installed: e2fsprogs-libs-1.45.6-1.el8.x86_64",
+        "Installed: libcap-ng-0.7.9-5.el8.x86_64",
+        "Installed: efivar-37-4.el8.x86_64",
+        "Installed: pam-1.3.1-11.el8.x86_64",
+        "Installed: efivar-libs-37-4.el8.x86_64",
+        "Installed: elfutils-debuginfod-client-0.180-1.el8.x86_64",
+        "Installed: passwd-0.80-3.el8.x86_64",
+        "Installed: elfutils-default-yama-scope-0.180-1.el8.noarch",
+        "Installed: libcom_err-1.45.6-1.el8.x86_64",
+        "Installed: pciutils-3.6.4-2.el8.x86_64",
+        "Installed: elfutils-libelf-0.180-1.el8.x86_64",
+        "Installed: libcomps-0.1.11-4.el8.x86_64",
+        "Installed: pciutils-libs-3.6.4-2.el8.x86_64",
+        "Installed: libuuid-2.32.1-24.el8.x86_64",
+        "Installed: elfutils-libs-0.180-1.el8.x86_64",
+        "Installed: libcroco-0.6.12-4.el8_2.1.x86_64",
+        "Installed: libcurl-7.61.1-14.el8.x86_64",
+        "Installed: expat-2.2.5-4.el8.x86_64",
+        "Installed: pcre2-10.32-2.el8.x86_64",
+        "Installed: file-5.33-16.el8.x86_64",
+        "Installed: file-libs-5.33-16.el8.x86_64",
+        "Installed: filesystem-3.8-3.el8.x86_64",
+        "Installed: libdb-5.3.28-39.el8.x86_64",
+        "Installed: libdb-utils-5.3.28-39.el8.x86_64",
+        "Installed: sssd-common-2.3.0-9.el8.x86_64",
+        "Installed: firewalld-0.8.2-2.el8.noarch",
+        "Installed: firewalld-filesystem-0.8.2-2.el8.noarch",
+        "Installed: libdnf-0.48.0-5.el8.x86_64",
+        "Installed: freetype-2.9.1-4.el8_3.1.x86_64",
+        "Installed: libfdisk-2.32.1-24.el8.x86_64",
+        "Installed: libffi-3.1-22.el8.x86_64",
+        "Installed: libgcc-8.3.1-5.1.el8.x86_64",
+        "Installed: libgcrypt-1.8.5-4.el8.x86_64",
+        "Installed: python3-unbound-1.7.3-14.el8.x86_64",
+        "Installed: unbound-libs-1.7.3-14.el8.x86_64",
+        "Installed: libgomp-8.3.1-5.1.el8.x86_64",
+        "Installed: memstrack-0.1.11-1.el8.x86_64",
+        "Installed: pigz-2.4-4.el8.x86_64",
+        "Installed: glib2-2.56.4-8.el8.x86_64",
+        "Installed: platform-python-3.6.8-31.el8.x86_64",
+        "Installed: policycoreutils-2.9-9.el8.x86_64",
+        "Installed: glibc-2.28-127.el8.x86_64",
+        "Installed: glibc-common-2.28-127.el8.x86_64",
+        "Installed: polkit-0.115-11.el8.x86_64",
+        "Installed: polkit-libs-0.115-11.el8.x86_64",
+        "Installed: libkcapi-1.2.0-2.el8.x86_64",
+        "Installed: libkcapi-hmaccalc-1.2.0-2.el8.x86_64",
+        "Installed: procps-ng-3.3.15-3.el8.x86_64",
+        "Installed: libldb-2.1.3-2.el8.x86_64",
+        "Installed: python3-cryptography-2.3-3.el8.x86_64",
+        "Installed: libmodulemd-2.9.4-2.el8.x86_64",
+        "Installed: sudo-1.8.29-6.el8.x86_64",
+        "Installed: libmodulemd1-1.8.16-0.2.9.4.2.x86_64",
+        "Installed: python3-dnf-4.2.23-4.el8.noarch",
+        "Installed: libmount-2.32.1-24.el8.x86_64",
+        "Installed: libndp-1.7-3.el8.x86_64",
+        "Installed: python3-dnf-plugins-core-4.0.17-5.el8.noarch",
+        "Installed: python3-firewall-0.8.2-2.el8.noarch",
+        "Installed: python3-gobject-base-3.28.3-2.el8.x86_64",
+        "Installed: glibc-langpack-en-2.28-127.el8.x86_64",
+        "Installed: python3-gpg-1.13.1-3.el8.x86_64",
+        "Installed: python3-hawkey-0.48.0-5.el8.x86_64",
+        "Installed: libnfsidmap-1:2.3.3-35.el8.x86_64",
+        "Installed: libnftnl-1.1.5-4.el8.x86_64",
+        "Installed: python3-libcomps-0.1.11-4.el8.x86_64",
+        "Installed: libnghttp2-1.33.0-3.el8_2.1.x86_64",
+        "Installed: python3-libdnf-0.48.0-5.el8.x86_64",
+        "Installed: libnl3-3.5.0-1.el8.x86_64",
+        "Installed: libnl3-cli-3.5.0-1.el8.x86_64",
+        "Installed: python3-librepo-1.12.0-2.el8.x86_64",
+        "Installed: python3-libs-3.6.8-31.el8.x86_64",
+        "Installed: python3-libselinux-2.9-4.el8_3.x86_64",
+        "Installed: python3-libxml2-2.9.7-8.el8.x86_64",
+        "Installed: python3-linux-procfs-0.6.2-2.el8.noarch",
+        "Installed: libpcap-14:1.9.1-4.el8.x86_64",
+        "Installed: python3-nftables-1:0.9.3-16.el8.x86_64",
+        "Installed: python3-perf-4.18.0-240.1.1.el8_3.x86_64",
+        "Installed: python3-pip-wheel-9.0.3-18.el8.noarch",
+        "Installed: python3-ply-3.9-8.el8.noarch",
+        "Installed: libpsl-0.20.2-6.el8.x86_64",
+        "Installed: python3-rpm-4.14.3-4.el8.x86_64",
+        "Installed: plymouth-0.9.4-7.20200615git1e36e30.el8.x86_64",
+        "Installed: python3-setuptools-wheel-39.2.0-6.el8.noarch",
+        "Installed: plymouth-core-libs-0.9.4-7.20200615git1e36e30.el8.x86_64",
+        "Installed: xkeyboard-config-2.28-1.el8.noarch",
+        "Installed: python3-syspurpose-1.27.16-1.el8.x86_64",
+        "Installed: plymouth-scripts-0.9.4-7.20200615git1e36e30.el8.x86_64",
+        "Installed: librepo-1.12.0-2.el8.x86_64",
+        "Installed: libreport-filesystem-2.9.5-15.el8.x86_64",
+        "Installed: libseccomp-2.4.3-1.el8.x86_64",
+        "Installed: libselinux-2.9-4.el8_3.x86_64",
+        "Installed: libselinux-utils-2.9-4.el8_3.x86_64",
+        "Installed: libsemanage-2.9-3.el8.x86_64",
+        "Installed: libsmartcols-2.32.1-24.el8.x86_64",
+        "Installed: rng-tools-6.8-3.el8.x86_64",
+        "Installed: rpm-4.14.3-4.el8.x86_64",
+        "Installed: rpm-build-libs-4.14.3-4.el8.x86_64",
+        "Installed: crypto-policies-scripts-20200713-1.git51d1222.el8.noarch",
+        "Installed: libsolv-0.7.11-1.el8.x86_64",
+        "Installed: rpm-libs-4.14.3-4.el8.x86_64",
+        "Installed: libss-1.45.6-1.el8.x86_64",
+        "Installed: libssh-0.9.4-2.el8.x86_64",
+        "Installed: libssh-config-0.9.4-2.el8.noarch",
+        "Installed: libsss_autofs-2.3.0-9.el8.x86_64",
+        "Installed: rpm-plugin-selinux-4.14.3-4.el8.x86_64",
+        "Installed: libsss_certmap-2.3.0-9.el8.x86_64",
+        "Installed: rpm-plugin-systemd-inhibit-4.14.3-4.el8.x86_64",
+        "Installed: libsss_idmap-2.3.0-9.el8.x86_64",
+        "Installed: libsss_nss_idmap-2.3.0-9.el8.x86_64",
+        "Installed: libsss_sudo-2.3.0-9.el8.x86_64",
+        "Installed: libstdc++-8.3.1-5.1.el8.x86_64",
+        "Installed: sed-4.5-2.el8.x86_64",
+        "Installed: selinux-policy-3.14.3-54.el8.noarch",
+        "Installed: libtalloc-2.3.1-2.el8.x86_64",
+        "Installed: selinux-policy-targeted-3.14.3-54.el8.noarch",
+        "Installed: libtdb-1.4.3-1.el8.x86_64",
+        "Installed: libdrm-2.4.101-1.el8.x86_64",
+        "Installed: setup-2.12.2-6.el8.noarch",
+        "Installed: sg3_utils-1.44-5.el8.x86_64",
+        "Installed: libteam-1.31-2.el8.x86_64",
+        "Installed: sg3_utils-libs-1.44-5.el8.x86_64",
+        "Installed: shadow-utils-2:4.6-11.el8.x86_64",
+        "Installed: libtevent-0.10.2-2.el8.x86_64",
+        "Installed: NetworkManager-1:1.26.0-9.el8_3.x86_64",
+        "Installed: shim-x64-15-15.el8_2.x86_64",
+        "Installed: NetworkManager-libnm-1:1.26.0-9.el8_3.x86_64",
+        "Installed: snappy-1.1.8-3.el8.x86_64",
+        "Installed: NetworkManager-team-1:1.26.0-9.el8_3.x86_64",
+        "Installed: NetworkManager-tui-1:1.26.0-9.el8_3.x86_64",
+        "Installed: sqlite-3.26.0-11.el8.x86_64",
+        "Installed: libusbx-1.0.23-4.el8.x86_64",
+        "Installed: sqlite-libs-3.26.0-11.el8.x86_64",
+        "Installed: gnupg2-2.2.20-2.el8.x86_64",
+        "Installed: gnupg2-smime-2.2.20-2.el8.x86_64",
+        "Installed: sssd-client-2.3.0-9.el8.x86_64",
+        "Installed: gnutls-3.6.14-6.el8.x86_64",
+        "Removed: NetworkManager-1:1.20.0-5.el8_1.x86_64",
+        "Removed: NetworkManager-libnm-1:1.20.0-5.el8_1.x86_64",
+        "Removed: NetworkManager-team-1:1.20.0-5.el8_1.x86_64",
+        "Removed: NetworkManager-tui-1:1.20.0-5.el8_1.x86_64",
+        "Removed: audit-3.0-0.13.20190507gitf58ec40.el8.x86_64",
+        "Removed: audit-libs-3.0-0.13.20190507gitf58ec40.el8.x86_64",
+        "Removed: authselect-1.1-2.el8.x86_64",
+        "Removed: authselect-libs-1.1-2.el8.x86_64",
+        "Removed: bash-4.4.19-10.el8.x86_64",
+        "Removed: bind-export-libs-32:9.11.4-26.P2.el8.x86_64",
+        "Removed: brotli-1.0.6-1.el8.x86_64",
+        "Removed: ca-certificates-2019.2.32-80.0.el8_1.noarch",
+        "Removed: centos-gpg-keys-8.1-1.1911.0.9.el8.noarch",
+        "Removed: centos-release-8.1-1.1911.0.9.el8.x86_64",
+        "Removed: centos-repos-8.1-1.1911.0.9.el8.x86_64",
+        "Removed: chkconfig-1.11-1.el8.x86_64",
+        "Removed: coreutils-8.30-6.el8_1.1.x86_64",
+        "Removed: coreutils-common-8.30-6.el8_1.1.x86_64",
+        "Removed: crypto-policies-20190807-1.git9b1477b.el8.noarch",
+        "Removed: cryptsetup-libs-2.2.0-2.el8.x86_64",
+        "Removed: curl-7.61.1-11.el8.x86_64",
+        "Removed: cyrus-sasl-lib-2.1.27-1.el8.x86_64",
+        "Removed: dbus-1:1.12.8-9.el8.x86_64",
+        "Removed: dbus-common-1:1.12.8-9.el8.noarch",
+        "Removed: dbus-daemon-1:1.12.8-9.el8.x86_64",
+        "Removed: dbus-libs-1:1.12.8-9.el8.x86_64",
+        "Removed: dbus-tools-1:1.12.8-9.el8.x86_64",
+        "Removed: device-mapper-8:1.02.163-5.el8.0.1.x86_64",
+        "Removed: device-mapper-event-8:1.02.163-5.el8.0.1.x86_64",
+        "Removed: device-mapper-event-libs-8:1.02.163-5.el8.0.1.x86_64",
+        "Removed: device-mapper-libs-8:1.02.163-5.el8.0.1.x86_64",
+        "Removed: device-mapper-persistent-data-0.8.5-2.el8.x86_64",
+        "Removed: dhcp-client-12:4.3.6-34.el8.x86_64",
+        "Removed: dhcp-common-12:4.3.6-34.el8.noarch",
+        "Removed: dhcp-libs-12:4.3.6-34.el8.x86_64",
+        "Removed: diffutils-3.6-5.el8.x86_64",
+        "Removed: dmidecode-1:3.2-3.el8.x86_64",
+        "Removed: dnf-4.2.7-7.el8_1.noarch",
+        "Removed: dnf-data-4.2.7-7.el8_1.noarch",
+        "Removed: dnf-plugins-core-4.0.8-3.el8.noarch",
+        "Removed: dracut-049-27.git20190906.el8_1.1.x86_64",
+        "Removed: dracut-config-rescue-049-27.git20190906.el8_1.1.x86_64",
+        "Removed: dracut-network-049-27.git20190906.el8_1.1.x86_64",
+        "Removed: dracut-squash-049-27.git20190906.el8_1.1.x86_64",
+        "Removed: e2fsprogs-1.44.6-3.el8.x86_64",
+        "Removed: e2fsprogs-libs-1.44.6-3.el8.x86_64",
+        "Removed: efivar-36-1.el8.x86_64",
+        "Removed: efivar-libs-36-1.el8.x86_64",
+        "Removed: elfutils-default-yama-scope-0.176-5.el8.noarch",
+        "Removed: elfutils-libelf-0.176-5.el8.x86_64",
+        "Removed: elfutils-libs-0.176-5.el8.x86_64",
+        "Removed: expat-2.2.5-3.el8.x86_64",
+        "Removed: file-5.33-8.el8.x86_64",
+        "Removed: file-libs-5.33-8.el8.x86_64",
+        "Removed: filesystem-3.8-2.el8.x86_64",
+        "Removed: firewalld-0.7.0-5.el8_1.1.noarch",
+        "Removed: firewalld-filesystem-0.7.0-5.el8_1.1.noarch",
+        "Removed: freetype-2.9.1-4.el8.x86_64",
+        "Removed: glib2-2.56.4-7.el8.x86_64",
+        "Removed: glibc-2.28-72.el8_1.1.x86_64",
+        "Removed: glibc-common-2.28-72.el8_1.1.x86_64",
+        "Removed: glibc-langpack-en-2.28-72.el8_1.1.x86_64",
+        "Removed: gnupg2-2.2.9-1.el8.x86_64",
+        "Removed: gnupg2-smime-2.2.9-1.el8.x86_64",
+        "Removed: gnutls-3.6.8-8.el8.x86_64",
+        "Removed: gpgme-1.10.0-6.el8.0.1.x86_64",
+        "Removed: grub2-common-1:2.02-78.el8_1.1.noarch",
+        "Removed: grub2-efi-x64-1:2.02-78.el8_1.1.x86_64",
+        "Removed: grub2-pc-1:2.02-78.el8_1.1.x86_64",
+        "Removed: grub2-pc-modules-1:2.02-78.el8_1.1.noarch",
+        "Removed: grub2-tools-1:2.02-78.el8_1.1.x86_64",
+        "Removed: grub2-tools-efi-1:2.02-78.el8_1.1.x86_64",
+        "Removed: grub2-tools-extra-1:2.02-78.el8_1.1.x86_64",
+        "Removed: grub2-tools-minimal-1:2.02-78.el8_1.1.x86_64",
+        "Removed: grubby-8.40-37.el8.x86_64",
+        "Removed: hwdata-0.314-8.2.el8_1.noarch",
+        "Removed: info-6.5-4.el8.x86_64",
+        "Removed: initscripts-10.00.4-1.el8.x86_64",
+        "Removed: ipcalc-0.2.4-3.el8.x86_64",
+        "Removed: iproute-4.18.0-15.el8.x86_64",
+        "Removed: iprutils-2.4.18.1-1.el8.x86_64",
+        "Removed: iptables-1.8.2-16.el8.x86_64",
+        "Removed: iptables-ebtables-1.8.2-16.el8.x86_64",
+        "Removed: iptables-libs-1.8.2-16.el8.x86_64",
+        "Removed: iwl100-firmware-39.31.5.1-94.el8.1.noarch",
+        "Removed: iwl1000-firmware-1:39.31.5.1-94.el8.1.noarch",
+        "Removed: iwl105-firmware-18.168.6.1-94.el8.1.noarch",
+        "Removed: iwl135-firmware-18.168.6.1-94.el8.1.noarch",
+        "Removed: iwl2000-firmware-18.168.6.1-94.el8.1.noarch",
+        "Removed: iwl2030-firmware-18.168.6.1-94.el8.1.noarch",
+        "Removed: iwl3160-firmware-1:25.30.13.0-94.el8.1.noarch",
+        "Removed: iwl3945-firmware-15.32.2.9-94.el8.1.noarch",
+        "Removed: iwl4965-firmware-228.61.2.24-94.el8.1.noarch",
+        "Removed: iwl5000-firmware-8.83.5.1_1-94.el8.1.noarch",
+        "Removed: iwl5150-firmware-8.24.2.2-94.el8.1.noarch",
+        "Removed: iwl6000-firmware-9.221.4.1-94.el8.1.noarch",
+        "Removed: iwl6000g2a-firmware-18.168.6.1-94.el8.1.noarch",
+        "Removed: iwl6050-firmware-41.28.5.1-94.el8.1.noarch",
+        "Removed: iwl7260-firmware-1:25.30.13.0-94.el8.1.noarch",
+        "Removed: kbd-2.0.4-8.el8.x86_64",
+        "Removed: kbd-legacy-2.0.4-8.el8.noarch",
+        "Removed: kbd-misc-2.0.4-8.el8.noarch",
+        "Removed: kernel-tools-4.18.0-147.8.1.el8_1.x86_64",
+        "Removed: kernel-tools-libs-4.18.0-147.8.1.el8_1.x86_64",
+        "Removed: kexec-tools-2.0.19-12.el8_1.2.x86_64",
+        "Removed: kmod-25-13.el8.x86_64",
+        "Removed: kmod-libs-25-13.el8.x86_64",
+        "Removed: kpartx-0.8.0-5.el8.x86_64",
+        "Removed: krb5-libs-1.17-9.el8.x86_64",
+        "Removed: libarchive-3.3.2-8.el8_1.x86_64",
+        "Removed: libblkid-2.32.1-17.el8.x86_64",
+        "Removed: libcap-2.26-1.el8.x86_64",
+        "Removed: libcap-ng-0.7.9-4.el8.x86_64",
+        "Removed: libcom_err-1.44.6-3.el8.x86_64",
+        "Removed: libcomps-0.1.11-2.el8.x86_64",
+        "Removed: libcroco-0.6.12-4.el8.x86_64",
+        "Removed: libcurl-7.61.1-11.el8.x86_64",
+        "Removed: libdb-5.3.28-37.el8.x86_64",
+        "Removed: libdb-utils-5.3.28-37.el8.x86_64",
+        "Removed: libdnf-0.35.1-9.el8_1.x86_64",
+        "Removed: libdrm-2.4.98-2.el8.x86_64",
+        "Removed: libfdisk-2.32.1-17.el8.x86_64",
+        "Removed: libffi-3.1-21.el8.x86_64",
+        "Removed: libgcc-8.3.1-4.5.el8.x86_64",
+        "Removed: libgcrypt-1.8.3-4.el8.x86_64",
+        "Removed: libgomp-8.3.1-4.5.el8.x86_64",
+        "Removed: libkcapi-1.1.1-16_1.el8.x86_64",
+        "Removed: libkcapi-hmaccalc-1.1.1-16_1.el8.x86_64",
+        "Removed: libldb-1.5.4-2.el8.x86_64",
+        "Removed: libmaxminddb-1.2.0-6.el8.x86_64",
+        "Removed: libmodulemd1-1.8.11-4.el8_1.x86_64",
+        "Removed: libmount-2.32.1-17.el8.x86_64",
+        "Removed: libmspack-0.7-0.1.alpha.el8.3.x86_64",
+        "Removed: libndp-1.7-1.el8.x86_64",
+        "Removed: libnfsidmap-1:2.3.3-26.el8.x86_64",
+        "Removed: libnftnl-1.1.1-4.el8.x86_64",
+        "Removed: libnghttp2-1.33.0-1.el8_0.1.x86_64",
+        "Removed: libnl3-3.4.0-5.el8.x86_64",
+        "Removed: libnl3-cli-3.4.0-5.el8.x86_64",
+        "Removed: libpcap-14:1.9.0-3.el8.x86_64",
+        "Removed: libpsl-0.20.2-5.el8.x86_64",
+        "Removed: librepo-1.10.3-3.el8.x86_64",
+        "Removed: libreport-filesystem-2.9.5-9.el8.x86_64",
+        "Removed: libseccomp-2.4.1-1.el8.x86_64",
+        "Removed: libselinux-2.9-2.1.el8.x86_64",
+        "Removed: libselinux-utils-2.9-2.1.el8.x86_64",
+        "Removed: libsemanage-2.9-1.el8.x86_64",
+        "Removed: libsmartcols-2.32.1-17.el8.x86_64",
+        "Removed: libsolv-0.7.4-3.el8.x86_64",
+        "Removed: libss-1.44.6-3.el8.x86_64",
+        "Removed: libssh-0.9.0-4.el8.x86_64",
+        "Removed: libssh-config-0.9.0-4.el8.noarch",
+        "Removed: libsss_autofs-2.2.0-19.el8_1.1.x86_64",
+        "Removed: libsss_certmap-2.2.0-19.el8_1.1.x86_64",
+        "Removed: libsss_idmap-2.2.0-19.el8_1.1.x86_64",
+        "Removed: libsss_nss_idmap-2.2.0-19.el8_1.1.x86_64",
+        "Removed: libsss_sudo-2.2.0-19.el8_1.1.x86_64",
+        "Removed: libstdc++-8.3.1-4.5.el8.x86_64",
+        "Removed: libtalloc-2.1.16-3.el8.x86_64",
+        "Removed: libtdb-1.3.18-2.el8.x86_64",
+        "Removed: libteam-1.28-4.el8.x86_64",
+        "Removed: libtevent-0.9.39-2.el8.x86_64",
+        "Removed: libusbx-1.0.22-1.el8.x86_64",
+        "Removed: libuuid-2.32.1-17.el8.x86_64",
+        "Removed: libxkbcommon-0.8.2-1.el8.x86_64",
+        "Removed: libxml2-2.9.7-5.el8.x86_64",
+        "Removed: libxslt-1.1.32-3.el8.x86_64",
+        "Removed: linux-firmware-20190516-94.git711d3297.el8.noarch",
+        "Removed: logrotate-3.14.0-3.el8.x86_64",
+        "Removed: lshw-B.02.18-21.el8.x86_64",
+        "Removed: lvm2-8:2.03.05-5.el8.0.1.x86_64",
+        "Removed: lvm2-libs-8:2.03.05-5.el8.0.1.x86_64",
+        "Removed: lz4-libs-1.8.1.2-4.el8.x86_64",
+        "Removed: microcode_ctl-4:20190618-1.20191115.3.el8_1.x86_64",
+        "Removed: mokutil-1:0.3.0-9.el8.x86_64",
+        "Removed: mozjs52-52.9.0-1.el8.x86_64",
+        "Removed: mozjs60-60.9.0-3.el8.x86_64",
+        "Removed: nettle-3.4.1-1.el8.x86_64",
+        "Removed: newt-0.52.20-9.el8.x86_64",
+        "Removed: nftables-1:0.9.0-14.el8_1.1.x86_64",
+        "Removed: numactl-libs-2.0.12-7.el8.x86_64",
+        "Removed: open-vm-tools-10.3.10-3.el8_1.1.x86_64",
+        "Removed: openldap-2.4.46-11.el8_1.x86_64",
+        "Removed: openssh-8.0p1-4.el8_1.x86_64",
+        "Removed: openssh-clients-8.0p1-4.el8_1.x86_64",
+        "Removed: openssh-server-8.0p1-4.el8_1.x86_64",
+        "Removed: openssl-1:1.1.1c-2.el8_1.1.x86_64",
+        "Removed: openssl-libs-1:1.1.1c-2.el8_1.1.x86_64",
+        "Removed: openssl-pkcs11-0.4.8-2.el8.x86_64",
+        "Removed: pam-1.3.1-4.el8.x86_64",
+        "Removed: passwd-0.80-2.el8.x86_64",
+        "Removed: pciutils-3.5.6-4.el8.x86_64",
+        "Removed: pciutils-libs-3.5.6-4.el8.x86_64",
+        "Removed: pcre2-10.32-1.el8.x86_64",
+        "Removed: pigz-2.4-2.el8.x86_64",
+        "Removed: platform-python-3.6.8-15.1.el8.x86_64",
+        "Removed: plymouth-0.9.3-15.el8.x86_64",
+        "Removed: plymouth-core-libs-0.9.3-15.el8.x86_64",
+        "Removed: plymouth-scripts-0.9.3-15.el8.x86_64",
+        "Removed: policycoreutils-2.9-3.el8_1.1.x86_64",
+        "Removed: polkit-0.115-9.el8.x86_64",
+        "Removed: polkit-libs-0.115-9.el8.x86_64",
+        "Removed: procps-ng-3.3.15-1.el8.x86_64",
+        "Removed: python3-cryptography-2.3-2.el8.x86_64",
+        "Removed: python3-dnf-4.2.7-7.el8_1.noarch",
+        "Removed: python3-dnf-plugins-core-4.0.8-3.el8.noarch",
+        "Removed: python3-firewall-0.7.0-5.el8_1.1.noarch",
+        "Removed: python3-gobject-base-3.28.3-1.el8.x86_64",
+        "Removed: python3-gpg-1.10.0-6.el8.0.1.x86_64",
+        "Removed: python3-hawkey-0.35.1-9.el8_1.x86_64",
+        "Removed: python3-libcomps-0.1.11-2.el8.x86_64",
+        "Removed: python3-libdnf-0.35.1-9.el8_1.x86_64",
+        "Removed: python3-librepo-1.10.3-3.el8.x86_64",
+        "Removed: python3-libs-3.6.8-15.1.el8.x86_64",
+        "Removed: python3-libselinux-2.9-2.1.el8.x86_64",
+        "Removed: python3-libxml2-2.9.7-5.el8.x86_64",
+        "Removed: python3-linux-procfs-0.6-7.el8.noarch",
+        "Removed: python3-newt-0.52.20-9.el8.x86_64",
+        "Removed: python3-perf-4.18.0-147.8.1.el8_1.x86_64",
+        "Removed: python3-pip-wheel-9.0.3-15.el8.noarch",
+        "Removed: python3-ply-3.9-7.el8.noarch",
+        "Removed: python3-rpm-4.14.2-26.el8_1.x86_64",
+        "Removed: python3-setuptools-wheel-39.2.0-5.el8.noarch",
+        "Removed: python3-syspurpose-1.25.17-1.el8.x86_64",
+        "Removed: python3-unbound-1.7.3-8.el8.x86_64",
+        "Removed: rng-tools-6.6-2.el8.x86_64",
+        "Removed: rpm-4.14.2-26.el8_1.x86_64",
+        "Removed: rpm-build-libs-4.14.2-26.el8_1.x86_64",
+        "Removed: rpm-libs-4.14.2-26.el8_1.x86_64",
+        "Removed: rpm-plugin-selinux-4.14.2-26.el8_1.x86_64",
+        "Removed: rpm-plugin-systemd-inhibit-4.14.2-26.el8_1.x86_64",
+        "Removed: rsyslog-8.37.0-13.el8.x86_64",
+        "Removed: sed-4.5-1.el8.x86_64",
+        "Removed: selinux-policy-3.14.3-20.el8.noarch",
+        "Removed: selinux-policy-targeted-3.14.3-20.el8.noarch",
+        "Removed: setup-2.12.2-2.el8_1.1.noarch",
+        "Removed: sg3_utils-1.44-3.el8.x86_64",
+        "Removed: sg3_utils-libs-1.44-3.el8.x86_64",
+        "Removed: shadow-utils-2:4.6-8.el8.x86_64",
+        "Removed: shim-x64-15-8.el8.x86_64",
+        "Removed: snappy-1.1.7-5.el8.x86_64",
+        "Removed: sqlite-3.26.0-4.el8_1.x86_64",
+        "Removed: sqlite-libs-3.26.0-4.el8_1.x86_64",
+        "Removed: sssd-client-2.2.0-19.el8_1.1.x86_64",
+        "Removed: sssd-common-2.2.0-19.el8_1.1.x86_64",
+        "Removed: sssd-kcm-2.2.0-19.el8_1.1.x86_64",
+        "Removed: sssd-nfs-idmap-2.2.0-19.el8_1.1.x86_64",
+        "Removed: sudo-1.8.25p1-8.el8_1.1.x86_64",
+        "Removed: systemd-239-18.el8_1.5.x86_64",
+        "Removed: systemd-libs-239-18.el8_1.5.x86_64",
+        "Removed: systemd-pam-239-18.el8_1.5.x86_64",
+        "Removed: systemd-udev-239-18.el8_1.5.x86_64",
+        "Removed: tar-2:1.30-4.el8.x86_64",
+        "Removed: teamd-1.28-4.el8.x86_64",
+        "Removed: tuned-2.12.0-3.el8_1.1.noarch",
+        "Removed: tzdata-2019c-1.el8.noarch",
+        "Removed: unbound-libs-1.7.3-8.el8.x86_64",
+        "Removed: util-linux-2.32.1-17.el8.x86_64",
+        "Removed: vim-minimal-2:8.0.1763-13.el8.x86_64",
+        "Removed: which-2.21-10.el8.x86_64",
+        "Removed: xfsprogs-5.0.0-1.el8.x86_64",
+        "Removed: xkeyboard-config-2.24-3.el8.noarch",
+        "Removed: yum-4.2.7-7.el8_1.noarch",
+        "Removed: zlib-1.2.11-10.el8.x86_64"
+    ]
+}
+2020-12-08 01:20:09,587 p=5776 u=radovan n=ansible | PLAY [all] **************************************************************************************************************************************************
+2020-12-08 01:20:09,603 p=5776 u=radovan n=ansible | TASK [Gathering Facts] **************************************************************************************************************************************
+2020-12-08 01:20:11,517 p=5776 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 01:20:11,537 p=5776 u=radovan n=ansible | TASK [Set a hostname] ***************************************************************************************************************************************
+2020-12-08 01:20:12,988 p=5776 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 01:20:12,991 p=5776 u=radovan n=ansible | PLAY RECAP **************************************************************************************************************************************************
+2020-12-08 01:20:12,992 p=5776 u=radovan n=ansible | lx100-5                    : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-12-08 01:20:54,360 p=5805 u=radovan n=ansible | PLAY [all] **************************************************************************************************************************************************
+2020-12-08 01:20:54,376 p=5805 u=radovan n=ansible | TASK [Gathering Facts] **************************************************************************************************************************************
+2020-12-08 01:20:55,969 p=5805 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 01:20:55,989 p=5805 u=radovan n=ansible | TASK [Set a hostname] ***************************************************************************************************************************************
+2020-12-08 01:20:57,183 p=5805 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 01:20:57,186 p=5805 u=radovan n=ansible | PLAY RECAP **************************************************************************************************************************************************
+2020-12-08 01:20:57,187 p=5805 u=radovan n=ansible | lx100-5                    : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-12-08 01:23:56,943 p=5831 u=radovan n=ansible | lx100-4 | CHANGED => {
+    "changed": true,
+    "elapsed": 37,
+    "rebooted": true
+}
+2020-12-08 01:24:26,639 p=5870 u=radovan n=ansible | lx100-4 | SUCCESS => {
+    "changed": false,
+    "msg": "Nothing to do",
+    "rc": 0,
+    "results": []
+}
+2020-12-08 01:25:24,846 p=5887 u=radovan n=ansible | lx100-4 | CHANGED => {
+    "changed": true,
+    "msg": "",
+    "rc": 0,
+    "results": [
+        "Group base-x installed.",
+        "Installed: libevdev-1.8.0-1.el8.x86_64",
+        "Installed: libfontenc-1.1.3-8.el8.x86_64",
+        "Installed: libglvnd-1:1.2.0-6.el8.x86_64",
+        "Installed: libglvnd-egl-1:1.2.0-6.el8.x86_64",
+        "Installed: libglvnd-glx-1:1.2.0-6.el8.x86_64",
+        "Installed: libwacom-1.1-3.el8.x86_64",
+        "Installed: libwacom-data-1.1-3.el8.noarch",
+        "Installed: centos-logos-80.5-2.el8.x86_64",
+        "Installed: libwayland-client-1.17.0-1.el8.x86_64",
+        "Installed: libwayland-server-1.17.0-1.el8.x86_64",
+        "Installed: libxcb-1.13.1-1.el8.x86_64",
+        "Installed: libinput-1.14.3-1.el8.x86_64",
+        "Installed: pango-1.42.4-6.el8.x86_64",
+        "Installed: libxkbfile-1.1.0-1.el8.x86_64",
+        "Installed: libxshmfence-1.3-2.el8.x86_64",
+        "Installed: graphite2-1.3.10-10.el8.x86_64",
+        "Installed: dejavu-fonts-common-2.35-6.el8.noarch",
+        "Installed: dejavu-sans-fonts-2.35-6.el8.noarch",
+        "Installed: libmcpp-2.7.2-20.el8.x86_64",
+        "Installed: llvm-libs-10.0.1-3.module_el8.3.0+467+cb298d5b.x86_64",
+        "Installed: fribidi-1.0.4-8.el8.x86_64",
+        "Installed: fontconfig-2.13.1-3.el8.x86_64",
+        "Installed: fontpackages-filesystem-1.44-22.el8.noarch",
+        "Installed: harfbuzz-1.7.5-3.el8.x86_64",
+        "Installed: mcpp-2.7.2-20.el8.x86_64",
+        "Installed: libICE-1.0.9-15.el8.x86_64",
+        "Installed: libSM-1.2.3-1.el8.x86_64",
+        "Installed: libX11-1.6.8-3.el8.x86_64",
+        "Installed: libX11-common-1.6.8-3.el8.noarch",
+        "Installed: mesa-dri-drivers-20.1.4-1.el8.x86_64",
+        "Installed: mesa-filesystem-20.1.4-1.el8.x86_64",
+        "Installed: libX11-xcb-1.6.8-3.el8.x86_64",
+        "Installed: mesa-libEGL-20.1.4-1.el8.x86_64",
+        "Installed: mesa-libGL-20.1.4-1.el8.x86_64",
+        "Installed: libXau-1.0.9-3.el8.x86_64",
+        "Installed: cairo-1.15.12-3.el8.x86_64",
+        "Installed: libXcomposite-0.4.4-14.el8.x86_64",
+        "Installed: mesa-libgbm-20.1.4-1.el8.x86_64",
+        "Installed: libXcursor-1.1.15-3.el8.x86_64",
+        "Installed: mesa-libglapi-20.1.4-1.el8.x86_64",
+        "Installed: mesa-libxatracker-20.1.4-1.el8.x86_64",
+        "Installed: libXdamage-1.1.4-14.el8.x86_64",
+        "Installed: libXdmcp-1.1.3-1.el8.x86_64",
+        "Installed: libXext-1.3.4-1.el8.x86_64",
+        "Installed: libXfixes-5.0.3-7.el8.x86_64",
+        "Installed: libXfont2-2.0.3-2.el8.x86_64",
+        "Installed: libXft-2.3.3-1.el8.x86_64",
+        "Installed: libXi-1.7.10-1.el8.x86_64",
+        "Installed: libXinerama-1.1.4-1.el8.x86_64",
+        "Installed: libXmu-1.1.3-1.el8.x86_64",
+        "Installed: libXrandr-1.5.2-1.el8.x86_64",
+        "Installed: libXrender-0.9.10-7.el8.x86_64",
+        "Installed: libXt-1.1.5-12.el8.x86_64",
+        "Installed: pixman-0.38.4-1.el8.x86_64",
+        "Installed: mtdev-1.1.5-12.el8.x86_64",
+        "Installed: libXtst-1.2.3-7.el8.x86_64",
+        "Installed: libXv-1.0.11-7.el8.x86_64",
+        "Installed: libXvMC-1.0.12-1.el8.x86_64",
+        "Installed: libXxf86dga-1.1.5-1.el8.x86_64",
+        "Installed: libXxf86misc-1.0.4-1.el8.x86_64",
+        "Installed: xcb-util-0.4.0-10.el8.x86_64",
+        "Installed: glx-utils-8.4.0-5.20181118git1830dcb.el8.x86_64",
+        "Installed: libXxf86vm-1.1.4-9.el8.x86_64",
+        "Installed: plymouth-graphics-libs-0.9.4-7.20200615git1e36e30.el8.x86_64",
+        "Installed: plymouth-plugin-label-0.9.4-7.20200615git1e36e30.el8.x86_64",
+        "Installed: plymouth-plugin-two-step-0.9.4-7.20200615git1e36e30.el8.x86_64",
+        "Installed: plymouth-system-theme-0.9.4-7.20200615git1e36e30.el8.x86_64",
+        "Installed: plymouth-theme-charge-0.9.4-7.20200615git1e36e30.el8.x86_64",
+        "Installed: plymouth-theme-spinner-0.9.4-7.20200615git1e36e30.el8.x86_64",
+        "Installed: xorg-x11-drv-ati-19.1.0-1.el8.x86_64",
+        "Installed: xorg-x11-drv-evdev-2.10.6-2.el8.x86_64",
+        "Installed: xorg-x11-drv-fbdev-0.5.0-2.el8.x86_64",
+        "Installed: xorg-x11-drv-intel-2.99.917-39.20200205.el8.x86_64",
+        "Installed: xorg-x11-drv-libinput-0.29.0-1.el8.x86_64",
+        "Installed: xorg-x11-drv-nouveau-1:1.0.15-4.el8.1.x86_64",
+        "Installed: xorg-x11-drv-qxl-0.1.5-11.el8.x86_64",
+        "Installed: xorg-x11-drv-vesa-2.4.0-3.el8.x86_64",
+        "Installed: xorg-x11-drv-vmware-13.2.1-8.el8.x86_64",
+        "Installed: xorg-x11-drv-wacom-0.38.0-1.el8.x86_64",
+        "Installed: xorg-x11-drv-wacom-serial-support-0.38.0-1.el8.x86_64",
+        "Installed: xorg-x11-server-Xorg-1.20.8-6.el8.x86_64",
+        "Installed: xorg-x11-server-common-1.20.8-6.el8.x86_64",
+        "Installed: xorg-x11-server-utils-7.7-27.el8.x86_64",
+        "Installed: xorg-x11-utils-7.5-28.el8.x86_64",
+        "Installed: xorg-x11-xauth-1:1.0.9-12.el8.x86_64",
+        "Installed: xorg-x11-xinit-1.3.4-18.el8.x86_64",
+        "Installed: xorg-x11-xinit-session-1.3.4-18.el8.x86_64",
+        "Installed: xorg-x11-xkb-utils-7.7-28.el8.x86_64",
+        "Installed: libdatrie-0.2.9-7.el8.x86_64",
+        "Installed: libdmx-1.1.4-3.el8.x86_64",
+        "Installed: libepoxy-1.5.3-1.el8.x86_64",
+        "Installed: libthai-0.1.27-2.el8.x86_64"
+    ]
+}
+2020-12-08 01:34:43,316 p=5915 u=radovan n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  found character that cannot start any token
+
+The error appears to be in '/home/radovan/ansible/20-xfce.yml': line 8, column 11, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+        - epel-release
+        - @base-x
+          ^ here
+
+2020-12-08 01:36:52,487 p=5923 u=radovan n=ansible | PLAY [all] **************************************************************************************************************************************************
+2020-12-08 01:36:52,502 p=5923 u=radovan n=ansible | TASK [Gathering Facts] **************************************************************************************************************************************
+2020-12-08 01:36:54,856 p=5923 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 01:36:54,877 p=5923 u=radovan n=ansible | TASK [install XFce] *****************************************************************************************************************************************
+2020-12-08 01:36:57,049 p=5923 u=radovan n=ansible | fatal: [lx100-4]: FAILED! => {"changed": false, "msg": "No group XFce available.", "results": []}
+2020-12-08 01:36:57,051 p=5923 u=radovan n=ansible | PLAY RECAP **************************************************************************************************************************************************
+2020-12-08 01:36:57,052 p=5923 u=radovan n=ansible | lx100-4                    : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2020-12-08 01:38:10,092 p=5986 u=radovan n=ansible | PLAY [all] **************************************************************************************************************************************************
+2020-12-08 01:38:10,108 p=5986 u=radovan n=ansible | TASK [Gathering Facts] **************************************************************************************************************************************
+2020-12-08 01:38:12,205 p=5986 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 01:38:12,226 p=5986 u=radovan n=ansible | TASK [install XFce] *****************************************************************************************************************************************
+2020-12-08 01:38:14,282 p=5986 u=radovan n=ansible | fatal: [lx100-4]: FAILED! => {"changed": false, "msg": "No group Xfce available.", "results": []}
+2020-12-08 01:38:14,284 p=5986 u=radovan n=ansible | PLAY RECAP **************************************************************************************************************************************************
+2020-12-08 01:38:14,285 p=5986 u=radovan n=ansible | lx100-4                    : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2020-12-08 01:39:44,450 p=6016 u=radovan n=ansible | PLAY [all] **************************************************************************************************************************************************
+2020-12-08 01:39:44,466 p=6016 u=radovan n=ansible | TASK [Gathering Facts] **************************************************************************************************************************************
+2020-12-08 01:39:46,542 p=6016 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 01:39:46,563 p=6016 u=radovan n=ansible | TASK [install EPEL] *****************************************************************************************************************************************
+2020-12-08 01:39:50,065 p=6016 u=radovan n=ansible | changed: [lx100-4]
+2020-12-08 01:39:50,086 p=6016 u=radovan n=ansible | TASK [install XFce] *****************************************************************************************************************************************
+2020-12-08 01:42:34,037 p=6016 u=radovan n=ansible | changed: [lx100-4]
+2020-12-08 01:42:34,041 p=6016 u=radovan n=ansible | PLAY RECAP **************************************************************************************************************************************************
+2020-12-08 01:42:34,042 p=6016 u=radovan n=ansible | lx100-4                    : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-12-08 01:42:46,121 p=6059 u=radovan n=ansible | lx100-5 | SUCCESS => {
+    "ansible_facts": {
+        "ansible_all_ipv4_addresses": [
+            "192.168.90.155"
+        ],
+        "ansible_all_ipv6_addresses": [
+            "fe80::250:56ff:fea5:aa64"
+        ],
+        "ansible_apparmor": {
+            "status": "enabled"
+        },
+        "ansible_architecture": "x86_64",
+        "ansible_bios_date": "12/12/2018",
+        "ansible_bios_version": "6.00",
+        "ansible_cmdline": {
+            "BOOT_IMAGE": "/vmlinuz-4.19.0-9-amd64",
+            "quiet": true,
+            "ro": true,
+            "root": "/dev/mapper/lx--vg-root"
+        },
+        "ansible_date_time": {
+            "date": "2020-12-08",
+            "day": "08",
+            "epoch": "1607388165",
+            "hour": "01",
+            "iso8601": "2020-12-08T00:42:45Z",
+            "iso8601_basic": "20201208T014245499455",
+            "iso8601_basic_short": "20201208T014245",
+            "iso8601_micro": "2020-12-08T00:42:45.499455Z",
+            "minute": "42",
+            "month": "12",
+            "second": "45",
+            "time": "01:42:45",
+            "tz": "CET",
+            "tz_offset": "+0100",
+            "weekday": "Tuesday",
+            "weekday_number": "2",
+            "weeknumber": "49",
+            "year": "2020"
+        },
+        "ansible_default_ipv4": {
+            "address": "192.168.90.155",
+            "alias": "ens192",
+            "broadcast": "192.168.90.255",
+            "gateway": "192.168.90.1",
+            "interface": "ens192",
+            "macaddress": "00:50:56:a5:aa:64",
+            "mtu": 1500,
+            "netmask": "255.255.255.0",
+            "network": "192.168.90.0",
+            "type": "ether"
+        },
+        "ansible_default_ipv6": {},
+        "ansible_device_links": {
+            "ids": {
+                "dm-0": [
+                    "dm-name-lx--vg-root",
+                    "dm-uuid-LVM-AGzHoyAGKGuqw0qqptch0cgHiz7NuWX9aj4YnChWl8dzVo0sW7Kjl8YZrIch9ImW"
+                ],
+                "dm-1": [
+                    "dm-name-lx--vg-swap_1",
+                    "dm-uuid-LVM-AGzHoyAGKGuqw0qqptch0cgHiz7NuWX9e8YOxC07OHB4z3jV2jHmsDfTCiB1QcPY"
+                ],
+                "sda5": [
+                    "lvm-pv-uuid-QxcPHk-h4aP-CKGQ-dnan-5UaW-AznZ-czIiWo"
+                ],
+                "sr0": [
+                    "ata-VMware_Virtual_SATA_CDRW_Drive_00000000000000000001"
+                ]
+            },
+            "labels": {},
+            "masters": {
+                "sda5": [
+                    "dm-0",
+                    "dm-1"
+                ]
+            },
+            "uuids": {
+                "dm-0": [
+                    "9c19a5c1-e13c-47cd-b28e-2a17786cb7dc"
+                ],
+                "dm-1": [
+                    "d1057b56-912c-4ca2-b98b-cdaf4615140c"
+                ],
+                "sda1": [
+                    "ec28003f-6161-444b-901b-0ffde91dd4e3"
+                ]
+            }
+        },
+        "ansible_devices": {
+            "dm-0": {
+                "holders": [],
+                "host": "",
+                "links": {
+                    "ids": [
+                        "dm-name-lx--vg-root",
+                        "dm-uuid-LVM-AGzHoyAGKGuqw0qqptch0cgHiz7NuWX9aj4YnChWl8dzVo0sW7Kjl8YZrIch9ImW"
+                    ],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": [
+                        "9c19a5c1-e13c-47cd-b28e-2a17786cb7dc"
+                    ]
+                },
+                "model": null,
+                "partitions": {},
+                "removable": "0",
+                "rotational": "1",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "",
+                "sectors": "28811264",
+                "sectorsize": "512",
+                "size": "13.74 GB",
+                "support_discard": "1048576",
+                "vendor": null,
+                "virtual": 1
+            },
+            "dm-1": {
+                "holders": [],
+                "host": "",
+                "links": {
+                    "ids": [
+                        "dm-name-lx--vg-swap_1",
+                        "dm-uuid-LVM-AGzHoyAGKGuqw0qqptch0cgHiz7NuWX9e8YOxC07OHB4z3jV2jHmsDfTCiB1QcPY"
+                    ],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": [
+                        "d1057b56-912c-4ca2-b98b-cdaf4615140c"
+                    ]
+                },
+                "model": null,
+                "partitions": {},
+                "removable": "0",
+                "rotational": "1",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "",
+                "sectors": "4186112",
+                "sectorsize": "512",
+                "size": "2.00 GB",
+                "support_discard": "1048576",
+                "vendor": null,
+                "virtual": 1
+            },
+            "sda": {
+                "holders": [],
+                "host": "Serial Attached SCSI controller: VMware PVSCSI SCSI Controller (rev 02)",
+                "links": {
+                    "ids": [],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": "Virtual disk",
+                "partitions": {
+                    "sda1": {
+                        "holders": [],
+                        "links": {
+                            "ids": [],
+                            "labels": [],
+                            "masters": [],
+                            "uuids": [
+                                "ec28003f-6161-444b-901b-0ffde91dd4e3"
+                            ]
+                        },
+                        "sectors": "497664",
+                        "sectorsize": 512,
+                        "size": "243.00 MB",
+                        "start": "2048",
+                        "uuid": "ec28003f-6161-444b-901b-0ffde91dd4e3"
+                    },
+                    "sda2": {
+                        "holders": [],
+                        "links": {
+                            "ids": [],
+                            "labels": [],
+                            "masters": [],
+                            "uuids": []
+                        },
+                        "sectors": "2",
+                        "sectorsize": 512,
+                        "size": "1.00 KB",
+                        "start": "501758",
+                        "uuid": null
+                    },
+                    "sda5": {
+                        "holders": [
+                            "lx--vg-swap_1",
+                            "lx--vg-root"
+                        ],
+                        "links": {
+                            "ids": [
+                                "lvm-pv-uuid-QxcPHk-h4aP-CKGQ-dnan-5UaW-AznZ-czIiWo"
+                            ],
+                            "labels": [],
+                            "masters": [
+                                "dm-0",
+                                "dm-1"
+                            ],
+                            "uuids": []
+                        },
+                        "sectors": "33050624",
+                        "sectorsize": 512,
+                        "size": "15.76 GB",
+                        "start": "501760",
+                        "uuid": null
+                    }
+                },
+                "removable": "0",
+                "rotational": "1",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "mq-deadline",
+                "sectors": "33554432",
+                "sectorsize": "512",
+                "size": "16.00 GB",
+                "support_discard": "1048576",
+                "vendor": "VMware",
+                "virtual": 1
+            },
+            "sr0": {
+                "holders": [],
+                "host": "SATA controller: VMware SATA AHCI controller",
+                "links": {
+                    "ids": [
+                        "ata-VMware_Virtual_SATA_CDRW_Drive_00000000000000000001"
+                    ],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": "VMware SATA CD00",
+                "partitions": {},
+                "removable": "1",
+                "rotational": "1",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "mq-deadline",
+                "sectors": "2097151",
+                "sectorsize": "512",
+                "size": "1024.00 MB",
+                "support_discard": "0",
+                "vendor": "NECVMWar",
+                "virtual": 1
+            }
+        },
+        "ansible_distribution": "Debian",
+        "ansible_distribution_file_parsed": true,
+        "ansible_distribution_file_path": "/etc/os-release",
+        "ansible_distribution_file_variety": "Debian",
+        "ansible_distribution_major_version": "10",
+        "ansible_distribution_release": "buster",
+        "ansible_distribution_version": "10",
+        "ansible_dns": {
+            "nameservers": [
+                "192.168.90.1"
+            ]
+        },
+        "ansible_domain": "edu.lan",
+        "ansible_effective_group_id": 0,
+        "ansible_effective_user_id": 0,
+        "ansible_ens192": {
+            "active": true,
+            "device": "ens192",
+            "features": {
+                "esp_hw_offload": "off [fixed]",
+                "esp_tx_csum_hw_offload": "off [fixed]",
+                "fcoe_mtu": "off [fixed]",
+                "generic_receive_offload": "on",
+                "generic_segmentation_offload": "on",
+                "highdma": "on",
+                "hw_tc_offload": "off [fixed]",
+                "l2_fwd_offload": "off [fixed]",
+                "large_receive_offload": "on",
+                "loopback": "off [fixed]",
+                "netns_local": "off [fixed]",
+                "ntuple_filters": "off [fixed]",
+                "receive_hashing": "on",
+                "rx_all": "off [fixed]",
+                "rx_checksumming": "on",
+                "rx_fcs": "off [fixed]",
+                "rx_gro_hw": "off [fixed]",
+                "rx_udp_tunnel_port_offload": "off [fixed]",
+                "rx_vlan_filter": "on [fixed]",
+                "rx_vlan_offload": "on",
+                "rx_vlan_stag_filter": "off [fixed]",
+                "rx_vlan_stag_hw_parse": "off [fixed]",
+                "scatter_gather": "on",
+                "tcp_segmentation_offload": "on",
+                "tls_hw_record": "off [fixed]",
+                "tls_hw_rx_offload": "off [fixed]",
+                "tls_hw_tx_offload": "off [fixed]",
+                "tx_checksum_fcoe_crc": "off [fixed]",
+                "tx_checksum_ip_generic": "on",
+                "tx_checksum_ipv4": "off [fixed]",
+                "tx_checksum_ipv6": "off [fixed]",
+                "tx_checksum_sctp": "off [fixed]",
+                "tx_checksumming": "on",
+                "tx_esp_segmentation": "off [fixed]",
+                "tx_fcoe_segmentation": "off [fixed]",
+                "tx_gre_csum_segmentation": "off [fixed]",
+                "tx_gre_segmentation": "off [fixed]",
+                "tx_gso_partial": "off [fixed]",
+                "tx_gso_robust": "off [fixed]",
+                "tx_ipxip4_segmentation": "off [fixed]",
+                "tx_ipxip6_segmentation": "off [fixed]",
+                "tx_lockless": "off [fixed]",
+                "tx_nocache_copy": "off",
+                "tx_scatter_gather": "on",
+                "tx_scatter_gather_fraglist": "off [fixed]",
+                "tx_sctp_segmentation": "off [fixed]",
+                "tx_tcp6_segmentation": "on",
+                "tx_tcp_ecn_segmentation": "off [fixed]",
+                "tx_tcp_mangleid_segmentation": "off",
+                "tx_tcp_segmentation": "on",
+                "tx_udp_segmentation": "off [fixed]",
+                "tx_udp_tnl_csum_segmentation": "off [fixed]",
+                "tx_udp_tnl_segmentation": "off [fixed]",
+                "tx_vlan_offload": "on",
+                "tx_vlan_stag_hw_insert": "off [fixed]",
+                "udp_fragmentation_offload": "off",
+                "vlan_challenged": "off [fixed]"
+            },
+            "hw_timestamp_filters": [],
+            "ipv4": {
+                "address": "192.168.90.155",
+                "broadcast": "192.168.90.255",
+                "netmask": "255.255.255.0",
+                "network": "192.168.90.0"
+            },
+            "ipv6": [
+                {
+                    "address": "fe80::250:56ff:fea5:aa64",
+                    "prefix": "64",
+                    "scope": "link"
+                }
+            ],
+            "macaddress": "00:50:56:a5:aa:64",
+            "module": "vmxnet3",
+            "mtu": 1500,
+            "pciid": "0000:0b:00.0",
+            "promisc": false,
+            "speed": 10000,
+            "timestamping": [
+                "rx_software",
+                "software"
+            ],
+            "type": "ether"
+        },
+        "ansible_env": {
+            "HOME": "/root",
+            "LANG": "C",
+            "LANGUAGE": "en_US:en",
+            "LC_ALL": "C",
+            "LC_NUMERIC": "C",
+            "LOGNAME": "root",
+            "MAIL": "/var/mail/root",
+            "PATH": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+            "PWD": "/home/ansible",
+            "SHELL": "/bin/bash",
+            "SUDO_COMMAND": "/bin/sh -c echo BECOME-SUCCESS-uafllrmxwnixqziajwmaultnjwpnwrmp ; /usr/bin/python3 /home/ansible/.ansible/tmp/ansible-tmp-1607388164.509393-6066-171371647126986/AnsiballZ_setup.py",
+            "SUDO_GID": "1001",
+            "SUDO_UID": "1001",
+            "SUDO_USER": "ansible",
+            "TERM": "xterm",
+            "USER": "root"
+        },
+        "ansible_fibre_channel_wwn": [],
+        "ansible_fips": false,
+        "ansible_form_factor": "Other",
+        "ansible_fqdn": "lx.edu.lan",
+        "ansible_hostname": "lx",
+        "ansible_hostnqn": "",
+        "ansible_interfaces": [
+            "lo",
+            "ens192"
+        ],
+        "ansible_is_chroot": false,
+        "ansible_iscsi_iqn": "",
+        "ansible_kernel": "4.19.0-9-amd64",
+        "ansible_kernel_version": "#1 SMP Debian 4.19.118-2 (2020-04-29)",
+        "ansible_lo": {
+            "active": true,
+            "device": "lo",
+            "features": {
+                "esp_hw_offload": "off [fixed]",
+                "esp_tx_csum_hw_offload": "off [fixed]",
+                "fcoe_mtu": "off [fixed]",
+                "generic_receive_offload": "on",
+                "generic_segmentation_offload": "on",
+                "highdma": "on [fixed]",
+                "hw_tc_offload": "off [fixed]",
+                "l2_fwd_offload": "off [fixed]",
+                "large_receive_offload": "off [fixed]",
+                "loopback": "on [fixed]",
+                "netns_local": "on [fixed]",
+                "ntuple_filters": "off [fixed]",
+                "receive_hashing": "off [fixed]",
+                "rx_all": "off [fixed]",
+                "rx_checksumming": "on [fixed]",
+                "rx_fcs": "off [fixed]",
+                "rx_gro_hw": "off [fixed]",
+                "rx_udp_tunnel_port_offload": "off [fixed]",
+                "rx_vlan_filter": "off [fixed]",
+                "rx_vlan_offload": "off [fixed]",
+                "rx_vlan_stag_filter": "off [fixed]",
+                "rx_vlan_stag_hw_parse": "off [fixed]",
+                "scatter_gather": "on",
+                "tcp_segmentation_offload": "on",
+                "tls_hw_record": "off [fixed]",
+                "tls_hw_rx_offload": "off [fixed]",
+                "tls_hw_tx_offload": "off [fixed]",
+                "tx_checksum_fcoe_crc": "off [fixed]",
+                "tx_checksum_ip_generic": "on [fixed]",
+                "tx_checksum_ipv4": "off [fixed]",
+                "tx_checksum_ipv6": "off [fixed]",
+                "tx_checksum_sctp": "on [fixed]",
+                "tx_checksumming": "on",
+                "tx_esp_segmentation": "off [fixed]",
+                "tx_fcoe_segmentation": "off [fixed]",
+                "tx_gre_csum_segmentation": "off [fixed]",
+                "tx_gre_segmentation": "off [fixed]",
+                "tx_gso_partial": "off [fixed]",
+                "tx_gso_robust": "off [fixed]",
+                "tx_ipxip4_segmentation": "off [fixed]",
+                "tx_ipxip6_segmentation": "off [fixed]",
+                "tx_lockless": "on [fixed]",
+                "tx_nocache_copy": "off [fixed]",
+                "tx_scatter_gather": "on [fixed]",
+                "tx_scatter_gather_fraglist": "on [fixed]",
+                "tx_sctp_segmentation": "on",
+                "tx_tcp6_segmentation": "on",
+                "tx_tcp_ecn_segmentation": "on",
+                "tx_tcp_mangleid_segmentation": "on",
+                "tx_tcp_segmentation": "on",
+                "tx_udp_segmentation": "off [fixed]",
+                "tx_udp_tnl_csum_segmentation": "off [fixed]",
+                "tx_udp_tnl_segmentation": "off [fixed]",
+                "tx_vlan_offload": "off [fixed]",
+                "tx_vlan_stag_hw_insert": "off [fixed]",
+                "udp_fragmentation_offload": "off",
+                "vlan_challenged": "on [fixed]"
+            },
+            "hw_timestamp_filters": [],
+            "ipv4": {
+                "address": "127.0.0.1",
+                "broadcast": "",
+                "netmask": "255.0.0.0",
+                "network": "127.0.0.0"
+            },
+            "ipv6": [
+                {
+                    "address": "::1",
+                    "prefix": "128",
+                    "scope": "host"
+                }
+            ],
+            "mtu": 65536,
+            "promisc": false,
+            "timestamping": [
+                "tx_software",
+                "rx_software",
+                "software"
+            ],
+            "type": "loopback"
+        },
+        "ansible_local": {},
+        "ansible_lsb": {
+            "codename": "buster",
+            "description": "Debian GNU/Linux 10 (buster)",
+            "id": "Debian",
+            "major_release": "10",
+            "release": "10"
+        },
+        "ansible_lvm": {
+            "lvs": {
+                "root": {
+                    "size_g": "13.74",
+                    "vg": "lx-vg"
+                },
+                "swap_1": {
+                    "size_g": "2.00",
+                    "vg": "lx-vg"
+                }
+            },
+            "pvs": {
+                "/dev/sda5": {
+                    "free_g": "0.02",
+                    "size_g": "15.76",
+                    "vg": "lx-vg"
+                }
+            },
+            "vgs": {
+                "lx-vg": {
+                    "free_g": "0.02",
+                    "num_lvs": "2",
+                    "num_pvs": "1",
+                    "size_g": "15.76"
+                }
+            }
+        },
+        "ansible_machine": "x86_64",
+        "ansible_machine_id": "1392e46b5fb7427893ee4adc1cd3a74c",
+        "ansible_memfree_mb": 139,
+        "ansible_memory_mb": {
+            "nocache": {
+                "free": 1520,
+                "used": 474
+            },
+            "real": {
+                "free": 139,
+                "total": 1994,
+                "used": 1855
+            },
+            "swap": {
+                "cached": 0,
+                "free": 2038,
+                "total": 2043,
+                "used": 5
+            }
+        },
+        "ansible_memtotal_mb": 1994,
+        "ansible_mounts": [
+            {
+                "block_available": 785470,
+                "block_size": 4096,
+                "block_total": 3528454,
+                "block_used": 2742984,
+                "device": "/dev/mapper/lx--vg-root",
+                "fstype": "ext4",
+                "inode_available": 541276,
+                "inode_total": 901120,
+                "inode_used": 359844,
+                "mount": "/",
+                "options": "rw,relatime,errors=remount-ro",
+                "size_available": 3217285120,
+                "size_total": 14452547584,
+                "uuid": "9c19a5c1-e13c-47cd-b28e-2a17786cb7dc"
+            },
+            {
+                "block_available": 74475,
+                "block_size": 1024,
+                "block_total": 240972,
+                "block_used": 166497,
+                "device": "/dev/sda1",
+                "fstype": "ext2",
+                "inode_available": 61901,
+                "inode_total": 62248,
+                "inode_used": 347,
+                "mount": "/boot",
+                "options": "rw,relatime",
+                "size_available": 76262400,
+                "size_total": 246755328,
+                "uuid": "ec28003f-6161-444b-901b-0ffde91dd4e3"
+            }
+        ],
+        "ansible_nodename": "lx",
+        "ansible_os_family": "Debian",
+        "ansible_pkg_mgr": "apt",
+        "ansible_proc_cmdline": {
+            "BOOT_IMAGE": "/vmlinuz-4.19.0-9-amd64",
+            "quiet": true,
+            "ro": true,
+            "root": "/dev/mapper/lx--vg-root"
+        },
+        "ansible_processor": [
+            "0",
+            "GenuineIntel",
+            "Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz",
+            "1",
+            "GenuineIntel",
+            "Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz"
+        ],
+        "ansible_processor_cores": 1,
+        "ansible_processor_count": 2,
+        "ansible_processor_threads_per_core": 1,
+        "ansible_processor_vcpus": 2,
+        "ansible_product_name": "VMware Virtual Platform",
+        "ansible_product_serial": "VMware-42 25 5c 02 23 61 df 64-19 8e ae 7d 20 6e 6b 6b",
+        "ansible_product_uuid": "025c2542-6123-64df-198e-ae7d206e6b6b",
+        "ansible_product_version": "None",
+        "ansible_python": {
+            "executable": "/usr/bin/python3",
+            "has_sslcontext": true,
+            "type": "cpython",
+            "version": {
+                "major": 3,
+                "micro": 3,
+                "minor": 7,
+                "releaselevel": "final",
+                "serial": 0
+            },
+            "version_info": [
+                3,
+                7,
+                3,
+                "final",
+                0
+            ]
+        },
+        "ansible_python_version": "3.7.3",
+        "ansible_real_group_id": 0,
+        "ansible_real_user_id": 0,
+        "ansible_selinux": {
+            "status": "Missing selinux Python library"
+        },
+        "ansible_selinux_python_present": false,
+        "ansible_service_mgr": "systemd",
+        "ansible_ssh_host_key_ecdsa_public": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBK8rJ4t3NqYWdbVcVYZ5MFgdxbwdEsv5+o/LJhKspCQn17WQa0lLwtK3iAA2Etr7mWbQOb0Ps4xFpR3BOFNm+lQ=",
+        "ansible_ssh_host_key_ed25519_public": "AAAAC3NzaC1lZDI1NTE5AAAAIBiJG1imDlo6lF/tCN0QL0PUlJ9RJxY3WOYdq+435nRx",
+        "ansible_ssh_host_key_rsa_public": "AAAAB3NzaC1yc2EAAAADAQABAAABAQDTaK/ZyVk8Qy+dn+fUQ9Tmv7VS+BNmeemCTTMQB1yFc2Br/i98q/0VewhaM1d/sSVuaL9BXHuvw2F38jmgsyF4UazozN4NNBM3pWKy7Wx+0viNh+A4buNPrmgUnIuH0ZCKCQSUj5kcB8ogRgLNZ0HZA2CtPoHiBaLXmE98/7H+F+Ag3uRE4Rih35IbrPJSekt1jMd8iCGu2MzZs5WoxrQdPLBmaDEZo5oztcbjkCt3Hg4ZrMnJFYiv1vKg+m4GgO4ZXVuliYDy+s6REvnq1EylTZN142EfT7S1ogEShjuUbuqP1Q1LSR/Mqfwj9A7cZT/kzC9drZkWzzyqzsjGfXQv",
+        "ansible_swapfree_mb": 2038,
+        "ansible_swaptotal_mb": 2043,
+        "ansible_system": "Linux",
+        "ansible_system_capabilities": [
+            "cap_chown",
+            "cap_dac_override",
+            "cap_dac_read_search",
+            "cap_fowner",
+            "cap_fsetid",
+            "cap_kill",
+            "cap_setgid",
+            "cap_setuid",
+            "cap_setpcap",
+            "cap_linux_immutable",
+            "cap_net_bind_service",
+            "cap_net_broadcast",
+            "cap_net_admin",
+            "cap_net_raw",
+            "cap_ipc_lock",
+            "cap_ipc_owner",
+            "cap_sys_module",
+            "cap_sys_rawio",
+            "cap_sys_chroot",
+            "cap_sys_ptrace",
+            "cap_sys_pacct",
+            "cap_sys_admin",
+            "cap_sys_boot",
+            "cap_sys_nice",
+            "cap_sys_resource",
+            "cap_sys_time",
+            "cap_sys_tty_config",
+            "cap_mknod",
+            "cap_lease",
+            "cap_audit_write",
+            "cap_audit_control",
+            "cap_setfcap",
+            "cap_mac_override",
+            "cap_mac_admin",
+            "cap_syslog",
+            "cap_wake_alarm",
+            "cap_block_suspend",
+            "cap_audit_read+ep"
+        ],
+        "ansible_system_capabilities_enforced": "True",
+        "ansible_system_vendor": "VMware, Inc.",
+        "ansible_uptime_seconds": 84342,
+        "ansible_user_dir": "/root",
+        "ansible_user_gecos": "root",
+        "ansible_user_gid": 0,
+        "ansible_user_id": "root",
+        "ansible_user_shell": "/bin/bash",
+        "ansible_user_uid": 0,
+        "ansible_userspace_architecture": "x86_64",
+        "ansible_userspace_bits": "64",
+        "ansible_virtualization_role": "guest",
+        "ansible_virtualization_type": "VMware",
+        "gather_subset": [
+            "all"
+        ],
+        "module_setup": true
+    },
+    "changed": false
+}
+2020-12-08 01:44:09,965 p=6080 u=radovan n=ansible | lx100-5 | SUCCESS => {
+    "ansible_facts": {
+        "ansible_all_ipv4_addresses": [
+            "192.168.90.155"
+        ],
+        "ansible_all_ipv6_addresses": [
+            "fe80::250:56ff:fea5:aa64"
+        ],
+        "ansible_apparmor": {
+            "status": "enabled"
+        },
+        "ansible_architecture": "x86_64",
+        "ansible_bios_date": "12/12/2018",
+        "ansible_bios_version": "6.00",
+        "ansible_cmdline": {
+            "BOOT_IMAGE": "/vmlinuz-4.19.0-9-amd64",
+            "quiet": true,
+            "ro": true,
+            "root": "/dev/mapper/lx--vg-root"
+        },
+        "ansible_date_time": {
+            "date": "2020-12-08",
+            "day": "08",
+            "epoch": "1607388248",
+            "hour": "01",
+            "iso8601": "2020-12-08T00:44:08Z",
+            "iso8601_basic": "20201208T014408347192",
+            "iso8601_basic_short": "20201208T014408",
+            "iso8601_micro": "2020-12-08T00:44:08.347192Z",
+            "minute": "44",
+            "month": "12",
+            "second": "08",
+            "time": "01:44:08",
+            "tz": "CET",
+            "tz_offset": "+0100",
+            "weekday": "Tuesday",
+            "weekday_number": "2",
+            "weeknumber": "49",
+            "year": "2020"
+        },
+        "ansible_default_ipv4": {
+            "address": "192.168.90.155",
+            "alias": "ens192",
+            "broadcast": "192.168.90.255",
+            "gateway": "192.168.90.1",
+            "interface": "ens192",
+            "macaddress": "00:50:56:a5:aa:64",
+            "mtu": 1500,
+            "netmask": "255.255.255.0",
+            "network": "192.168.90.0",
+            "type": "ether"
+        },
+        "ansible_default_ipv6": {},
+        "ansible_device_links": {
+            "ids": {
+                "dm-0": [
+                    "dm-name-lx--vg-root",
+                    "dm-uuid-LVM-AGzHoyAGKGuqw0qqptch0cgHiz7NuWX9aj4YnChWl8dzVo0sW7Kjl8YZrIch9ImW"
+                ],
+                "dm-1": [
+                    "dm-name-lx--vg-swap_1",
+                    "dm-uuid-LVM-AGzHoyAGKGuqw0qqptch0cgHiz7NuWX9e8YOxC07OHB4z3jV2jHmsDfTCiB1QcPY"
+                ],
+                "sda5": [
+                    "lvm-pv-uuid-QxcPHk-h4aP-CKGQ-dnan-5UaW-AznZ-czIiWo"
+                ],
+                "sr0": [
+                    "ata-VMware_Virtual_SATA_CDRW_Drive_00000000000000000001"
+                ]
+            },
+            "labels": {},
+            "masters": {
+                "sda5": [
+                    "dm-0",
+                    "dm-1"
+                ]
+            },
+            "uuids": {
+                "dm-0": [
+                    "9c19a5c1-e13c-47cd-b28e-2a17786cb7dc"
+                ],
+                "dm-1": [
+                    "d1057b56-912c-4ca2-b98b-cdaf4615140c"
+                ],
+                "sda1": [
+                    "ec28003f-6161-444b-901b-0ffde91dd4e3"
+                ]
+            }
+        },
+        "ansible_devices": {
+            "dm-0": {
+                "holders": [],
+                "host": "",
+                "links": {
+                    "ids": [
+                        "dm-name-lx--vg-root",
+                        "dm-uuid-LVM-AGzHoyAGKGuqw0qqptch0cgHiz7NuWX9aj4YnChWl8dzVo0sW7Kjl8YZrIch9ImW"
+                    ],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": [
+                        "9c19a5c1-e13c-47cd-b28e-2a17786cb7dc"
+                    ]
+                },
+                "model": null,
+                "partitions": {},
+                "removable": "0",
+                "rotational": "1",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "",
+                "sectors": "28811264",
+                "sectorsize": "512",
+                "size": "13.74 GB",
+                "support_discard": "1048576",
+                "vendor": null,
+                "virtual": 1
+            },
+            "dm-1": {
+                "holders": [],
+                "host": "",
+                "links": {
+                    "ids": [
+                        "dm-name-lx--vg-swap_1",
+                        "dm-uuid-LVM-AGzHoyAGKGuqw0qqptch0cgHiz7NuWX9e8YOxC07OHB4z3jV2jHmsDfTCiB1QcPY"
+                    ],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": [
+                        "d1057b56-912c-4ca2-b98b-cdaf4615140c"
+                    ]
+                },
+                "model": null,
+                "partitions": {},
+                "removable": "0",
+                "rotational": "1",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "",
+                "sectors": "4186112",
+                "sectorsize": "512",
+                "size": "2.00 GB",
+                "support_discard": "1048576",
+                "vendor": null,
+                "virtual": 1
+            },
+            "sda": {
+                "holders": [],
+                "host": "Serial Attached SCSI controller: VMware PVSCSI SCSI Controller (rev 02)",
+                "links": {
+                    "ids": [],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": "Virtual disk",
+                "partitions": {
+                    "sda1": {
+                        "holders": [],
+                        "links": {
+                            "ids": [],
+                            "labels": [],
+                            "masters": [],
+                            "uuids": [
+                                "ec28003f-6161-444b-901b-0ffde91dd4e3"
+                            ]
+                        },
+                        "sectors": "497664",
+                        "sectorsize": 512,
+                        "size": "243.00 MB",
+                        "start": "2048",
+                        "uuid": "ec28003f-6161-444b-901b-0ffde91dd4e3"
+                    },
+                    "sda2": {
+                        "holders": [],
+                        "links": {
+                            "ids": [],
+                            "labels": [],
+                            "masters": [],
+                            "uuids": []
+                        },
+                        "sectors": "2",
+                        "sectorsize": 512,
+                        "size": "1.00 KB",
+                        "start": "501758",
+                        "uuid": null
+                    },
+                    "sda5": {
+                        "holders": [
+                            "lx--vg-swap_1",
+                            "lx--vg-root"
+                        ],
+                        "links": {
+                            "ids": [
+                                "lvm-pv-uuid-QxcPHk-h4aP-CKGQ-dnan-5UaW-AznZ-czIiWo"
+                            ],
+                            "labels": [],
+                            "masters": [
+                                "dm-0",
+                                "dm-1"
+                            ],
+                            "uuids": []
+                        },
+                        "sectors": "33050624",
+                        "sectorsize": 512,
+                        "size": "15.76 GB",
+                        "start": "501760",
+                        "uuid": null
+                    }
+                },
+                "removable": "0",
+                "rotational": "1",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "mq-deadline",
+                "sectors": "33554432",
+                "sectorsize": "512",
+                "size": "16.00 GB",
+                "support_discard": "1048576",
+                "vendor": "VMware",
+                "virtual": 1
+            },
+            "sr0": {
+                "holders": [],
+                "host": "SATA controller: VMware SATA AHCI controller",
+                "links": {
+                    "ids": [
+                        "ata-VMware_Virtual_SATA_CDRW_Drive_00000000000000000001"
+                    ],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": "VMware SATA CD00",
+                "partitions": {},
+                "removable": "1",
+                "rotational": "1",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "mq-deadline",
+                "sectors": "2097151",
+                "sectorsize": "512",
+                "size": "1024.00 MB",
+                "support_discard": "0",
+                "vendor": "NECVMWar",
+                "virtual": 1
+            }
+        },
+        "ansible_distribution": "Debian",
+        "ansible_distribution_file_parsed": true,
+        "ansible_distribution_file_path": "/etc/os-release",
+        "ansible_distribution_file_variety": "Debian",
+        "ansible_distribution_major_version": "10",
+        "ansible_distribution_release": "buster",
+        "ansible_distribution_version": "10",
+        "ansible_dns": {
+            "nameservers": [
+                "192.168.90.1"
+            ]
+        },
+        "ansible_domain": "edu.lan",
+        "ansible_effective_group_id": 0,
+        "ansible_effective_user_id": 0,
+        "ansible_ens192": {
+            "active": true,
+            "device": "ens192",
+            "features": {
+                "esp_hw_offload": "off [fixed]",
+                "esp_tx_csum_hw_offload": "off [fixed]",
+                "fcoe_mtu": "off [fixed]",
+                "generic_receive_offload": "on",
+                "generic_segmentation_offload": "on",
+                "highdma": "on",
+                "hw_tc_offload": "off [fixed]",
+                "l2_fwd_offload": "off [fixed]",
+                "large_receive_offload": "on",
+                "loopback": "off [fixed]",
+                "netns_local": "off [fixed]",
+                "ntuple_filters": "off [fixed]",
+                "receive_hashing": "on",
+                "rx_all": "off [fixed]",
+                "rx_checksumming": "on",
+                "rx_fcs": "off [fixed]",
+                "rx_gro_hw": "off [fixed]",
+                "rx_udp_tunnel_port_offload": "off [fixed]",
+                "rx_vlan_filter": "on [fixed]",
+                "rx_vlan_offload": "on",
+                "rx_vlan_stag_filter": "off [fixed]",
+                "rx_vlan_stag_hw_parse": "off [fixed]",
+                "scatter_gather": "on",
+                "tcp_segmentation_offload": "on",
+                "tls_hw_record": "off [fixed]",
+                "tls_hw_rx_offload": "off [fixed]",
+                "tls_hw_tx_offload": "off [fixed]",
+                "tx_checksum_fcoe_crc": "off [fixed]",
+                "tx_checksum_ip_generic": "on",
+                "tx_checksum_ipv4": "off [fixed]",
+                "tx_checksum_ipv6": "off [fixed]",
+                "tx_checksum_sctp": "off [fixed]",
+                "tx_checksumming": "on",
+                "tx_esp_segmentation": "off [fixed]",
+                "tx_fcoe_segmentation": "off [fixed]",
+                "tx_gre_csum_segmentation": "off [fixed]",
+                "tx_gre_segmentation": "off [fixed]",
+                "tx_gso_partial": "off [fixed]",
+                "tx_gso_robust": "off [fixed]",
+                "tx_ipxip4_segmentation": "off [fixed]",
+                "tx_ipxip6_segmentation": "off [fixed]",
+                "tx_lockless": "off [fixed]",
+                "tx_nocache_copy": "off",
+                "tx_scatter_gather": "on",
+                "tx_scatter_gather_fraglist": "off [fixed]",
+                "tx_sctp_segmentation": "off [fixed]",
+                "tx_tcp6_segmentation": "on",
+                "tx_tcp_ecn_segmentation": "off [fixed]",
+                "tx_tcp_mangleid_segmentation": "off",
+                "tx_tcp_segmentation": "on",
+                "tx_udp_segmentation": "off [fixed]",
+                "tx_udp_tnl_csum_segmentation": "off [fixed]",
+                "tx_udp_tnl_segmentation": "off [fixed]",
+                "tx_vlan_offload": "on",
+                "tx_vlan_stag_hw_insert": "off [fixed]",
+                "udp_fragmentation_offload": "off",
+                "vlan_challenged": "off [fixed]"
+            },
+            "hw_timestamp_filters": [],
+            "ipv4": {
+                "address": "192.168.90.155",
+                "broadcast": "192.168.90.255",
+                "netmask": "255.255.255.0",
+                "network": "192.168.90.0"
+            },
+            "ipv6": [
+                {
+                    "address": "fe80::250:56ff:fea5:aa64",
+                    "prefix": "64",
+                    "scope": "link"
+                }
+            ],
+            "macaddress": "00:50:56:a5:aa:64",
+            "module": "vmxnet3",
+            "mtu": 1500,
+            "pciid": "0000:0b:00.0",
+            "promisc": false,
+            "speed": 10000,
+            "timestamping": [
+                "rx_software",
+                "software"
+            ],
+            "type": "ether"
+        },
+        "ansible_env": {
+            "HOME": "/root",
+            "LANG": "en_US.UTF-8",
+            "LANGUAGE": "en_US:en",
+            "LOGNAME": "root",
+            "MAIL": "/var/mail/root",
+            "PATH": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+            "PWD": "/home/ansible",
+            "SHELL": "/bin/bash",
+            "SUDO_COMMAND": "/bin/sh -c echo BECOME-SUCCESS-hanrjrayvwcxklinbkysrjcgdovttsca ; /usr/bin/python3 /home/ansible/.ansible/tmp/ansible-tmp-1607388247.505588-6087-208317660481404/AnsiballZ_setup.py",
+            "SUDO_GID": "1001",
+            "SUDO_UID": "1001",
+            "SUDO_USER": "ansible",
+            "TERM": "xterm",
+            "USER": "root"
+        },
+        "ansible_fibre_channel_wwn": [],
+        "ansible_fips": false,
+        "ansible_form_factor": "Other",
+        "ansible_fqdn": "lx.edu.lan",
+        "ansible_hostname": "lx",
+        "ansible_hostnqn": "",
+        "ansible_interfaces": [
+            "ens192",
+            "lo"
+        ],
+        "ansible_is_chroot": false,
+        "ansible_iscsi_iqn": "",
+        "ansible_kernel": "4.19.0-9-amd64",
+        "ansible_kernel_version": "#1 SMP Debian 4.19.118-2 (2020-04-29)",
+        "ansible_lo": {
+            "active": true,
+            "device": "lo",
+            "features": {
+                "esp_hw_offload": "off [fixed]",
+                "esp_tx_csum_hw_offload": "off [fixed]",
+                "fcoe_mtu": "off [fixed]",
+                "generic_receive_offload": "on",
+                "generic_segmentation_offload": "on",
+                "highdma": "on [fixed]",
+                "hw_tc_offload": "off [fixed]",
+                "l2_fwd_offload": "off [fixed]",
+                "large_receive_offload": "off [fixed]",
+                "loopback": "on [fixed]",
+                "netns_local": "on [fixed]",
+                "ntuple_filters": "off [fixed]",
+                "receive_hashing": "off [fixed]",
+                "rx_all": "off [fixed]",
+                "rx_checksumming": "on [fixed]",
+                "rx_fcs": "off [fixed]",
+                "rx_gro_hw": "off [fixed]",
+                "rx_udp_tunnel_port_offload": "off [fixed]",
+                "rx_vlan_filter": "off [fixed]",
+                "rx_vlan_offload": "off [fixed]",
+                "rx_vlan_stag_filter": "off [fixed]",
+                "rx_vlan_stag_hw_parse": "off [fixed]",
+                "scatter_gather": "on",
+                "tcp_segmentation_offload": "on",
+                "tls_hw_record": "off [fixed]",
+                "tls_hw_rx_offload": "off [fixed]",
+                "tls_hw_tx_offload": "off [fixed]",
+                "tx_checksum_fcoe_crc": "off [fixed]",
+                "tx_checksum_ip_generic": "on [fixed]",
+                "tx_checksum_ipv4": "off [fixed]",
+                "tx_checksum_ipv6": "off [fixed]",
+                "tx_checksum_sctp": "on [fixed]",
+                "tx_checksumming": "on",
+                "tx_esp_segmentation": "off [fixed]",
+                "tx_fcoe_segmentation": "off [fixed]",
+                "tx_gre_csum_segmentation": "off [fixed]",
+                "tx_gre_segmentation": "off [fixed]",
+                "tx_gso_partial": "off [fixed]",
+                "tx_gso_robust": "off [fixed]",
+                "tx_ipxip4_segmentation": "off [fixed]",
+                "tx_ipxip6_segmentation": "off [fixed]",
+                "tx_lockless": "on [fixed]",
+                "tx_nocache_copy": "off [fixed]",
+                "tx_scatter_gather": "on [fixed]",
+                "tx_scatter_gather_fraglist": "on [fixed]",
+                "tx_sctp_segmentation": "on",
+                "tx_tcp6_segmentation": "on",
+                "tx_tcp_ecn_segmentation": "on",
+                "tx_tcp_mangleid_segmentation": "on",
+                "tx_tcp_segmentation": "on",
+                "tx_udp_segmentation": "off [fixed]",
+                "tx_udp_tnl_csum_segmentation": "off [fixed]",
+                "tx_udp_tnl_segmentation": "off [fixed]",
+                "tx_vlan_offload": "off [fixed]",
+                "tx_vlan_stag_hw_insert": "off [fixed]",
+                "udp_fragmentation_offload": "off",
+                "vlan_challenged": "on [fixed]"
+            },
+            "hw_timestamp_filters": [],
+            "ipv4": {
+                "address": "127.0.0.1",
+                "broadcast": "",
+                "netmask": "255.0.0.0",
+                "network": "127.0.0.0"
+            },
+            "ipv6": [
+                {
+                    "address": "::1",
+                    "prefix": "128",
+                    "scope": "host"
+                }
+            ],
+            "mtu": 65536,
+            "promisc": false,
+            "timestamping": [
+                "tx_software",
+                "rx_software",
+                "software"
+            ],
+            "type": "loopback"
+        },
+        "ansible_local": {},
+        "ansible_lsb": {
+            "codename": "buster",
+            "description": "Debian GNU/Linux 10 (buster)",
+            "id": "Debian",
+            "major_release": "10",
+            "release": "10"
+        },
+        "ansible_lvm": {
+            "lvs": {
+                "root": {
+                    "size_g": "13.74",
+                    "vg": "lx-vg"
+                },
+                "swap_1": {
+                    "size_g": "2.00",
+                    "vg": "lx-vg"
+                }
+            },
+            "pvs": {
+                "/dev/sda5": {
+                    "free_g": "0.02",
+                    "size_g": "15.76",
+                    "vg": "lx-vg"
+                }
+            },
+            "vgs": {
+                "lx-vg": {
+                    "free_g": "0.02",
+                    "num_lvs": "2",
+                    "num_pvs": "1",
+                    "size_g": "15.76"
+                }
+            }
+        },
+        "ansible_machine": "x86_64",
+        "ansible_machine_id": "1392e46b5fb7427893ee4adc1cd3a74c",
+        "ansible_memfree_mb": 139,
+        "ansible_memory_mb": {
+            "nocache": {
+                "free": 1520,
+                "used": 474
+            },
+            "real": {
+                "free": 139,
+                "total": 1994,
+                "used": 1855
+            },
+            "swap": {
+                "cached": 0,
+                "free": 2038,
+                "total": 2043,
+                "used": 5
+            }
+        },
+        "ansible_memtotal_mb": 1994,
+        "ansible_mounts": [
+            {
+                "block_available": 785467,
+                "block_size": 4096,
+                "block_total": 3528454,
+                "block_used": 2742987,
+                "device": "/dev/mapper/lx--vg-root",
+                "fstype": "ext4",
+                "inode_available": 541276,
+                "inode_total": 901120,
+                "inode_used": 359844,
+                "mount": "/",
+                "options": "rw,relatime,errors=remount-ro",
+                "size_available": 3217272832,
+                "size_total": 14452547584,
+                "uuid": "9c19a5c1-e13c-47cd-b28e-2a17786cb7dc"
+            },
+            {
+                "block_available": 74475,
+                "block_size": 1024,
+                "block_total": 240972,
+                "block_used": 166497,
+                "device": "/dev/sda1",
+                "fstype": "ext2",
+                "inode_available": 61901,
+                "inode_total": 62248,
+                "inode_used": 347,
+                "mount": "/boot",
+                "options": "rw,relatime",
+                "size_available": 76262400,
+                "size_total": 246755328,
+                "uuid": "ec28003f-6161-444b-901b-0ffde91dd4e3"
+            }
+        ],
+        "ansible_nodename": "lx",
+        "ansible_os_family": "Debian",
+        "ansible_pkg_mgr": "apt",
+        "ansible_proc_cmdline": {
+            "BOOT_IMAGE": "/vmlinuz-4.19.0-9-amd64",
+            "quiet": true,
+            "ro": true,
+            "root": "/dev/mapper/lx--vg-root"
+        },
+        "ansible_processor": [
+            "0",
+            "GenuineIntel",
+            "Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz",
+            "1",
+            "GenuineIntel",
+            "Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz"
+        ],
+        "ansible_processor_cores": 1,
+        "ansible_processor_count": 2,
+        "ansible_processor_threads_per_core": 1,
+        "ansible_processor_vcpus": 2,
+        "ansible_product_name": "VMware Virtual Platform",
+        "ansible_product_serial": "VMware-42 25 5c 02 23 61 df 64-19 8e ae 7d 20 6e 6b 6b",
+        "ansible_product_uuid": "025c2542-6123-64df-198e-ae7d206e6b6b",
+        "ansible_product_version": "None",
+        "ansible_python": {
+            "executable": "/usr/bin/python3",
+            "has_sslcontext": true,
+            "type": "cpython",
+            "version": {
+                "major": 3,
+                "micro": 3,
+                "minor": 7,
+                "releaselevel": "final",
+                "serial": 0
+            },
+            "version_info": [
+                3,
+                7,
+                3,
+                "final",
+                0
+            ]
+        },
+        "ansible_python_version": "3.7.3",
+        "ansible_real_group_id": 0,
+        "ansible_real_user_id": 0,
+        "ansible_selinux": {
+            "status": "Missing selinux Python library"
+        },
+        "ansible_selinux_python_present": false,
+        "ansible_service_mgr": "systemd",
+        "ansible_ssh_host_key_ecdsa_public": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBK8rJ4t3NqYWdbVcVYZ5MFgdxbwdEsv5+o/LJhKspCQn17WQa0lLwtK3iAA2Etr7mWbQOb0Ps4xFpR3BOFNm+lQ=",
+        "ansible_ssh_host_key_ed25519_public": "AAAAC3NzaC1lZDI1NTE5AAAAIBiJG1imDlo6lF/tCN0QL0PUlJ9RJxY3WOYdq+435nRx",
+        "ansible_ssh_host_key_rsa_public": "AAAAB3NzaC1yc2EAAAADAQABAAABAQDTaK/ZyVk8Qy+dn+fUQ9Tmv7VS+BNmeemCTTMQB1yFc2Br/i98q/0VewhaM1d/sSVuaL9BXHuvw2F38jmgsyF4UazozN4NNBM3pWKy7Wx+0viNh+A4buNPrmgUnIuH0ZCKCQSUj5kcB8ogRgLNZ0HZA2CtPoHiBaLXmE98/7H+F+Ag3uRE4Rih35IbrPJSekt1jMd8iCGu2MzZs5WoxrQdPLBmaDEZo5oztcbjkCt3Hg4ZrMnJFYiv1vKg+m4GgO4ZXVuliYDy+s6REvnq1EylTZN142EfT7S1ogEShjuUbuqP1Q1LSR/Mqfwj9A7cZT/kzC9drZkWzzyqzsjGfXQv",
+        "ansible_swapfree_mb": 2038,
+        "ansible_swaptotal_mb": 2043,
+        "ansible_system": "Linux",
+        "ansible_system_capabilities": [
+            "cap_chown",
+            "cap_dac_override",
+            "cap_dac_read_search",
+            "cap_fowner",
+            "cap_fsetid",
+            "cap_kill",
+            "cap_setgid",
+            "cap_setuid",
+            "cap_setpcap",
+            "cap_linux_immutable",
+            "cap_net_bind_service",
+            "cap_net_broadcast",
+            "cap_net_admin",
+            "cap_net_raw",
+            "cap_ipc_lock",
+            "cap_ipc_owner",
+            "cap_sys_module",
+            "cap_sys_rawio",
+            "cap_sys_chroot",
+            "cap_sys_ptrace",
+            "cap_sys_pacct",
+            "cap_sys_admin",
+            "cap_sys_boot",
+            "cap_sys_nice",
+            "cap_sys_resource",
+            "cap_sys_time",
+            "cap_sys_tty_config",
+            "cap_mknod",
+            "cap_lease",
+            "cap_audit_write",
+            "cap_audit_control",
+            "cap_setfcap",
+            "cap_mac_override",
+            "cap_mac_admin",
+            "cap_syslog",
+            "cap_wake_alarm",
+            "cap_block_suspend",
+            "cap_audit_read+ep"
+        ],
+        "ansible_system_capabilities_enforced": "True",
+        "ansible_system_vendor": "VMware, Inc.",
+        "ansible_uptime_seconds": 84425,
+        "ansible_user_dir": "/root",
+        "ansible_user_gecos": "root",
+        "ansible_user_gid": 0,
+        "ansible_user_id": "root",
+        "ansible_user_shell": "/bin/bash",
+        "ansible_user_uid": 0,
+        "ansible_userspace_architecture": "x86_64",
+        "ansible_userspace_bits": "64",
+        "ansible_virtualization_role": "guest",
+        "ansible_virtualization_type": "VMware",
+        "gather_subset": [
+            "all"
+        ],
+        "module_setup": true
+    },
+    "changed": false
+}
+2020-12-08 01:45:23,379 p=6103 u=radovan n=ansible | PLAY [all] **************************************************************************************************************************************************
+2020-12-08 01:45:23,396 p=6103 u=radovan n=ansible | TASK [Gathering Facts] **************************************************************************************************************************************
+2020-12-08 01:45:25,276 p=6103 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 01:45:25,296 p=6103 u=radovan n=ansible | TASK [Set a hostname] ***************************************************************************************************************************************
+2020-12-08 01:45:26,760 p=6103 u=radovan n=ansible | changed: [lx100-5]
+2020-12-08 01:45:26,769 p=6103 u=radovan n=ansible | PLAY RECAP **************************************************************************************************************************************************
+2020-12-08 01:45:26,769 p=6103 u=radovan n=ansible | lx100-5                    : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-12-08 01:46:12,274 p=6132 u=radovan n=ansible | PLAY [all] **************************************************************************************************************************************************
+2020-12-08 01:46:12,290 p=6132 u=radovan n=ansible | TASK [Gathering Facts] **************************************************************************************************************************************
+2020-12-08 01:46:16,380 p=6132 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 01:46:16,401 p=6132 u=radovan n=ansible | TASK [install EPEL] *****************************************************************************************************************************************
+2020-12-08 01:46:22,010 p=6132 u=radovan n=ansible | changed: [lx100-4]
+2020-12-08 01:46:22,031 p=6132 u=radovan n=ansible | TASK [install XFce] *****************************************************************************************************************************************
+2020-12-08 01:46:24,536 p=6132 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 01:46:24,539 p=6132 u=radovan n=ansible | PLAY RECAP **************************************************************************************************************************************************
+2020-12-08 01:46:24,540 p=6132 u=radovan n=ansible | lx100-4                    : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-12-08 01:47:19,903 p=6171 u=radovan n=ansible | PLAY [all] **************************************************************************************************************************************************
+2020-12-08 01:47:19,919 p=6171 u=radovan n=ansible | TASK [Gathering Facts] **************************************************************************************************************************************
+2020-12-08 01:47:21,975 p=6171 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 01:47:21,996 p=6171 u=radovan n=ansible | TASK [install EPEL] *****************************************************************************************************************************************
+2020-12-08 01:47:24,675 p=6171 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 01:47:24,695 p=6171 u=radovan n=ansible | TASK [install XFce] *****************************************************************************************************************************************
+2020-12-08 01:47:27,188 p=6171 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 01:47:27,211 p=6171 u=radovan n=ansible | TASK [install firefox] **************************************************************************************************************************************
+2020-12-08 01:48:01,634 p=6171 u=radovan n=ansible | changed: [lx100-4]
+2020-12-08 01:48:01,637 p=6171 u=radovan n=ansible | PLAY RECAP **************************************************************************************************************************************************
+2020-12-08 01:48:01,638 p=6171 u=radovan n=ansible | lx100-4                    : ok=4    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-12-08 01:53:55,295 p=6220 u=radovan n=ansible | ERROR! unexpected parameter type in action: <class 'ansible.parsing.yaml.objects.AnsibleSequence'>
+
+The error appears to be in '/home/radovan/ansible/20-xfce.yml': line 21, column 5, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+  - name: start and enable X
+    ^ here
+
+2020-12-08 01:57:51,610 p=6263 u=radovan n=ansible | ERROR! unexpected parameter type in action: <class 'ansible.parsing.yaml.objects.AnsibleSequence'>
+
+The error appears to be in '/home/radovan/ansible/20-xfce.yml': line 21, column 5, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+  - name: start and enable X
+    ^ here
+
+2020-12-08 01:58:06,352 p=6269 u=radovan n=ansible | ERROR! the playbook: - could not be found
+2020-12-08 01:58:09,694 p=6272 u=radovan n=ansible | ERROR! unexpected parameter type in action: <class 'ansible.parsing.yaml.objects.AnsibleSequence'>
+
+The error appears to be in '/home/radovan/ansible/20-xfce.yml': line 21, column 5, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+  - name: start and enable X
+    ^ here
+
+2020-12-08 02:00:00,005 p=6280 u=radovan n=ansible | ERROR! unexpected parameter type in action: <class 'ansible.parsing.yaml.objects.AnsibleSequence'>
+
+The error appears to be in '/home/radovan/ansible/20-xfce.yml': line 22, column 5, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+  - name: start and enable X
+    ^ here
+
+2020-12-08 02:00:57,016 p=6287 u=radovan n=ansible | ERROR! unexpected parameter type in action: <class 'ansible.parsing.yaml.objects.AnsibleSequence'>
+
+The error appears to be in '/home/radovan/ansible/20-xfce.yml': line 25, column 5, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  tasks:
+  - name: start and enable X
+    ^ here
+
+2020-12-08 02:03:31,796 p=6309 u=radovan n=ansible | ERROR! the playbook: 21-xfce.yml could not be found
+2020-12-08 02:03:38,804 p=6316 u=radovan n=ansible | ERROR! unexpected parameter type in action: <class 'ansible.parsing.yaml.objects.AnsibleSequence'>
+
+The error appears to be in '/home/radovan/ansible/21-startx.yml': line 5, column 5, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  tasks:
+  - name: start and enable X
+    ^ here
+
+2020-12-08 02:04:25,019 p=6323 u=radovan n=ansible | PLAY [Enable X] *********************************************************************************************************************************************
+2020-12-08 02:04:25,035 p=6323 u=radovan n=ansible | TASK [Gathering Facts] **************************************************************************************************************************************
+2020-12-08 02:04:27,102 p=6323 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 02:04:27,580 p=6323 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 02:04:27,614 p=6323 u=radovan n=ansible | ok: [lx100-2]
+2020-12-08 02:04:28,621 p=6323 u=radovan n=ansible | ok: [lx100-3]
+2020-12-08 02:04:28,646 p=6323 u=radovan n=ansible | TASK [start and enable X] ***********************************************************************************************************************************
+2020-12-08 02:04:29,409 p=6323 u=radovan n=ansible | skipping: [lx100-5]
+2020-12-08 02:04:29,592 p=6323 u=radovan n=ansible | skipping: [lx100-3]
+2020-12-08 02:04:29,600 p=6323 u=radovan n=ansible | skipping: [lx100-2]
+2020-12-08 02:04:29,697 p=6323 u=radovan n=ansible | skipping: [lx100-4]
+2020-12-08 02:04:29,701 p=6323 u=radovan n=ansible | PLAY RECAP **************************************************************************************************************************************************
+2020-12-08 02:04:29,701 p=6323 u=radovan n=ansible | lx100-2                    : ok=1    changed=0    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0   
+2020-12-08 02:04:29,701 p=6323 u=radovan n=ansible | lx100-3                    : ok=1    changed=0    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0   
+2020-12-08 02:04:29,702 p=6323 u=radovan n=ansible | lx100-4                    : ok=1    changed=0    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0   
+2020-12-08 02:04:29,702 p=6323 u=radovan n=ansible | lx100-5                    : ok=1    changed=0    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0   
+2020-12-08 02:05:11,189 p=6419 u=radovan n=ansible | [WARNING]: While constructing a mapping from /home/radovan/ansible/21-startx.yml, line 5, column 5, found a duplicate dict key (shell). Using last defined
+value only.
+
+2020-12-08 02:05:11,288 p=6419 u=radovan n=ansible | PLAY [Enable X] *********************************************************************************************************************************************
+2020-12-08 02:05:11,303 p=6419 u=radovan n=ansible | TASK [Gathering Facts] **************************************************************************************************************************************
+2020-12-08 02:05:13,129 p=6419 u=radovan n=ansible | ok: [lx100-2]
+2020-12-08 02:05:13,245 p=6419 u=radovan n=ansible | ok: [lx100-3]
+2020-12-08 02:05:13,265 p=6419 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 02:05:14,073 p=6419 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 02:05:14,097 p=6419 u=radovan n=ansible | TASK [start and enable X] ***********************************************************************************************************************************
+2020-12-08 02:05:14,830 p=6419 u=radovan n=ansible | skipping: [lx100-5]
+2020-12-08 02:05:14,996 p=6419 u=radovan n=ansible | skipping: [lx100-2]
+2020-12-08 02:05:15,024 p=6419 u=radovan n=ansible | skipping: [lx100-3]
+2020-12-08 02:05:15,094 p=6419 u=radovan n=ansible | skipping: [lx100-4]
+2020-12-08 02:05:15,098 p=6419 u=radovan n=ansible | PLAY RECAP **************************************************************************************************************************************************
+2020-12-08 02:05:15,098 p=6419 u=radovan n=ansible | lx100-2                    : ok=1    changed=0    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0   
+2020-12-08 02:05:15,099 p=6419 u=radovan n=ansible | lx100-3                    : ok=1    changed=0    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0   
+2020-12-08 02:05:15,099 p=6419 u=radovan n=ansible | lx100-4                    : ok=1    changed=0    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0   
+2020-12-08 02:05:15,099 p=6419 u=radovan n=ansible | lx100-5                    : ok=1    changed=0    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0   
+2020-12-08 02:05:58,937 p=6500 u=radovan n=ansible | PLAY [Enable X] *********************************************************************************************************************************************
+2020-12-08 02:05:58,953 p=6500 u=radovan n=ansible | TASK [Gathering Facts] **************************************************************************************************************************************
+2020-12-08 02:06:00,695 p=6500 u=radovan n=ansible | ok: [lx100-5]
+2020-12-08 02:06:00,803 p=6500 u=radovan n=ansible | ok: [lx100-2]
+2020-12-08 02:06:00,814 p=6500 u=radovan n=ansible | ok: [lx100-3]
+2020-12-08 02:06:00,857 p=6500 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 02:06:00,881 p=6500 u=radovan n=ansible | TASK [start X] **********************************************************************************************************************************************
+2020-12-08 02:06:01,637 p=6500 u=radovan n=ansible | skipping: [lx100-5]
+2020-12-08 02:06:01,806 p=6500 u=radovan n=ansible | skipping: [lx100-2]
+2020-12-08 02:06:01,814 p=6500 u=radovan n=ansible | skipping: [lx100-3]
+2020-12-08 02:06:01,888 p=6500 u=radovan n=ansible | skipping: [lx100-4]
+2020-12-08 02:06:01,909 p=6500 u=radovan n=ansible | TASK [enable X] *********************************************************************************************************************************************
+2020-12-08 02:06:02,459 p=6500 u=radovan n=ansible | skipping: [lx100-5]
+2020-12-08 02:06:02,632 p=6500 u=radovan n=ansible | skipping: [lx100-2]
+2020-12-08 02:06:02,647 p=6500 u=radovan n=ansible | skipping: [lx100-3]
+2020-12-08 02:06:02,834 p=6500 u=radovan n=ansible | skipping: [lx100-4]
+2020-12-08 02:06:02,837 p=6500 u=radovan n=ansible | PLAY RECAP **************************************************************************************************************************************************
+2020-12-08 02:06:02,838 p=6500 u=radovan n=ansible | lx100-2                    : ok=1    changed=0    unreachable=0    failed=0    skipped=2    rescued=0    ignored=0   
+2020-12-08 02:06:02,838 p=6500 u=radovan n=ansible | lx100-3                    : ok=1    changed=0    unreachable=0    failed=0    skipped=2    rescued=0    ignored=0   
+2020-12-08 02:06:02,838 p=6500 u=radovan n=ansible | lx100-4                    : ok=1    changed=0    unreachable=0    failed=0    skipped=2    rescued=0    ignored=0   
+2020-12-08 02:06:02,838 p=6500 u=radovan n=ansible | lx100-5                    : ok=1    changed=0    unreachable=0    failed=0    skipped=2    rescued=0    ignored=0   
+2020-12-08 02:06:51,450 p=6616 u=radovan n=ansible | PLAY [Enable X] *********************************************************************************************************************************************
+2020-12-08 02:06:51,464 p=6616 u=radovan n=ansible | TASK [Gathering Facts] **************************************************************************************************************************************
+2020-12-08 02:06:53,210 p=6616 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 02:06:53,234 p=6616 u=radovan n=ansible | TASK [start X] **********************************************************************************************************************************************
+2020-12-08 02:06:54,245 p=6616 u=radovan n=ansible | skipping: [lx100-4]
+2020-12-08 02:06:54,269 p=6616 u=radovan n=ansible | TASK [enable X] *********************************************************************************************************************************************
+2020-12-08 02:06:55,064 p=6616 u=radovan n=ansible | skipping: [lx100-4]
+2020-12-08 02:06:55,067 p=6616 u=radovan n=ansible | PLAY RECAP **************************************************************************************************************************************************
+2020-12-08 02:06:55,068 p=6616 u=radovan n=ansible | lx100-4                    : ok=1    changed=0    unreachable=0    failed=0    skipped=2    rescued=0    ignored=0   
+2020-12-08 02:08:52,799 p=6653 u=radovan n=ansible | PLAY [Enable X] *********************************************************************************************************************************************
+2020-12-08 02:08:52,814 p=6653 u=radovan n=ansible | TASK [Gathering Facts] **************************************************************************************************************************************
+2020-12-08 02:08:54,901 p=6653 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 02:08:54,922 p=6653 u=radovan n=ansible | TASK [start X] **********************************************************************************************************************************************
+2020-12-08 02:08:56,207 p=6653 u=radovan n=ansible | changed: [lx100-4]
+2020-12-08 02:08:56,227 p=6653 u=radovan n=ansible | TASK [enable X] *********************************************************************************************************************************************
+2020-12-08 02:08:57,314 p=6653 u=radovan n=ansible | changed: [lx100-4]
+2020-12-08 02:08:57,316 p=6653 u=radovan n=ansible | PLAY RECAP **************************************************************************************************************************************************
+2020-12-08 02:08:57,317 p=6653 u=radovan n=ansible | lx100-4                    : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-12-08 02:21:50,210 p=6695 u=radovan n=ansible | - downloading role 'ntp', owned by geerlingguy
+2020-12-08 02:21:51,679 p=6695 u=radovan n=ansible | - downloading role from https://github.com/geerlingguy/ansible-role-ntp/archive/2.2.0.tar.gz
+2020-12-08 02:21:52,026 p=6695 u=radovan n=ansible | - extracting geerlingguy.ntp to /home/radovan/ansible/roles/geerlingguy.ntp
+2020-12-08 02:21:52,034 p=6695 u=radovan n=ansible | - geerlingguy.ntp (2.2.0) was installed successfully
+2020-12-08 02:39:26,506 p=6785 u=radovan n=ansible | - Role role.X was created successfully
+2020-12-08 02:39:33,474 p=6788 u=radovan n=ansible | # /home/radovan/ansible/roles
+2020-12-08 02:39:33,972 p=6788 u=radovan n=ansible | - makarenalabs.wordpress, master
+2020-12-08 02:39:33,982 p=6788 u=radovan n=ansible | - geerlingguy.ntp, 2.2.0
+2020-12-08 02:40:28,780 p=6804 u=radovan n=ansible | # /home/radovan/ansible/roles
+2020-12-08 02:40:29,234 p=6804 u=radovan n=ansible | - makarenalabs.wordpress, master
+2020-12-08 02:40:29,243 p=6804 u=radovan n=ansible | - geerlingguy.ntp, 2.2.0
+2020-12-08 02:40:29,249 p=6804 u=radovan n=ansible | - radovan.Xfce, (unknown version)
+2020-12-08 02:54:45,552 p=6931 u=radovan n=ansible | # /home/radovan/ansible/roles
+2020-12-08 02:54:46,126 p=6931 u=radovan n=ansible | - makarenalabs.wordpress, master
+2020-12-08 02:54:46,136 p=6931 u=radovan n=ansible | - geerlingguy.ntp, 2.2.0
+2020-12-08 02:54:46,142 p=6931 u=radovan n=ansible | - radovan.Xfce, (unknown version)
+2020-12-08 03:03:08,388 p=7128 u=radovan n=ansible | ERROR! the role 'radovan.Xcfe' was not found in /home/radovan/ansible/roles:/home/radovan/ansible/roles:/home/radovan/ansible
+
+The error appears to be in '/home/radovan/ansible/22-setupX.yml': line 7, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  roles:
+    - radovan.Xcfe
+      ^ here
+
+2020-12-08 03:03:31,582 p=7143 u=radovan n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/home/radovan/ansible/roles/radovan.Xfce/tasks/main.yml': line 24, column 10, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+- name: start X
+    shell: systemctl isolate graphical.target
+         ^ here
+
+2020-12-08 03:04:14,551 p=7149 u=radovan n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/home/radovan/ansible/roles/radovan.Xfce/tasks/main.yml': line 24, column 10, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+- name: start X
+    shell: systemctl isolate graphical.target
+         ^ here
+
+2020-12-08 03:05:06,607 p=7190 u=radovan n=ansible | PLAY [Setup GUI by role] ************************************************************************************************************************************
+2020-12-08 03:05:06,624 p=7190 u=radovan n=ansible | TASK [Gathering Facts] **************************************************************************************************************************************
+2020-12-08 03:05:10,885 p=7190 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 03:05:10,906 p=7190 u=radovan n=ansible | TASK [radovan.Xfce : install EPEL] **************************************************************************************************************************
+2020-12-08 03:05:23,427 p=7190 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 03:05:23,445 p=7190 u=radovan n=ansible | TASK [radovan.Xfce : install base-x] ************************************************************************************************************************
+2020-12-08 03:05:25,707 p=7190 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 03:05:25,724 p=7190 u=radovan n=ansible | TASK [radovan.Xfce : install GUI] ***************************************************************************************************************************
+2020-12-08 03:05:27,946 p=7190 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 03:05:27,965 p=7190 u=radovan n=ansible | TASK [radovan.Xfce : install Mozilla] ***********************************************************************************************************************
+2020-12-08 03:05:30,395 p=7190 u=radovan n=ansible | fatal: [lx100-4]: FAILED! => {"changed": false, "failures": ["No package mozilla available."], "msg": "Failed to install some of the specified packages", "rc": 1, "results": []}
+2020-12-08 03:05:30,397 p=7190 u=radovan n=ansible | PLAY RECAP **************************************************************************************************************************************************
+2020-12-08 03:05:30,397 p=7190 u=radovan n=ansible | lx100-4                    : ok=4    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2020-12-08 03:06:27,338 p=7291 u=radovan n=ansible | PLAY [Setup GUI by role] ************************************************************************************************************************************
+2020-12-08 03:06:27,355 p=7291 u=radovan n=ansible | TASK [Gathering Facts] **************************************************************************************************************************************
+2020-12-08 03:06:29,405 p=7291 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 03:06:29,426 p=7291 u=radovan n=ansible | TASK [radovan.Xfce : install EPEL] **************************************************************************************************************************
+2020-12-08 03:06:32,151 p=7291 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 03:06:32,172 p=7291 u=radovan n=ansible | TASK [radovan.Xfce : install base-x] ************************************************************************************************************************
+2020-12-08 03:06:34,691 p=7291 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 03:06:34,712 p=7291 u=radovan n=ansible | TASK [radovan.Xfce : install GUI] ***************************************************************************************************************************
+2020-12-08 03:06:37,201 p=7291 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 03:06:37,220 p=7291 u=radovan n=ansible | TASK [radovan.Xfce : install Firefox] ***********************************************************************************************************************
+2020-12-08 03:06:39,346 p=7291 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 03:06:39,370 p=7291 u=radovan n=ansible | TASK [radovan.Xfce : start X] *******************************************************************************************************************************
+2020-12-08 03:06:40,280 p=7291 u=radovan n=ansible | skipping: [lx100-4]
+2020-12-08 03:06:40,301 p=7291 u=radovan n=ansible | TASK [radovan.Xfce : enable X] ******************************************************************************************************************************
+2020-12-08 03:06:41,054 p=7291 u=radovan n=ansible | skipping: [lx100-4]
+2020-12-08 03:06:41,058 p=7291 u=radovan n=ansible | PLAY RECAP **************************************************************************************************************************************************
+2020-12-08 03:06:41,058 p=7291 u=radovan n=ansible | lx100-4                    : ok=5    changed=0    unreachable=0    failed=0    skipped=2    rescued=0    ignored=0   
+2020-12-08 03:07:05,027 p=7371 u=radovan n=ansible | PLAY [Setup GUI by role] ************************************************************************************************************************************
+2020-12-08 03:07:05,044 p=7371 u=radovan n=ansible | TASK [Gathering Facts] **************************************************************************************************************************************
+2020-12-08 03:07:06,926 p=7371 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 03:07:06,948 p=7371 u=radovan n=ansible | TASK [radovan.Xfce : install EPEL] **************************************************************************************************************************
+2020-12-08 03:07:09,668 p=7371 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 03:07:09,689 p=7371 u=radovan n=ansible | TASK [radovan.Xfce : install base-x] ************************************************************************************************************************
+2020-12-08 03:07:12,182 p=7371 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 03:07:12,205 p=7371 u=radovan n=ansible | TASK [radovan.Xfce : install GUI] ***************************************************************************************************************************
+2020-12-08 03:07:14,764 p=7371 u=radovan n=ansible | fatal: [lx100-4]: FAILED! => {"changed": false, "failures": [], "msg": "Depsolve Error occured: \n Problem 1: conflicting requests\n  - nothing provides xmessage needed by plasma-workspace-5.18.4.1-2.el8.x86_64\n Problem 2: package sddm-breeze-5.18.4.1-2.el8.noarch requires plasma-workspace = 5.18.4.1-2.el8, but none of the providers can be installed\n  - conflicting requests\n  - nothing provides xmessage needed by plasma-workspace-5.18.4.1-2.el8.x86_64\n Problem 3: package plasma-desktop-5.18.4.1-2.el8.1.x86_64 requires plasma-workspace >= 5.18, but none of the providers can be installed\n  - conflicting requests\n  - nothing provides xmessage needed by plasma-workspace-5.18.4.1-2.el8.x86_64\n Problem 4: package kde-print-manager-19.12.3-2.el8.x86_64 requires plasma-workspace, but none of the providers can be installed\n  - conflicting requests\n  - nothing provides xmessage needed by plasma-workspace-5.18.4.1-2.el8.x86_64", "rc": 1, "results": []}
+2020-12-08 03:07:14,767 p=7371 u=radovan n=ansible | PLAY RECAP **************************************************************************************************************************************************
+2020-12-08 03:07:14,767 p=7371 u=radovan n=ansible | lx100-4                    : ok=3    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2020-12-08 03:10:10,936 p=7426 u=radovan n=ansible | PLAY [Setup GUI by role] ************************************************************************************************************************************
+2020-12-08 03:10:10,954 p=7426 u=radovan n=ansible | TASK [Gathering Facts] **************************************************************************************************************************************
+2020-12-08 03:10:13,327 p=7426 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 03:10:13,349 p=7426 u=radovan n=ansible | TASK [radovan.Xfce : install EPEL] **************************************************************************************************************************
+2020-12-08 03:10:16,159 p=7426 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 03:10:16,181 p=7426 u=radovan n=ansible | TASK [radovan.Xfce : install base-x] ************************************************************************************************************************
+2020-12-08 03:10:18,634 p=7426 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 03:10:18,657 p=7426 u=radovan n=ansible | TASK [radovan.Xfce : install GUI] ***************************************************************************************************************************
+2020-12-08 03:10:21,221 p=7426 u=radovan n=ansible | fatal: [lx100-4]: FAILED! => {"changed": false, "failures": [], "msg": "Depsolve Error occured: \n Problem 1: conflicting requests\n  - nothing provides xmessage needed by plasma-workspace-5.18.4.1-2.el8.x86_64\n Problem 2: package sddm-breeze-5.18.4.1-2.el8.noarch requires plasma-workspace = 5.18.4.1-2.el8, but none of the providers can be installed\n  - conflicting requests\n  - nothing provides xmessage needed by plasma-workspace-5.18.4.1-2.el8.x86_64\n Problem 3: package plasma-desktop-5.18.4.1-2.el8.1.x86_64 requires plasma-workspace >= 5.18, but none of the providers can be installed\n  - conflicting requests\n  - nothing provides xmessage needed by plasma-workspace-5.18.4.1-2.el8.x86_64\n Problem 4: package kde-print-manager-19.12.3-2.el8.x86_64 requires plasma-workspace, but none of the providers can be installed\n  - conflicting requests\n  - nothing provides xmessage needed by plasma-workspace-5.18.4.1-2.el8.x86_64", "rc": 1, "results": []}
+2020-12-08 03:10:21,223 p=7426 u=radovan n=ansible | PLAY RECAP **************************************************************************************************************************************************
+2020-12-08 03:10:21,223 p=7426 u=radovan n=ansible | lx100-4                    : ok=3    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2020-12-08 03:11:43,545 p=7475 u=radovan n=ansible | PLAY [Setup GUI by role] ************************************************************************************************************************************
+2020-12-08 03:11:43,563 p=7475 u=radovan n=ansible | TASK [Gathering Facts] **************************************************************************************************************************************
+2020-12-08 03:11:45,965 p=7475 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 03:11:45,986 p=7475 u=radovan n=ansible | TASK [radovan.Xfce : install EPEL] **************************************************************************************************************************
+2020-12-08 03:11:48,739 p=7475 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 03:11:48,762 p=7475 u=radovan n=ansible | TASK [radovan.Xfce : install base-x] ************************************************************************************************************************
+2020-12-08 03:11:51,238 p=7475 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 03:11:51,259 p=7475 u=radovan n=ansible | TASK [radovan.Xfce : install GUI] ***************************************************************************************************************************
+2020-12-08 03:11:53,833 p=7475 u=radovan n=ansible | changed: [lx100-4]
+2020-12-08 03:11:53,856 p=7475 u=radovan n=ansible | TASK [radovan.Xfce : install Firefox] ***********************************************************************************************************************
+2020-12-08 03:11:56,360 p=7475 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 03:11:56,386 p=7475 u=radovan n=ansible | TASK [radovan.Xfce : start X] *******************************************************************************************************************************
+2020-12-08 03:11:57,420 p=7475 u=radovan n=ansible | skipping: [lx100-4]
+2020-12-08 03:11:57,442 p=7475 u=radovan n=ansible | TASK [radovan.Xfce : enable X] ******************************************************************************************************************************
+2020-12-08 03:11:58,224 p=7475 u=radovan n=ansible | skipping: [lx100-4]
+2020-12-08 03:11:58,227 p=7475 u=radovan n=ansible | PLAY RECAP **************************************************************************************************************************************************
+2020-12-08 03:11:58,227 p=7475 u=radovan n=ansible | lx100-4                    : ok=5    changed=1    unreachable=0    failed=0    skipped=2    rescued=0    ignored=0   
+2020-12-08 03:12:13,734 p=7549 u=radovan n=ansible | PLAY [Setup GUI by role] ************************************************************************************************************************************
+2020-12-08 03:12:13,751 p=7549 u=radovan n=ansible | TASK [Gathering Facts] **************************************************************************************************************************************
+2020-12-08 03:12:15,696 p=7549 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 03:12:15,719 p=7549 u=radovan n=ansible | TASK [radovan.Xfce : install EPEL] **************************************************************************************************************************
+2020-12-08 03:12:18,399 p=7549 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 03:12:18,421 p=7549 u=radovan n=ansible | TASK [radovan.Xfce : install base-x] ************************************************************************************************************************
+2020-12-08 03:12:20,892 p=7549 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 03:12:20,913 p=7549 u=radovan n=ansible | TASK [radovan.Xfce : install GUI] ***************************************************************************************************************************
+2020-12-08 03:16:04,689 p=7549 u=radovan n=ansible | changed: [lx100-4]
+2020-12-08 03:16:04,710 p=7549 u=radovan n=ansible | TASK [radovan.Xfce : install Firefox] ***********************************************************************************************************************
+2020-12-08 03:16:11,230 p=7549 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 03:16:11,251 p=7549 u=radovan n=ansible | TASK [radovan.Xfce : start X] *******************************************************************************************************************************
+2020-12-08 03:16:14,055 p=7549 u=radovan n=ansible | changed: [lx100-4]
+2020-12-08 03:16:14,076 p=7549 u=radovan n=ansible | TASK [radovan.Xfce : enable X] ******************************************************************************************************************************
+2020-12-08 03:16:15,357 p=7549 u=radovan n=ansible | changed: [lx100-4]
+2020-12-08 03:16:15,360 p=7549 u=radovan n=ansible | PLAY RECAP **************************************************************************************************************************************************
+2020-12-08 03:16:15,360 p=7549 u=radovan n=ansible | lx100-4                    : ok=7    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-12-08 13:46:07,796 p=9515 u=radovan n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: 51-async.yml
+
+2020-12-08 13:46:07,797 p=9515 u=radovan n=ansible | ERROR! Specified hosts and/or --limit does not match any hosts
+2020-12-08 13:46:42,453 p=9519 u=radovan n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: 51-async.yml
+
+2020-12-08 13:46:42,453 p=9519 u=radovan n=ansible | ERROR! Specified hosts and/or --limit does not match any hosts
+2020-12-08 13:49:52,802 p=9528 u=radovan n=ansible | Using /home/radovan/ansible_template/ansible.cfg as config file
+2020-12-08 13:49:52,818 p=9528 u=radovan n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: 51-async.yml
+
+2020-12-08 13:49:52,819 p=9528 u=radovan n=ansible | ERROR! Specified hosts and/or --limit does not match any hosts
+2020-12-08 13:50:00,103 p=9531 u=radovan n=ansible | ansible 2.9.15
+  config file = /home/radovan/ansible_template/ansible.cfg
+  configured module search path = ['/home/radovan/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python3.6/site-packages/ansible
+  executable location = /usr/bin/ansible
+  python version = 3.6.8 (default, Nov 21 2019, 19:31:34) [GCC 8.3.1 20190507 (Red Hat 8.3.1-4)]
+2020-12-08 13:50:00,104 p=9531 u=radovan n=ansible | Using /home/radovan/ansible_template/ansible.cfg as config file
+2020-12-08 13:50:00,115 p=9531 u=radovan n=ansible | host_list declined parsing /home/radovan/ansible_template/hosts as it did not pass its verify_file() method
+2020-12-08 13:50:00,115 p=9531 u=radovan n=ansible | script declined parsing /home/radovan/ansible_template/hosts as it did not pass its verify_file() method
+2020-12-08 13:50:00,116 p=9531 u=radovan n=ansible | auto declined parsing /home/radovan/ansible_template/hosts as it did not pass its verify_file() method
+2020-12-08 13:50:00,121 p=9531 u=radovan n=ansible | Parsed /home/radovan/ansible_template/hosts inventory source with ini plugin
+2020-12-08 13:50:00,122 p=9531 u=radovan n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: 51-async.yml
+
+2020-12-08 13:50:00,123 p=9531 u=radovan n=ansible | ERROR! Specified hosts and/or --limit does not match any hosts
+2020-12-08 13:50:46,170 p=9535 u=radovan n=ansible | ansible 2.9.15
+  config file = /home/radovan/ansible_template/ansible.cfg
+  configured module search path = ['/home/radovan/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python3.6/site-packages/ansible
+  executable location = /usr/bin/ansible
+  python version = 3.6.8 (default, Nov 21 2019, 19:31:34) [GCC 8.3.1 20190507 (Red Hat 8.3.1-4)]
+2020-12-08 13:50:46,170 p=9535 u=radovan n=ansible | Using /home/radovan/ansible_template/ansible.cfg as config file
+2020-12-08 13:50:46,181 p=9535 u=radovan n=ansible | host_list declined parsing /home/radovan/ansible_template/hosts as it did not pass its verify_file() method
+2020-12-08 13:50:46,182 p=9535 u=radovan n=ansible | script declined parsing /home/radovan/ansible_template/hosts as it did not pass its verify_file() method
+2020-12-08 13:50:46,182 p=9535 u=radovan n=ansible | auto declined parsing /home/radovan/ansible_template/hosts as it did not pass its verify_file() method
+2020-12-08 13:50:46,188 p=9535 u=radovan n=ansible | Parsed /home/radovan/ansible_template/hosts inventory source with ini plugin
+2020-12-08 13:50:46,189 p=9535 u=radovan n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: 51-async.yml
+
+2020-12-08 13:50:46,189 p=9535 u=radovan n=ansible | ERROR! Specified hosts and/or --limit does not match any hosts
+2020-12-08 13:52:49,563 p=9544 u=radovan n=ansible | ERROR! the playbook: - could not be found
+2020-12-08 13:52:55,732 p=9547 u=radovan n=ansible | ERROR! this task 'ansible.builtin.command' has extra params, which is only allowed in the following modules: add_host, group_by, script, import_role, shell, include_vars, set_fact, command, include_role, import_tasks, win_command, include, raw, win_shell, include_tasks, meta
+
+The error appears to be in '/home/radovan/ansible_template/51-async.yml': line 7, column 5, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+  - name: Simulate long running op (15 sec), wait for up to 45 sec, poll every 5 sec
+    ^ here
+
+2020-12-08 13:53:34,485 p=9555 u=radovan n=ansible | PLAY [lx100-4] **************************************************************************************************************************************************
+2020-12-08 13:53:34,502 p=9555 u=radovan n=ansible | TASK [Gathering Facts] ******************************************************************************************************************************************
+2020-12-08 13:53:36,984 p=9555 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 13:53:37,008 p=9555 u=radovan n=ansible | TASK [Simulate long running op (15 sec), wait for up to 45 sec, poll every 5 sec] *******************************************************************************
+2020-12-08 13:53:55,191 p=9555 u=radovan n=ansible | changed: [lx100-4]
+2020-12-08 13:53:55,195 p=9555 u=radovan n=ansible | PLAY RECAP ******************************************************************************************************************************************************
+2020-12-08 13:53:55,195 p=9555 u=radovan n=ansible | lx100-4                    : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-12-08 13:55:21,059 p=9603 u=radovan n=ansible | PLAY [lx100-4] **************************************************************************************************************************************************
+2020-12-08 13:55:21,075 p=9603 u=radovan n=ansible | TASK [Gathering Facts] ******************************************************************************************************************************************
+2020-12-08 13:55:23,424 p=9603 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 13:55:23,448 p=9603 u=radovan n=ansible | TASK [Simulate long running op (15 sec), wait for up to 45 sec, poll every 5 sec] *******************************************************************************
+2020-12-08 13:55:41,624 p=9603 u=radovan n=ansible | changed: [lx100-4]
+2020-12-08 13:55:41,627 p=9603 u=radovan n=ansible | PLAY RECAP ******************************************************************************************************************************************************
+2020-12-08 13:55:41,628 p=9603 u=radovan n=ansible | lx100-4                    : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-12-08 13:56:22,488 p=9649 u=radovan n=ansible | PLAY [lx100-4] **************************************************************************************************************************************************
+2020-12-08 13:56:22,503 p=9649 u=radovan n=ansible | TASK [Gathering Facts] ******************************************************************************************************************************************
+2020-12-08 13:56:24,287 p=9649 u=radovan n=ansible | ok: [lx100-4]
+2020-12-08 13:56:24,312 p=9649 u=radovan n=ansible | TASK [Simulate long running op (15 sec), wait for up to 45 sec, poll every 5 sec] *******************************************************************************
+2020-12-08 13:56:25,812 p=9649 u=radovan n=ansible | changed: [lx100-4]
+2020-12-08 13:56:25,815 p=9649 u=radovan n=ansible | PLAY RECAP ******************************************************************************************************************************************************
+2020-12-08 13:56:25,816 p=9649 u=radovan n=ansible | lx100-4                    : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-12-08 14:00:14,467 p=9695 u=radovan n=ansible | lx100-4 | CHANGED => {
+    "ansible_job_id": "973940210639.4753",
+    "changed": true,
+    "cmd": [
+        "sleep",
+        "5"
+    ],
+    "delta": "0:00:05.003513",
+    "end": "2020-12-08 14:00:13.786018",
+    "finished": 1,
+    "rc": 0,
+    "start": "2020-12-08 14:00:08.782505",
+    "stderr": "",
+    "stderr_lines": [],
+    "stdout": "",
+    "stdout_lines": []
+}
+2020-12-08 14:01:21,083 p=9737 u=radovan n=ansible | lx100-4 | CHANGED => {
+    "ansible_job_id": "973940210639.4753",
+    "changed": true,
+    "cmd": [
+        "sleep",
+        "5"
+    ],
+    "delta": "0:00:05.003513",
+    "end": "2020-12-08 14:00:13.786018",
+    "finished": 1,
+    "rc": 0,
+    "start": "2020-12-08 14:00:08.782505",
+    "stderr": "",
+    "stderr_lines": [],
+    "stdout": "",
+    "stdout_lines": []
+}
+2020-12-08 14:01:38,260 p=9757 u=radovan n=ansible | lx100-4 | CHANGED => {
+    "ansible_job_id": "973940210639.4753",
+    "changed": true,
+    "cmd": [
+        "sleep",
+        "5"
+    ],
+    "delta": "0:00:05.003513",
+    "end": "2020-12-08 14:00:13.786018",
+    "finished": 1,
+    "rc": 0,
+    "start": "2020-12-08 14:00:08.782505",
+    "stderr": "",
+    "stderr_lines": [],
+    "stdout": "",
+    "stdout_lines": []
+}
