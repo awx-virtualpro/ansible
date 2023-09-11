@@ -1,0 +1,12 @@
+---
+- hosts: all
+#  gather_facts: no
+  tasks:
+  - name: Show vars
+    debug:
+      msg: >
+        host: "{{ inventory_hostname }}",
+        con: "{{ ansible_connection }}"
+#        nos: {{ ansible_network_os }},
+#        user: "{{ ansible_user }}"
+

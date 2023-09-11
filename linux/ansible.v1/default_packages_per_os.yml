@@ -1,0 +1,39 @@
+---
+- hosts: all
+  user: root
+  tasks:
+  - name: instalace obecnych aplikaci CentOS 7
+    yum: 
+      name: 
+      - mc
+      - bash-completion
+      - open-vm-tools
+      - htop
+      - sysstat
+      - bc
+      state: present
+      enablerepo: epel
+    when: ansible_distribution == "CentOS" and ansible_distribution_major_version == "7"
+  - name: instalace obecnych aplikaci CentOS 8
+    dnf: 
+      name: 
+      - mc
+      - bash-completion
+      - open-vm-tools
+      - htop
+      - sysstat
+      - bc
+      state: present
+      enablerepo: epel
+    when: ansible_distribution == "CentOS" and ansible_distribution_major_version == "8"
+  - name: instalace obecnych aplikaci Debian
+    apt:
+      name:
+      - mc
+      - bash-completion
+      - open-vm-tools
+      - htop
+      - sysstat
+      - bc
+      state: present
+    when: ansible_distribution == "Debian" 

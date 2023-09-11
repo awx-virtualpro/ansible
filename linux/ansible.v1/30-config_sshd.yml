@@ -1,0 +1,17 @@
+---
+
+- hosts: all
+  become: true
+
+  vars:
+    sshdconfig: /etc/ssh/sshd_config
+
+  tasks:
+  - name: set PermitRootLogin yes
+    lineinfile: backup=yes path="{{ sshdconfig }}" regexp='^#*[ ]*PermitRootLogin' line='PermitRootLogin yes'
+
+  - name: set PasswordAuthentication yes
+    lineinfile: backup=yes path="{{ sshdconfig }}" regexp='^#*[ ]*PasswordAuthentication' line='PasswordAuthentication yes'
+
+  - name: reload ssh service
+    service: name=sshd state=reloaded

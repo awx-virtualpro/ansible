@@ -1,0 +1,42 @@
+---
+- hosts: all
+  remote_user: root
+  tasks:
+  - name: install needed network manager libs - CentOS
+    package:
+      name:
+        - NetworkManager-glib
+        - nm-connection-editor
+        - libsemanage-python
+        - policycoreutils-python
+      state: present
+    when: ansible_distribution == "CentOS" and ansible_distribution_major_version == "7"
+  - name: install needed python components - Debian
+    package:
+      name:
+        - python-dbus
+      state: present
+    when: ansible_distribution == "Debian"
+  - name: copy /etc/hosts from anssrv
+    copy:
+      src: /etc/hosts 
+      dest: /etc/hosts 
+      owner: root 
+      group: root 
+      mode: 0640
+  - name: set IPv4 gw and dns
+    nmcli: 
+      conn_name: LAN
+#      ifname: eth0
+      type: ethernet
+      gw4: 1.1.1.254
+      dns4:
+        - 1.1.1.1
+        - 1.1.1.254
+      state: present
+      autoconnect: yes
+    when: ansible_distribution == "CentOS" and ansible_distribution_major_version == "7"
+  - name: restart NM
+    service:
+      name: NetworkManager
+      state: restarted

@@ -1,0 +1,31 @@
+---
+- hosts: all
+  remote_user: root
+  tasks:
+  - name: instalace obecnych aplikaci 
+    package: 
+      name: 
+      - mc
+      - bash-completion
+      - open-vm-tools
+      - htop
+      - sysstat
+      - bc
+      - vim
+      state: present
+
+- hosts: cls
+  remote_user: root
+  tasks:
+  - name: instalace Xfce
+    package: 
+      name: 
+      - "@X Window System"
+      - "@Xfce"
+      - firefox
+      state: present
+    when: ansible_distribution == "CentOS"
+  - name: nastavit graphical.target
+    command:
+      cmd: systemctl set-default graphical.target
+    when: ansible_distribution == "CentOS"

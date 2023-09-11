@@ -1,0 +1,29 @@
+---
+- hosts: dbs
+  vars:
+    ServerName: "{{ ansible_nodename }}"
+  remote_user: root
+  tasks:
+  - name: Add repository MariaDB 10.4 for CentOS 7
+    yum_repository:
+      name: mariadb
+      file: MariaDB
+      description: MariaDB 10.4 CentOS repository
+      baseurl: http://yum.mariadb.org/10.4/centos7-amd64
+      gpgkey: https://yum.mariadb.org/RPM-GPG-KEY-MariaDB
+      gpgcheck: 1
+      enabled: yes
+  - name: install MariaDB-server
+    package:
+      name: MariaDB-server,MariaDB-client
+      state: present
+  - name: ensure MariaDB is running
+    service:
+      name: mariadb
+      state: started
+      enabled: yes
+#  handlers:
+#    - name: restart apache
+#      service:
+#        name: httpd
+#        state: restarted

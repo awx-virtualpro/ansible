@@ -1,0 +1,10 @@
+---
+- hosts: all
+  user: root
+  tasks:
+  - name: pridat EPEL
+    yum: 
+      name: 
+      - epel-release
+      state: latest
+    when: ansible_distribution == "CentOS"

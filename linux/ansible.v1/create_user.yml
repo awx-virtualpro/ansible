@@ -1,0 +1,19 @@
+---
+- hosts: cls
+  vars:
+  # created with:
+  #   #  python -c "from passlib.hash import sha256_crypt; print sha256_crypt.encrypt('password')"
+  #     # above command requires the PassLib library: sudo pip install passlib
+   - password: '$5$rounds=535000$hjfiSgSHLQSEmBt7$ytUHKWAybdzbWIqAzWpeGg2rIntyvt6jXPl1qhHyBV5'
+ 
+  tasks:
+  - name: Create madhead user
+    user:
+      name: madhead
+      password: "{{ password | password_hash('sha256') }}"
+      shell: /bin/zsh
+      update_password: on_create
+    register: madhead
+  - name: Force madhead to change password
+    shell: chage -d 0 madhead
+    when: madhead.changed

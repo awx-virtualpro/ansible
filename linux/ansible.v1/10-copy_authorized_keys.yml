@@ -1,0 +1,20 @@
+---
+- hosts: all
+  become: true
+  tasks:
+  - name: Set authorized keys - root
+    authorized_key:
+      user: root
+      state: present
+      exclusive: true
+      key: "{{ item }}"
+    with_file:
+      - /root/.ssh/id_rsa.pub
+  - name: Set authorized keys - other users
+    authorized_key:
+      user: root
+      state: present
+      key: "{{ item }}"
+    with_file:
+      - /root/.ssh/id_rsa.pub
+      - /home/radovan/.ssh/id_rsa.pub

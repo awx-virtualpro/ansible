@@ -1,0 +1,13 @@
+---
+- hosts: all
+
+  vars:
+    sshd_skip_defaults: no
+    sshd:
+      Compression: yes
+      PasswordAuthentication: yes
+      PermitRootLogin: yes
+
+  roles:
+    - role: willshersystems.sshd
+
