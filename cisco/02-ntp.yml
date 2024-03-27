@@ -1,0 +1,15 @@
+---
+- name: "Get NTP"
+  hosts: all
+  gather_facts: no
+
+  tasks:
+    - name: Gather NTP config running
+      cisco.ios.command:
+        commands: show running-config | include ntp
+      register: ios_result
+
+    - name: Display output
+      debug:
+        msg: "The NTP server is {{ ios_result.stdout }}"
+
